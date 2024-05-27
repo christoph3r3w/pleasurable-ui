@@ -140,7 +140,7 @@ main{
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(2, auto);
 		gap: 1em;
-		margin-bottom: 1em;
+		margin-block: 3%;
 	}
 
 	section#cat-highlight a {
