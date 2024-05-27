@@ -1,12 +1,14 @@
 header{
-    /* Header styling if needed */ 
     grid-column: 1/-1;
-   }
+    display: grid;
+   
+}
    
    /* #region Mobile Styling */
    
        .mobile-menu {
            display: flex;
+           
            justify-content: space-between;
            margin: 5%;
            padding-bottom: 5%;

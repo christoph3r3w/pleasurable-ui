@@ -238,7 +238,7 @@ main:has(.elementor-widget-container) {
 	height: fit-content;
 	padding-block: 1rem;
 	border-bottom: 1px solid #C4C4C4;
-	;
+	z-index: 3;
 }
 
 .button-nav ul {
@@ -279,7 +279,7 @@ select{
 /* main article content */
 /* //////////////////// */
 
-.main-article{
+#main-article{
 	grid-column: 1/-1;
 	grid-row: 3;
 
@@ -308,14 +308,15 @@ select{
 	}
 
 	figure img{
-		width: 100% ;
+		width: 100% !important;
 		height: auto;
 	}
 
 	.wp-block-image{
 		width: 100% !important;
 		margin-block: 5% ;
-		
+				max-height: 40%;
+
 	} 
 
 	.wp-block-image img{
@@ -335,11 +336,40 @@ select{
 		height: 1.6rem !important;
 	}
 
+
 	.wp-block-quote {
+		position: relative;
 		font-family: Tiempos-Headline-Medium;
 		text-transform: capitalize;
 		text-decoration: wavy;
 		font-style: italic;
+		font-size: 2rem;
+		margin-block: 8%;
+		line-height: 1;
+		z-index: 1;
+
+	}
+
+	.wp-block-quote::before{
+		content: open-quote;
+		position: absolute;
+		top: 34%;
+		left: -10%;
+		/* outline: solid blue; */
+
+	}
+	.wp-block-quote::after{
+		content: close-quote;
+		position: absolute;
+		top: 34%;
+		left: 95%;
+		/* outline: solid rgb(0, 145, 255); */
+	}
+
+	.wp-block-quote::after,::before{
+		color: #c73535;
+		font-size: 4rem;
+		z-index: 0;
 	}
 
 	p {
@@ -439,12 +469,19 @@ footer{
 			.wp-block-image,
 			.wp-element-caption,
 			.size-full,
-			.wp-block-quote,
+			
 			em,
 			ul,
 			.elementor )
 			{
 			grid-column: ct;
+			line-height: 1.6;
+		}
+
+		.wp-block-quote{
+			grid-column: 2/11;
+			line-height: 1;
+			z-index: 0;
 		}
 	}
 
@@ -507,7 +544,7 @@ footer{
 			/* .wp-block-image, */
 			.wp-element-caption,
 			.size-full,
-			.wp-block-quote,
+			
 			em,
 			ul )
 			{
@@ -518,7 +555,14 @@ footer{
 			grid-column: ct;
 
 		}
+		.wp-block-quote{
+			grid-column: 3/m-end;
+			z-index: 0;
+		}
 
+		.wp-block-quote::after,::before{
+			font-size: 5rem;
+		}
 	}
 
 	header{
@@ -589,23 +633,27 @@ footer{
 		}
 	}
 
-	.main-article{
+	#main-article{
 
 		> :is(
 			figure,
 			.wp-block-image,
 			.size-full,
-			.wp-block-quote,
 			.elementor )
 			{
-			grid-column-start: m !important;
-			/* outline: solid red; */
+			grid-column-start: m ;
 			outline-offset: 3px;
 
 			figure img{
-				width: 90% !important;
+				width: 90% ;
 			}
+
+			
 		}
+		.wp-block-quote{
+				grid-column: 2/11 !important;
+		}
+
 	}
 
   
