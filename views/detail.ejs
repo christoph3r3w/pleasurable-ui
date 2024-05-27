@@ -6,7 +6,9 @@
 
 <body>
 
-<%- include('./partials/header',{header:'',img_src: post.yoast_head_json.og_image[0].url}); -%>
+
+<%- include('./partials/header', {title: post.title.rendered}); -%>
+
 
 <main>
 	<% if (post.yoast_head_json) { %>
@@ -53,8 +55,7 @@
 		<ul>
 			<li><%- include('./partials/share') %></li>
 			<li><%- include('./partials/like') %></li>
-			<li><%- include('./partials/read-mode') %></li>
-			<li><%- include('./partials/speech') %></li>
+			
 			<li>
 				<div class="nav-author author">
 					<div>
@@ -71,14 +72,14 @@
 	
 
 
-	<% if (post.content) { %>
+	<% if (post.status === "publish") { %>
 		<section class="main-article" id="main-article">
-			<%- post.content.rendered; -%>
+			<%- post.content.rendered %>
 		</section>
 	<% } else { %>
-		<section class="main-article">
-			<p>Er is geen inhoud beschikbaar voor <%= post.id %></p>
-			<a href="/">voorpagina</a>
+		<section class="main-article error">
+			<p>Er is geen inhoud beschikbaar voor <%= post.id %> </p>
+			<p> Terug naar <a href="/"> voorpagina</a></p>
 		</section>
 	<% } %>
 </main>

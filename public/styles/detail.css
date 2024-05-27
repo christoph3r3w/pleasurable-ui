@@ -44,13 +44,62 @@ header{
 	display: none;
 }
 
-/* article */
+
+/* -article body- */
 main{
 	grid-column: 1/-1;
 	display: grid;
 	grid-template-rows:auto ;
+	grid-template-columns: auto;
 	width: 100%;
 	position: relative;
+}
+
+/* /////////////////////////////// */
+/* new article format from redpers */
+/* /////////////////////////////// */
+
+main:has(.elementor-widget-container) {
+	.detail-landing-container{
+		display: none;
+	}
+
+
+
+	.elementor-widget-container {
+
+			img{
+				width: 100% !important;
+				height: auto;
+				object-fit: cover;
+				margin-block: 5%;
+			}
+		
+			&:has(img.attachment-full){
+				width: 100% !important;
+				height: auto;
+			}
+
+			[data-elementor-type=footer],[data-elementor-type=header]{
+				display: none;
+			}
+
+			/*! elementor - v3.21.0 - 26-05-2024 */
+			.elementor-heading-title{padding:1%;margin-bottom:3%;line-height:1};
+			.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{font-size:inherit;line-height:inherit};
+			.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px};
+			.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px};
+			.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px};
+			.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px};
+			.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px};
+
+			/*! elementor - v3.21.0 - 26-05-2024 */
+			.elementor-widget-image{text-align:center};
+			.elementor-widget-image a{display:inline-block};
+			.elementor-widget-image a img[src$=".svg"]{width:48px};
+			.elementor-widget-image img{vertical-align:middle;display:inline-block};
+	}
+	
 }
 
 /* post landing section */
@@ -83,7 +132,7 @@ main{
 	gap: 10px ;
 	width: 100%;
 	padding-inline: 3px; 
-	justify-content: safe ;
+	/* justify-content: safe; */
 
 	:nth-child(n){
 		width: fit-content;
@@ -98,7 +147,7 @@ main{
 
 
 
-/* intro text */
+/* -intro text- */
 .post-intro{
 	display: flex;
 	flex-direction: column;
@@ -107,7 +156,7 @@ main{
 
 }
 
-/* title */
+/* -title- */
 .post-intro h1{
 	font-size: 1.8rem;
 	text-transform: capitalize;
@@ -147,7 +196,7 @@ main{
 }
 
 
-/* landing section img contents */
+/* -landing section img contents- */
 .img-container{
 	display: inline-block;
 	width: 100%;
@@ -197,7 +246,11 @@ main{
 	flex-direction: row;
 	gap: 1rem;
 	padding-inline: 3%;
-	height: 2rem;
+}	
+
+.button-nav ul li:nth-last-of-type(3n) {
+	display: none;
+	
 }
 
 button,input,select{
@@ -356,7 +409,7 @@ footer{
 @media (min-width: 520px) {
 
 	body {
-	  
+		display: grid;
 		grid-template-columns:
 		minmax(0px, auto)
 		[ct-start]
@@ -423,7 +476,8 @@ footer{
 			.size-full,
 			.wp-block-quote,
 			em,
-			ul )
+			ul,
+			.elementor )
 			{
 			grid-column: ct;
 		}
@@ -433,9 +487,9 @@ footer{
 
 
 			
-	footer {
-					
-	}
+		footer {
+			grid-column: 1/-1;
+		}
 		
 	}
 
@@ -444,7 +498,7 @@ footer{
 	body {
 	  /* background-color: var(--B-white); */
 	  --sides :minmax(0px, auto);
-		--bg-color: rgba(214, 168, 134, 0.985);
+	--bg-color: rgba(214, 168, 134, 0.985);
 	 
 	  grid-template-columns:
 		var(--sides)
@@ -457,8 +511,7 @@ footer{
 		[m-end]
 		repeat(3, 24px)
 		[ct-end]
-		var(--sides)
-		;
+		var(--sides);
 	  	column-gap: 40px;
 	}
 
@@ -518,7 +571,7 @@ footer{
 
 
 	  grid-template-columns:
-		minmax(0px, auto)
+		var(--sides)
 		[ct-start]
 		repeat(3, 60px)
 		[m-start]
@@ -528,7 +581,7 @@ footer{
 		[m-end]
 		repeat(3, 60px)
 		[ct-end]
-		minmax(0px, auto);
+		var(--sides);
 	}
 
 	main{

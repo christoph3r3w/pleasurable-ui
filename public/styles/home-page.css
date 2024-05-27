@@ -19,19 +19,26 @@ html {
 
 body {
     /* background-color: var(--B-white); */
-    /* color: var(--B-black);
-    display: grid;
-    grid-template-columns:
+    /* color: var(--B-black); */
+
+	--sides : .03fr;
+	position: relative;
+	display: grid;
+	grid-template-columns: var(--sides) [mid-start] 1fr [mid-end] var(--sides);
+	grid-template-rows:auto ;
+	width: 100%;
+
+    /* grid-template-columns:
 	[full-start]
     minmax(2rem, auto)
     [ct-start]
     repeat(6, 1fr)
     [ct-end]
     minmax(2rem, auto)
-	[full-end];
+	[full-end]; */
     grid-template-rows: min-content;
 	scrollbar-gutter: stable;
-	height: auto; */
+	height: auto;
   
 	/* background-color: rgba(231, 222, 210, 0.485); */
 	/* background-color: var(--e-global-color-c6c7b91);	 */
@@ -40,6 +47,21 @@ body {
 	a {
 		text-decoration: none;
 		color: var(--text-color);
+	}
+}
+
+header{
+	width: 100%;
+}
+
+main{
+	grid-column: 1/-1;
+	display: grid;
+	grid-template-columns: subgrid;
+
+	#cat-highlight,.category-banner,.carousel{
+		grid-column: 1/-1;
+		/* width: 100%; */
 	}
 
 	/* Post Title Styles */
@@ -250,8 +272,7 @@ footer{
 
 	body {
 		
-	  	/* background-color: var(--P-orange);
-		grid-template-columns:
+		/* grid-template-columns:
 		minmax(0px, auto)
 		[ct-start]
 		repeat(3, 18px)
@@ -263,8 +284,8 @@ footer{
 		repeat(3, 18px)
 		[ct-end]
 		minmax(0px, auto);
-	  	column-gap: 30px;
-	  	background-color: rgba(255, 255, 255, 0.962); */
+	  	column-gap: 30px; */
+	  	background-color: rgba(255, 255, 255, 0.962);
 		section.carousel li {
 			max-width: 300px;
 		}
@@ -363,9 +384,10 @@ footer{
 } 
 @media (min-width: 1200px) {
 	body {
-	  /* background-color: var(--P-yellow); */
-	  /* grid-template-columns:
-		minmax(0px, auto)
+		--sides: minmax(0px, auto);
+
+	  grid-template-columns:
+		var(--sides)
 		[ct-start]
 		repeat(3, 60px)
 		[m-start]
@@ -375,9 +397,18 @@ footer{
 		[m-end]
 		repeat(3, 60px)
 		[ct-end]
-		minmax(0px, auto); */
-		max-width: 1200px;
-        margin: auto;
+		var(--sides);
+			  	column-gap: 40px;
+
+	}
+
+	main{
+		grid-column: 1/-1;
+		#cat-highlight,.category-banner,.carousel{
+			grid-column: ct;
+			/* width: 100%; */
+		}
+
 	}
   
 	header {
@@ -425,8 +456,8 @@ footer{
 	}
 
 	main{
+		grid-column: 1/-1;
 		display: grid;
-
 	}
 
 }

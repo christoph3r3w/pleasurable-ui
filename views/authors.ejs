@@ -9,9 +9,8 @@
 <%- include('./partials/header',{img_src:""}) %>
 
 <main>
-    <p><%= user.name %></p>
-    <% posts.forEach(post => { %>
-        <p><%- post.title.rendered %></p>
+    <% authors.forEach(author => { %>
+        <p><%= author.name %></p>
     <% }) %>
 </main>
 

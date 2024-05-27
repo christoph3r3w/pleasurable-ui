@@ -16,8 +16,8 @@
                     <div class="post-image" style="background-image: url('<%= post.jetpack_featured_media_url %>');">
                         <h2 class="post-title"><%- post.title.rendered %></h2>
                         <div class="post-meta">
-                            <span>Data - <%= post.yoast_head_json.author %></span>
-                            <span><%= post.yoast_head_json.twitter_misc["Geschatte leestijd"] %></span>
+                            <span><%= post.date_gmt %> - <%= post.yoast_head_json.author %></span>
+                            <span><%= post.readingTime %></span>
                         </div>
                         <div class="overlay"></div>
                     </div>
@@ -25,15 +25,15 @@
             </article>
         <% }) %>
     </section>
+   
     <% categories.forEach(category => { %>
-        <a class="category-banner" href="/category/<%-category.slug%>"><%-category.name%> <span>»</span></a>
+        <a class="category-banner" href="/category/<%-category.slug%>"> <%-category.name%> <span>»</span></a>
         <section class="carousel">
             <ul>
-                <% 
-                const categoryPosts = posts.filter(post => post.categories.includes(category.id)).slice(0, 5); 
-                categoryPosts.forEach(post => { %>
+                <% const categoryPosts = posts.filter(post => post.categories.includes(category.id)).slice(0, 5); %>
+               <% categoryPosts.forEach(post => { %>
                     <li>
-                        <a href="/detail/<%-post.id%>">
+                        <a href="/detail/<%- post.id%>">
                             <img class="post-image" src="<%= post.jetpack_featured_media_url %>" alt="">
                             <h2 class="post-title"><%- post.title.rendered %></h2>
                             <span class="post-meta"><%= post.meta %></span>
@@ -41,7 +41,7 @@
                     </li>
                 <% }) %>
                 <li>
-                    <a class="read-more-banner" href="/category/<%-category.slug%>">
+                    <a class="read-more-banner" href="/category/<%- category.slug %>">
                         <svg width="150px" height="150px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M17 12L7 12M17 12L13 16M17 12L13 8" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                         <h2>Meer lezen</h2>
                     </a>
@@ -53,8 +53,8 @@
             <button class="nextBtn" aria-label="Volgende slide" hidden>
                 <svg width="64px" height="64px" viewBox="0 0 15 15" fill="#fff" xmlns="http://www.w3.org/2000/svg" transform="matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M8.14645 9.14645L7.79289 9.5L8.5 10.2071L8.85355 9.85355L8.14645 9.14645ZM10.5 7.5L10.8536 7.85355L11.2071 7.5L10.8536 7.14645L10.5 7.5ZM8.85355 5.14645L8.5 4.79289L7.79289 5.5L8.14645 5.85355L8.85355 5.14645ZM8.85355 9.85355L10.8536 7.85355L10.1464 7.14645L8.14645 9.14645L8.85355 9.85355ZM10.8536 7.14645L8.85355 5.14645L8.14645 5.85355L10.1464 7.85355L10.8536 7.14645ZM10.5 7H4V8H10.5V7Z" fffill="fff"></path> </g></svg>
             </button>
-        </section>
-    <% }) %>
+            </section>
+            <% }) %>
 </main>
 
 
