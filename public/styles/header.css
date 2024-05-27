@@ -6,12 +6,14 @@ header{
 
 header nav{
     grid-column: ct;
+
 }
    
    /* #region Mobile Styling */
    
        .mobile-menu {
            display: flex;
+           
            justify-content: space-between;
            margin: 5%;
            padding-bottom: 5%;
