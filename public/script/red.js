@@ -104,7 +104,7 @@ const carousels = document.querySelectorAll(".carousel ul");
 
 function updateButtonVisibility(carousel, prevButton, nextButton) {
     const articles = carousel.querySelectorAll("li");
-    if (articles.length > 5 && window.innerWidth >= 769) {
+    if (articles.length > 4 && window.innerWidth >= 769) {
         prevButton.removeAttribute("hidden");
         nextButton.removeAttribute("hidden");
     } else {
