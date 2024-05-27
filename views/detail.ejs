@@ -26,7 +26,7 @@
 					<div class="author-leestijd">
 						<div class="author">
 							<p>author :</p>
-							<span><a href="./author/<%= post.author %>"><%- post.yoast_head_json.author%></a></span>
+							<span><a href="/author/<%= post.author %>"><%- post.yoast_head_json.author%></a></span>
 						</div>
 						<div class="leestijd">
 							<p>leestijd :</p>
@@ -55,6 +55,16 @@
 			<li><%- include('./partials/like') %></li>
 			<li><%- include('./partials/read-mode') %></li>
 			<li><%- include('./partials/speech') %></li>
+			<li>
+				<div class="nav-author author">
+					<div>
+						<a href="./author/<%= post.author %>">
+							<img src="<%= post.yoast_head_json.schema["@graph"][6].image.contentUrl %>" alt="<%= post.yoast_head_json.schema["@graph"][6].name %>">
+						</a>
+					</div>
+					<p><%- post.yoast_head_json.schema["@graph"][6].image.caption %></p>
+				</div>
+			</li>
 		</ul>
 	</nav>
 	

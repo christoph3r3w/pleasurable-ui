@@ -197,11 +197,12 @@ main{
 	flex-direction: row;
 	gap: 1rem;
 	padding-inline: 3%;
+	height: 2rem;
 }
 
 button,input,select{
 	--btn-color : #C4C4C4;
-	--btn-color : #373636;
+	/* --btn-color : #373636; */
 
 	border: 1px solid var(--btn-color);
 	border-radius: 10px;
@@ -220,6 +221,42 @@ button,input,select{
 select{
 	display: none;
 }
+
+.button-nav ul {
+position: relative;
+
+	li:has(.nav-author){
+		flex-grow: 1;
+		/* display: flex; */
+		outline: solid green;
+
+	}
+
+	.nav-author{
+		height: 100%;
+		display: flex;
+		justify-content: end;
+		justify-self: end;
+		
+		gap: 3%;
+	}
+
+	.nav-author a{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.nav-author img{
+		height: 100%;
+	
+	}
+	.nav-author p{
+		text-align: center;
+		padding-block: 3%;
+	}
+}
+
 
 /* //////////////////// */
 /* main article content */
