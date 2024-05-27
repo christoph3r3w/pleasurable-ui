@@ -1,7 +1,12 @@
 header{
-    /* Header styling if needed */ 
     grid-column: 1/-1;
-   }
+    display: grid;
+    grid-template-columns: subgrid;
+}
+
+header nav{
+    grid-column: ct;
+}
    
    /* #region Mobile Styling */
    
