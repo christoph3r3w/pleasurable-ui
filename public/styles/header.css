@@ -1,12 +1,19 @@
 header{
-    /* Header styling if needed */ 
     grid-column: 1/-1;
-   }
+    display: grid;
+    grid-template-columns: subgrid;
+}
+
+header nav{
+    grid-column: ct;
+
+}
    
    /* #region Mobile Styling */
    
        .mobile-menu {
            display: flex;
+           
            justify-content: space-between;
            margin: 5%;
            padding-bottom: 5%;
@@ -39,6 +46,7 @@ header{
        
        /* mobile-menu-window */
        section#mobile-menu-window {
+        
            display: none;
            flex-direction: column;
            position: fixed;
@@ -68,6 +76,7 @@ header{
        #mobile-menu-window ul li {
            margin: 0em 0em .25em 0em;
            font-weight: 600;
+           font-family: 'Inter', sans serif;
        }
        
        #mobile-menu-window ul li a:hover {
@@ -246,8 +255,58 @@ header{
   }
   }
 
-
 @media (min-width: 60.0625em){
 
     
+}
+
+@media (prefers-color-scheme: dark) {
+
+    
+	body {
+     --background-dm-color:  #121212;
+     --text-dm-color : #FFFFFF;
+	  color: var(--text-dm-color);
+	  background: var(--background-dm-color);
+	}
+
+    .menu-open svg path,
+    .search-icon svg path {
+        stroke: var(--text-dm-color);
+    }
+
+
+     /* mobile-menu-window */
+    section#mobile-menu-window {
+        background-color: var(--background-dm-color);
+
+        li a {
+            color: var(--text-dm-color)
+        }
+    }
+
+    #mobile-menu-window .menu-exit svg path {
+        stroke: var(--text-dm-color);
+    }
+
+    .newsletter svg{
+        fill: var(--text-dm-color);
+    }
+
+    .theme svg path {
+       fill: var(--text-dm-color);
+    }
+
+    .desktop-pages svg {
+        fill: white;
+    }
+
+    .second-row  {
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+    }
+
+    .desktop-pages a{
+        color: var(--text-dm-color);
+    }
 }

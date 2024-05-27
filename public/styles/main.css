@@ -309,6 +309,12 @@ footer{
 
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+	  color: #FFFFFF;
+	  background: #121212;
+	}
+}
 
 /* #region Keyframe animations */ 
 
