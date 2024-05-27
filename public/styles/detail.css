@@ -351,7 +351,13 @@ position: relative;
 	.wp-block-image{
 		width: 100% !important;
 		margin-block: 5% ;
-		
+		transition: 1s  forwards ;
+		animation: appear-subtopic 1s forwards ease-out  ;
+        animation-timeline: view();
+        animation-range:entry 1rem ;
+        /* animation-range:exit  ; */
+        opacity: 0;
+		z-index: ;
 	} 
 
 	.wp-block-image img{
@@ -395,7 +401,13 @@ position: relative;
 	}
 }
 
-
+@keyframes appear-subtopic {
+   
+    to{
+        opacity: 1;
+    }
+    
+}
 
 /* footer */
 footer{
