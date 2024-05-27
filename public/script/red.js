@@ -185,7 +185,6 @@ function handleClick(e) {
 	  updateTheDOMSomehow();
 	  return;
 	}
-  
 	// With a View Transition:
 	document.startViewTransition(() => updateTheDOMSomehow());
-  }
+}
