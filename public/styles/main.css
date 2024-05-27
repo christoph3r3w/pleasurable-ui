@@ -56,9 +56,8 @@ body {
 
 }
 
-/* .darkmode{} */
 
-body::before {
+/* body::before {
 	display: grid;
 	place-content: center;
 	position: fixed;
@@ -73,7 +72,7 @@ body::before {
 	font-family: 'Arial', sans-serif;
 	font-size: 1.25em;
 	z-index: 4;
-  }
+  } */
 
 
 
