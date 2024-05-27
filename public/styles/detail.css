@@ -697,3 +697,30 @@ footer{
 
 
 }
+
+
+@media (prefers-color-scheme: dark) {
+	
+	.detail-landing-container {
+	background-color: #292825;
+	}
+
+	.author span a {
+		color: var(--text-dm-color);
+	}
+
+	main {
+		/* backdrop-filter: brightness(30%); */
+	}
+
+	.btn {	
+		color: var(--text-dm-color);
+		border: solid 1px var(--text-dm-color);
+	}
+	
+	.share-btn svg{
+		fill: var(--text-dm-color);
+	}
+
+
+}
