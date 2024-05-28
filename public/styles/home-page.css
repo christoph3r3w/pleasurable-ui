@@ -346,6 +346,11 @@ footer{
 			border: none;
 		}
 
+		.prevBtn svg, .nextBtn svg{
+			height: 60px;
+			width: 64px;
+		}
+
 		.prevBtn.disabled, .nextBtn.disabled {
 			background-color: #888;
 			cursor: not-allowed;
