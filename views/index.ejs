@@ -11,7 +11,7 @@
 <main>
     <section id="cat-highlight">
         <% posts.slice(0, 5).forEach(post => { %>
-            <article class="highlighted-post">
+            <article class="highlighted-post" style="view-transition-name: hero">
                 <a href="/detail/<%-post.id%>" class="post-link">
                     <div class="post-image" style="background-image: url('<%= post.jetpack_featured_media_url %>');">
                         <h2 class="post-title"><%- post.title.rendered %></h2>
