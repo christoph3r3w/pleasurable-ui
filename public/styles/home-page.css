@@ -459,12 +459,12 @@ footer{
 	}
 	main {
 		.category-banner {
-			color: var(--background-dm-color);
-			background-color: var(--element-dm-color);
+			background-color: #383433;
 		}
-	
-		.category-banner svg path{
-			stroke: var(--background-dm-color);
+
+		.post-meta{
+			background-color: #332F2F;
+			color: var(--element-dm-color);
 		}
 	
 		.nextBtn, .prevBtn {
@@ -475,5 +475,7 @@ footer{
 			fill: var(--background-dm-color);
 		}
 	}
+
+	
 	
 }
