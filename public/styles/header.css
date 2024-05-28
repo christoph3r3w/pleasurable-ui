@@ -80,7 +80,7 @@ header nav{
        }
        
        #mobile-menu-window ul li a:hover {
-           color: #E84340;
+           color: var(--accent-color);
            transition: .25s;
        }
    
@@ -198,11 +198,16 @@ header nav{
   }
   
   .dropdown-content button:hover {
-    background-color: #d2d1d1;
+    background-color: #dbdbdb;
+  }
+
+  .dropdown-content button:active {
+    background-color: #dbdbdb;
+    color: var(--accent-color);
   }
 
 .thirdcol a:hover{
-    color: #E84340;
+    color: var(--accent-color);
 }
 
 .newsletter {
@@ -363,5 +368,9 @@ header nav{
         background-color: #464646;
     }
 
+    .dropdown-content button:active{
+        background-color: #464646;
+        color: var(--accent-color);
+    }
 
 }

@@ -174,3 +174,4 @@ const options = { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric
 let dateString = currentDate.toLocaleDateString('nl-US', options);
 dateString = dateString.replace(' ', ', ') 
 currentDateElement.textContent = dateString;
+
