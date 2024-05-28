@@ -763,7 +763,8 @@ footer{
 	}
 
 	main {
-		/* backdrop-filter: brightness(30%); */
+		background: linear-gradient(180deg,transparent 0%,transparent 70%, var(--bg-color) 100%);
+        backdrop-filter: brightness(10%);
 	}
 
 	.btn {	
