@@ -457,4 +457,13 @@ footer{
 	section.carousel .post-title {
 		color: var(--text-dm-color);
 	}
+
+	main .category-banner {
+		color: black;
+		background-color: white;
+	}
+
+	.category-banner svg path{
+		stroke: black;
+	}
 }
