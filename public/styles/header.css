@@ -264,8 +264,6 @@ header nav{
 
     
 	body {
-     --background-dm-color:  #121212;
-     --text-dm-color : #FFFFFF;
 	  color: var(--text-dm-color);
 	  background: var(--background-dm-color);
 	}

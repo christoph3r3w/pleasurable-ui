@@ -459,20 +459,20 @@ footer{
 	}
 	main {
 		.category-banner {
-			color: black;
-			background-color: white;
+			color: var(--background-dm-color);
+			background-color: var(--element-dm-color);
 		}
 	
 		.category-banner svg path{
-			stroke: black;
+			stroke: var(--background-dm-color);
 		}
 	
 		.nextBtn, .prevBtn {
-			background-color: white;
+			background-color: var(--element-dm-color);
 		}
 
 		.nextBtn svg, .prevBtn svg {
-			fill: black;
+			fill: var(--background-dm-color);
 		}
 	}
 	
