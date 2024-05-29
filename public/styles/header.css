@@ -7,7 +7,7 @@ header{
 }
 
 header nav{
-    grid-column: ct;
+    grid-column: 2/-2;
 
 }
    
@@ -110,9 +110,14 @@ header nav{
     padding: 1.25em 0;
 }
 
+.mobile-logo,.desktop-logo{
+    
+    width: min(220px,100%);
+}
 
-.desktop-menu picture img {
-    width: 220px;
+
+.desktop-menu a svg {
+    width:fit-content ;
 }
 
 
@@ -297,8 +302,19 @@ header nav{
        fill: var(--text-dm-color);
     }
 
-    .desktop-pages svg {
+
+    
+    /* .desktop-menu a svg {
         fill: white;
+    } */
+
+    :is(.desktop-logo,.mobile-logo,.desktop-pages) svg  {
+
+        fill: #fff;
+        transition: 1s ease-in-out ;
+        &:hover{
+            fill: rgb(187, 61, 61);
+        }
     }
 
     .second-row  {

@@ -205,8 +205,8 @@ footer{
 
 	body {
 	  
-	  /* background-color: var(--P-orange); */
-		/* grid-template-columns:
+		display: grid;
+		grid-template-columns:
 		minmax(0px, auto)
 		[ct-start]
 		repeat(3, 18px)
@@ -218,9 +218,8 @@ footer{
 		repeat(3, 18px)
 		[ct-end]
 		minmax(0px, auto);
-	  	column-gap: 30px;
-	  	background-color: rgba(255, 255, 255, 0.962); */
 
+	  	column-gap: 30px;
   	}
 
 	
@@ -235,21 +234,22 @@ footer{
   
 @media (min-width: 768px) {
 	body {
-	  /* background-color: var(--B-white); */
-	  /* background-color: var(--P-blue); */
-	  /* grid-template-columns:
-		minmax(0px, auto)
-		[ct-start]
-		repeat(3, 24px)
-		[m-start]
-		repeat(4, 24px)
-		[mid]
-		repeat(4, 24px)
-		[m-end]
-		repeat(3, 24px)
-		[ct-end]
-		minmax(0px, auto);
-	  column-gap: 40px; */
+		--sides :minmax(0px, auto);
+		/* --bg-color: rgba(214, 168, 134, 0.985); */
+		 
+		  grid-template-columns:
+			var(--sides)
+			[ct-start]
+			repeat(3, 24px)
+			[m-start]
+			repeat(4, 24px)
+			[mid]
+			repeat(4, 24px)
+			[m-end]
+			repeat(3, 24px)
+			[ct-end]
+			var(--sides);
+			  column-gap: 40px;
 	}
 
 	header{
@@ -270,9 +270,8 @@ footer{
   
 @media (min-width: 1200px) {
 	body {
-	  /* background-color: var(--P-yellow); */
-	  /* grid-template-columns:
-		minmax(0px, auto)
+		grid-template-columns:
+		var(--sides)
 		[ct-start]
 		repeat(3, 60px)
 		[m-start]
@@ -282,7 +281,7 @@ footer{
 		[m-end]
 		repeat(3, 60px)
 		[ct-end]
-		minmax(0px, auto); */
+		var(--sides);
 	}
   
 	header {
