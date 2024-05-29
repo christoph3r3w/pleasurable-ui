@@ -12,9 +12,9 @@
 
 <main>
 	<% if (post.yoast_head_json) { %>
-		<section class="detail-landing-container" id="detail-landing" style="view-transition-name: hero">
+		<section class="detail-landing-container" id="detail-landing">
 
-			<article class="detail-landing-intro">
+			<article class="detail-landing-intro" style="view-transition-name: hero-<%- post.id %>">
 				<div class="post-cat-date">
 					<span class="post-cat">	
 						<a href=./categories/<%= post.yoast_head_json.schema["@graph"][0].articleSection[0] %> > <%- post.yoast_head_json.schema["@graph"][0].articleSection[0] %></a>
