@@ -306,7 +306,7 @@ header nav{
     
 }
 
-@media (prefers-color-scheme: dark) {
+[data-theme="dark"] {
 
     
 	body {

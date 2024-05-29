@@ -309,7 +309,7 @@ footer{
 
 }
 
-@media (prefers-color-scheme: dark) {
+[data-theme="dark"] {
 	body {
 	  color: #FFFFFF;
 	  background: #121212;
