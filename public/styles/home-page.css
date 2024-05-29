@@ -458,7 +458,7 @@ footer{
 
 }
 
-[data-theme="dark"] {
+@media (prefers-color-scheme: dark) {
 	
 	section.carousel .post-title {
 		color: var(--text-dm-color);
