@@ -36,8 +36,10 @@ header{
 	/* display: none; */
 
 	.header-background-shape{
+		/*need to be deleted  */
 		display: none;
 	}
+
 }
 
 #sidebar{
@@ -53,6 +55,8 @@ main{
 	grid-template-columns: auto;
 	width: 100%;
 	position: relative;
+	background-color: var(--bg-color);
+	
 }
 
 /* /////////////////////////////// */
@@ -232,13 +236,14 @@ main:has(.elementor-widget-container) {
 	grid-column: 1/-1;
 	grid-row: 2;
 	gap: 1rem;
-
+	z-index: 2;
 	display: grid;
-	grid-template-columns: subgrid;
+	/* grid-template-columns: subgrid; */
 	height: fit-content;
 	padding-block: 1rem;
 	border-bottom: 1px solid #C4C4C4;
-	;
+	z-index: 3;
+
 }
 
 .button-nav ul {
@@ -255,7 +260,7 @@ main:has(.elementor-widget-container) {
 
 button,input,select{
 	--btn-color : #C4C4C4;
-	--btn-color : #373636;
+	/* --btn-color : #373636; */
 
 	border: 1px solid var(--btn-color);
 	border-radius: 10px;
@@ -275,11 +280,49 @@ select{
 	display: none;
 }
 
+.button-nav ul {
+	position: relative;
+	display: flex;
+
+	li:has(.nav-author){
+		flex-grow: 1;
+		/* display: flex; */
+
+	}
+
+	.nav-author{
+		height: 2rem;
+		flex-basis: fit-content;
+		display: flex;
+		justify-content: end;
+		justify-self: end;
+		
+		gap: 3%;
+	}
+
+	.nav-author a{
+		display: block;
+		width: fit-content;
+		height: 100%;
+	}
+
+	.nav-author img{
+		height: 100%;
+		border-radius: 40%;
+	}
+	.nav-author p{
+		display: flex;
+		align-items: center;		
+		width: fit-content;
+	}
+}
+
+
 /* //////////////////// */
 /* main article content */
 /* //////////////////// */
 
-.main-article{
+#main-article{
 	grid-column: 1/-1;
 	grid-row: 3;
 
@@ -315,13 +358,23 @@ select{
 	.wp-block-image{
 		width: 100% !important;
 		margin-block: 5% ;
-		
+
+		transition: 1s  forwards ;
+		animation: appear-subtopic 1s forwards ease-out  ;
+        animation-timeline: view();
+        animation-range:entry 1rem ;
+        /* animation-range:exit  ; */
+        opacity: 0;
+	    z-index: 0 ;
+		max-height: 40%;
+
 	} 
 
 	.wp-block-image img{
 		width: 100%;
 		object-fit: cover;
 		height: auto;
+		border-radius: 10px;
 	}
 
 	.wp-element-caption{
@@ -334,16 +387,44 @@ select{
 		height: 1.6rem !important;
 	}
 
+
 	.wp-block-quote {
+		position: relative;
 		font-family: Tiempos-Headline-Medium;
 		text-transform: capitalize;
 		text-decoration: wavy;
 		font-style: italic;
+		font-size: 2rem;
+		margin-block: 8%;
+		line-height: 1;
+		z-index: 1;
+
+	}
+
+	.wp-block-quote::before{
+		content: open-quote;
+		position: absolute;
+		top: 34%;
+		left: -10%;
+		/* outline: solid blue; */
+
+	}
+	.wp-block-quote::after{
+		content: close-quote;
+		position: absolute;
+		top: 34%;
+		left: 95%;
+		/* outline: solid rgb(0, 145, 255); */
+	}
+
+	.wp-block-quote::after,::before{
+		color: #c73535;
+		font-size: 4rem;
+		z-index: 0;
 	}
 
 	p {
 		margin-bottom: 1.5rem;
-		
 	}
 
 
@@ -359,7 +440,13 @@ select{
 	}
 }
 
-
+@keyframes appear-subtopic {
+   
+    to{
+        opacity: 1;
+    }
+    
+}
 
 /* footer */
 footer{
@@ -438,12 +525,19 @@ footer{
 			.wp-block-image,
 			.wp-element-caption,
 			.size-full,
-			.wp-block-quote,
+			
 			em,
 			ul,
 			.elementor )
 			{
 			grid-column: ct;
+			line-height: 1.6;
+		}
+
+		.wp-block-quote{
+			grid-column: 2/11;
+			line-height: 1;
+			z-index: 0;
 		}
 	}
 
@@ -480,7 +574,11 @@ footer{
 	}
 
 	main{
-		background-color: var(--bg-color) ;
+		/* background-color: var(--bg-color) ; */
+		/* background-image: linear-gradient(var(--bg-color)); */
+		/* background: linear-gradient(180deg,transparent 0%,transparent 70%, var(--bg-color) 100%);
+		backdrop-filter: brightness(10%); */
+		
 	}
 
 	.button-nav{
@@ -506,7 +604,7 @@ footer{
 			/* .wp-block-image, */
 			.wp-element-caption,
 			.size-full,
-			.wp-block-quote,
+			
 			em,
 			ul )
 			{
@@ -517,7 +615,14 @@ footer{
 			grid-column: ct;
 
 		}
+		.wp-block-quote{
+			grid-column: 3/m-end;
+			z-index: 0;
+		}
 
+		.wp-block-quote::after,::before{
+			font-size: 5rem;
+		}
 	}
 
 	header{
@@ -588,6 +693,29 @@ footer{
 		}
 	}
 
+	#main-article{
+
+		> :is(
+			figure,
+			.wp-block-image,
+			.size-full,
+			.elementor )
+			{
+			grid-column-start: m ;
+			outline-offset: 3px;
+
+			figure img{
+				width: 90% ;
+			}
+
+			
+		}
+		.wp-block-quote{
+				grid-column: 2/11 !important;
+		}
+
+	}
+
   
 	header {
 		
@@ -629,3 +757,4 @@ footer{
 
 
 }
+

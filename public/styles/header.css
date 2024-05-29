@@ -1,12 +1,21 @@
 header{
-    /* Header styling if needed */ 
+    /* Header styling */ 
+
     grid-column: 1/-1;
-   }
+    display: grid;
+    grid-template-columns: subgrid;
+}
+
+header nav{
+    grid-column: 2/-2;
+
+}
    
    /* #region Mobile Styling */
    
        .mobile-menu {
            display: flex;
+           
            justify-content: space-between;
            margin: 5%;
            padding-bottom: 5%;
@@ -39,6 +48,7 @@ header{
        
        /* mobile-menu-window */
        section#mobile-menu-window {
+        
            display: none;
            flex-direction: column;
            position: fixed;
@@ -68,6 +78,7 @@ header{
        #mobile-menu-window ul li {
            margin: 0em 0em .25em 0em;
            font-weight: 600;
+           font-family: 'Inter', sans serif;
        }
        
        #mobile-menu-window ul li a:hover {
@@ -99,9 +110,14 @@ header{
     padding: 1.25em 0;
 }
 
+.mobile-logo,.desktop-logo{
+    
+    width: min(220px,100%);
+}
 
-.desktop-menu picture img {
-    width: 220px;
+
+.desktop-menu a svg {
+    width:fit-content ;
 }
 
 
@@ -246,8 +262,67 @@ header{
   }
   }
 
-
 @media (min-width: 60.0625em){
 
     
+}
+
+@media (prefers-color-scheme: dark) {
+
+    
+	body {
+	  color: var(--text-dm-color);
+	  background: var(--background-dm-color);
+	}
+
+    .menu-open svg path,
+    .search-icon svg path {
+        stroke: var(--text-dm-color);
+    }
+
+
+     /* mobile-menu-window */
+    section#mobile-menu-window {
+        background-color: var(--background-dm-color);
+
+        li a {
+            color: var(--text-dm-color)
+        }
+    }
+
+    #mobile-menu-window .menu-exit svg path {
+        stroke: var(--text-dm-color);
+    }
+
+    .newsletter svg{
+        fill: var(--text-dm-color);
+    }
+
+    .theme svg path {
+       fill: var(--text-dm-color);
+    }
+
+
+    
+    /* .desktop-menu a svg {
+        fill: white;
+    } */
+
+    :is(.desktop-logo,.mobile-logo,.desktop-pages) svg  {
+
+        fill: #fff;
+        transition: 1s ease-in-out ;
+        &:hover{
+            fill: rgb(187, 61, 61);
+        }
+    }
+
+    .second-row  {
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+    }
+
+    .desktop-pages a{
+        color: var(--text-dm-color);
+    }
 }
