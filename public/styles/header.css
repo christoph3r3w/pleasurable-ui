@@ -110,6 +110,10 @@ header nav{
     padding: 1.25em 0;
 }
 
+.mobile-logo,.desktop-logo{
+    
+    width: min(220px,100%);
+}
 
 .mobile-logo,.desktop-logo{
     
@@ -348,6 +352,7 @@ header nav{
        fill: var(--text-dm-color);
     }
 
+
     /* .desktop-menu a svg {
         fill: #fff;
     } */
@@ -359,10 +364,6 @@ header nav{
         &:hover{
             fill: rgb(187, 61, 61);
         }
-    }
-
-    .desktop-pages svg {
-        fill: white;
     }
 
     .second-row  {

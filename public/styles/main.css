@@ -54,11 +54,11 @@ body {
 		border: none;
 	}
 
+
 }
 
-/* .darkmode{} */
 
-body::before {
+ body.with-loader::before {
 	display: grid;
 	place-content: center;
 	position: fixed;
@@ -73,7 +73,7 @@ body::before {
 	font-family: 'Arial', sans-serif;
 	font-size: 1.25em;
 	z-index: 4;
-  }
+  } 
 
 
 
@@ -205,8 +205,8 @@ footer{
 
 	body {
 	  
-	  /* background-color: var(--P-orange); */
-		/* grid-template-columns:
+		display: grid;
+		grid-template-columns:
 		minmax(0px, auto)
 		[ct-start]
 		repeat(3, 18px)
@@ -218,9 +218,8 @@ footer{
 		repeat(3, 18px)
 		[ct-end]
 		minmax(0px, auto);
-	  	column-gap: 30px;
-	  	background-color: rgba(255, 255, 255, 0.962); */
 
+	  	column-gap: 30px;
   	}
 
 	
@@ -235,21 +234,22 @@ footer{
   
 @media (min-width: 768px) {
 	body {
-	  /* background-color: var(--B-white); */
-	  /* background-color: var(--P-blue); */
-	  /* grid-template-columns:
-		minmax(0px, auto)
-		[ct-start]
-		repeat(3, 24px)
-		[m-start]
-		repeat(4, 24px)
-		[mid]
-		repeat(4, 24px)
-		[m-end]
-		repeat(3, 24px)
-		[ct-end]
-		minmax(0px, auto);
-	  column-gap: 40px; */
+		--sides :minmax(0px, auto);
+		/* --bg-color: rgba(214, 168, 134, 0.985); */
+		 
+		  grid-template-columns:
+			var(--sides)
+			[ct-start]
+			repeat(3, 24px)
+			[m-start]
+			repeat(4, 24px)
+			[mid]
+			repeat(4, 24px)
+			[m-end]
+			repeat(3, 24px)
+			[ct-end]
+			var(--sides);
+			  column-gap: 40px;
 	}
 
 	header{
@@ -270,9 +270,8 @@ footer{
   
 @media (min-width: 1200px) {
 	body {
-	  /* background-color: var(--P-yellow); */
-	  /* grid-template-columns:
-		minmax(0px, auto)
+		grid-template-columns:
+		var(--sides)
 		[ct-start]
 		repeat(3, 60px)
 		[m-start]
@@ -282,7 +281,7 @@ footer{
 		[m-end]
 		repeat(3, 60px)
 		[ct-end]
-		minmax(0px, auto); */
+		var(--sides);
 	}
   
 	header {
@@ -333,6 +332,18 @@ footer{
 	}
 }
 
+/* View page transition */
+
+
+@media (prefers-reduced-motion: no-preference) {
+	@view-transition {
+		navigation: auto;
+		/* animation: 150ms cubic-bezier(0.4, 0, 1, 1) both fade-out,
+	  	400ms cubic-bezier(0.4, 0, 0.2, 1) both slide-to-left; */
+	}
+}	  
+
+
 /* #region Keyframe animations */ 
 
 @keyframes blur-in {
@@ -341,11 +352,23 @@ footer{
 	100%  { opacity: 1; }
 } 
 
+@keyframes fade-in {
+    from { opacity: 0; }
+  }
+
 @keyframes fade-out {
 	to {
 	  /* transform: translateY(-75%); */
 	  opacity: 0;
 	}
+  }
+
+  @keyframes slide-from-right {
+    from { transform: translateX(30px); }
+  }
+
+  @keyframes slide-to-left {
+    to { transform: translateX(-30px); }
   }
 
 
