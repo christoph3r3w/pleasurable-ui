@@ -763,8 +763,14 @@ footer{
 	}
 
 	main {
-		background: linear-gradient(180deg,transparent 0%,transparent 70%, var(--bg-color) 100%);
+		background: linear-gradient(180deg,transparent 0%,#292825  30%,#292825  75%, var(--bg-color) 100%);
         backdrop-filter: brightness(10%);
+	}
+
+	.button-nav:hover{
+		--bg-color:  #292825;
+		backdrop-filter: blur(2px) !important;
+		
 	}
 
 	.btn {	
