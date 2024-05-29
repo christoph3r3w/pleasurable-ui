@@ -53,6 +53,8 @@ main{
 	grid-template-columns: auto;
 	width: 100%;
 	position: relative;
+
+	
 }
 
 /* /////////////////////////////// */
@@ -361,8 +363,8 @@ select{
         animation-range:entry 1rem ;
         /* animation-range:exit  ; */
         opacity: 0;
-	    	z-index: 0 ;
-				max-height: 40%;
+	    z-index: 0 ;
+		max-height: 40%;
 
 	} 
 
@@ -421,7 +423,6 @@ select{
 
 	p {
 		margin-bottom: 1.5rem;
-		
 	}
 
 
@@ -571,7 +572,11 @@ footer{
 	}
 
 	main{
-		background-color: var(--bg-color) ;
+		/* background-color: var(--bg-color) ; */
+		/* background-image: linear-gradient(var(--bg-color)); */
+		/* background: linear-gradient(180deg,transparent 0%,transparent 70%, var(--bg-color) 100%);
+		backdrop-filter: brightness(10%); */
+		
 	}
 
 	.button-nav{
