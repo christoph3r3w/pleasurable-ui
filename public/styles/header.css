@@ -7,7 +7,7 @@ header{
 }
 
 header nav{
-    grid-column: ct;
+    grid-column: 2/-2;
 
 }
    
@@ -348,8 +348,17 @@ header nav{
        fill: var(--text-dm-color);
     }
 
-    .desktop-menu a svg {
+    /* .desktop-menu a svg {
         fill: #fff;
+    } */
+
+    :is(.desktop-logo,.mobile-logo,.desktop-pages) svg  {
+
+        fill: #fff;
+        transition: 1s ease-in-out ;
+        &:hover{
+            fill: rgb(187, 61, 61);
+        }
     }
 
     .desktop-pages svg {
