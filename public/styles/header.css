@@ -109,7 +109,7 @@ header nav{
 }
 
 
-.desktop-menu picture img {
+.desktop-menu a svg {
     width: 220px;
 }
 
@@ -341,6 +341,10 @@ header nav{
 
     .theme svg path {
        fill: var(--text-dm-color);
+    }
+
+    .desktop-menu a svg {
+        fill: #fff;
     }
 
     .desktop-pages svg {
