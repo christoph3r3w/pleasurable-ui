@@ -357,17 +357,18 @@ select{
 	figure img{
 		width: 100% !important;
 		height: auto;
+
 	}
 
 	.wp-block-image{
 		width: 100% !important;
-		margin-block: 5% ;
+		margin-block: 10% ;
 
 		transition: 1s  forwards ;
 		animation: appear-subtopic 1s forwards ease-out  ;
         animation-timeline: view();
-        animation-range:entry 1rem ;
-        /* animation-range:exit  ; */
+        animation-range-start:entry  ;
+        animation-range-end:contain ;
         opacity: 0;
 	    z-index: 0 ;
 		max-height: 40%;
