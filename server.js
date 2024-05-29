@@ -63,18 +63,17 @@ function metaParse(postsData) {
         const timeOptions = { hour: '2-digit', minute: '2-digit' };
         
         const formattedDate = postDate.toLocaleDateString('nl-NL', dateOptions);
-        const formattedTime = postDate.toLocaleTimeString('nl-NL', timeOptions);
 
 		const author = postData.yoast_head_json?.twitter_misc?.["Geschreven door"] ?? "N/A";
 
 		const readingTime = postData.yoast_head_json?.twitter_misc?.["Geschatte leestijd"] ?? "N/A";
 		const estimatedReadingTime = readingTime.replace("minuten", "min");
 
-		postData.date_gmt = `${formattedDate} ${formattedTime}`; // Added this for home page
+		postData.date_gmt = `${formattedDate}`; // Added this for home page
 
 		postData.readingTime = `${estimatedReadingTime}`		
         
-		postData.meta = `${formattedDate} ${formattedTime} - ${author} - ${estimatedReadingTime}`;
+		postData.meta = `${formattedDate} - ${author} - ${estimatedReadingTime}`;
     });
 
     return postsData;
