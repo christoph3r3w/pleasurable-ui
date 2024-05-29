@@ -44,10 +44,10 @@ const directus_apiUrl = "https://fdnd-agency.directus.app/items/redpers_shares";
 //post
 const postsUrl = `${apiUrl}/posts?per_page=100&orderby=date&order=desc`;
 //users
-const usersUrl = `${apiUrl}/users?_embed`;
+const usersUrl = `${apiUrl}/users`;
 //categories
 const categoryUrl = `${apiUrl}/posts?per_page=100&orderby=date&order=desc&categories=1,4,6,9,63,94,1010,3211,7164&_fields=id,categories,slug,date_gmt,excerpt,status,author,yoast_head_json`;
-const categoriesUrl = `${apiUrl}categories?per_page=100`
+const categoriesUrl = `${apiUrl}/categories?per_page=100`
 
 // functions//
 
@@ -66,6 +66,10 @@ function metaParse(postsData) {
 
 		const readingTime = postData.yoast_head_json?.twitter_misc?.["Geschatte leestijd"] ?? "N/A";
 		const estimatedReadingTime = readingTime.replace("minuten", "min");
+
+		postData.date_gmt = `${formattedDate} ${formattedTime}`; // Added this for home page
+
+		postData.readingTime = `${estimatedReadingTime}`		
         
 		postData.meta = `${formattedDate} ${formattedTime} - ${author} - ${estimatedReadingTime}`;
     });
@@ -150,6 +154,17 @@ const categories = [
 		posts: [],
 	},
 ]
+
+const cats = {
+	binnenland: 9,
+	buitenland: 1010,
+	column: 7164,
+	economie: 6,
+	'kunst-media': 4,
+	podcast: 3211,
+	politiek: 63,
+	wetenschap: 94
+}
 
 // GET route for index
 app.get("/",function(req,res){
@@ -303,81 +318,74 @@ app.post("/detail/:id/shares",function(req,res){
 	})
 });
 
-
-// GET route for category list
-app.get("/categories",function(req,res){
-	fetchJson(categoriesUrl).then((categoriesData)=>{
-		res.render("categories.ejs",{
-
-			// cat : categories
-			cat: categoriesData,
-		});
-		console.log("categories-page success");
-
-
-
-	})
-
-});
-
 // GET route for individual category 
 app.get("/category/:name",function(req,res){
-	fetchJson(`${categoriesUrl}&name=${req.params.name}`).then((categoriesData)=>{
-		fetchJson(`${postsUrl}&categories=${categoriesData[0].id}`).then((postData)=>{
-			// function
-			// postData = datePars(postData); 
 
-			res.render("categories.ejs",{
-				post: postData
+	let categoryName = req.params.name;
+	let categoryID = cats[categoryName];
+
+	Promise.all([
+		fetchJson(`${postsUrl}&categories=${categoryID}`),
+		fetchJson(`${apiUrl}/categories/${categoryID}`),
+	])
+		.then(([postData, categoryData]) => {
+			
+			res.render("category.ejs", {
+				posts: postData,
+				category: categoryData,
+
 			});
 
-			console.log(`${req.params.slug}`+"-page success");
-
+			console.log(`category:${categoryID}`+"page success");
 		})
-	} )
-
+		.catch((error) => {
+			// Handle error if fetching data fails
+			console.error("Error fetching data:", error);
+			res.status(404).send("Post not found");
+		});
 
 });
+
 
 // GET route for author list
 app.get("/authors",function(req,res){
-	promises.all([
-		fetchJson(usersUrl),
-		fetchJson(categoriesUrl)
-	]).then(([userData,categoriesData])=>{
+	Promise.all([
+		fetchJson(usersUrl)
+	]).then(([userData])=>{
 		res.render("authors.ejs",{
-			user:userData,
-			// cat : categories
-			cat: categoriesData,
+			authors: userData
 		})
 	})
 	
 	console.log("author-page success");
 
-	
-	
-
 });
 
 // GET route for individual author 
 app.get("/author/:id",function(req,res){
-	promises.all([
-		fetchJson(`${postsUrl}&author=${req.params.id}`),
-		fetchJson(`${usersUrl}&include=${req.params.id}`),
-		fetchJson(categoriesUrl),
-	]).then(([postData,userData,categoriesData])=>{
-		// functions
 
-		res.render("authors.ejs",{
-			post: postData,
-			user: userData,
-			// cat : categories
-			cat: categoriesData,
+	let authorID = req.params.id;
+
+	Promise.all([
+		fetchJson(`${postsUrl}&author=${authorID}`),
+		fetchJson(`${usersUrl}/${authorID}`),
+	])
+		.then(([postData, userData]) => {
+			
+			res.render("author.ejs", {
+				posts: postData,
+				user: userData,
+
+			});
+
+			console.log(`author:${authorID}`+"page success");
 		})
+		.catch((error) => {
+			// Handle error if fetching data fails
+			console.error("Error fetching data:", error);
+			res.status(404).send("Post not found");
+		});
 
-		console.log(`author:${req.params.id}`+"page success");
-
-	})
 });
 
 // ports //

@@ -170,16 +170,19 @@ main{
 footer{
 /*  for the subgrid template  */
 	grid-column: 1/-1;
-
-	/* margin-top: 2em; */
-	height: 5em;
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	background-color: black;
-	color: #fff;
-	padding: 2em;
-	font-family: var(--medium-text);
+	width: 100%;
+	section{
+		height: 5em;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		background-color: black;
+		color: #fff;
+		padding: 2em;
+		font-family: var(--medium-text);
+		/* margin-top: 2em; */
+	}
 }
 
 /* media queries */
@@ -306,6 +309,15 @@ footer{
 
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+		--background-dm-color:  #121212;
+		--element-dm-color : #FFFFFF;
+		--text-dm-color : #FFFFFF;
+	  color: #FFFFFF;
+	  background: #121212;
+	}
+}
 
 /* #region Keyframe animations */ 
 

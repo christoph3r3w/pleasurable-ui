@@ -1,5 +1,5 @@
 <%- include('./partials/head',{title:"RedPers"}) %>
-<link rel="stylesheet" href="/styles/author.css" type="text/css">
+<link rel="stylesheet" href="/styles/category.css" type="text/css">
 
 </head>
 
@@ -9,7 +9,7 @@
 <%- include('./partials/header',{img_src:""}) %>
 
 <main>
-    <p><%= user.name %></p>
+    <p><%= category.name %></p>
     <% posts.forEach(post => { %>
         <p><%- post.title.rendered %></p>
     <% }) %>
