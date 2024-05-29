@@ -36,8 +36,10 @@ header{
 	/* display: none; */
 
 	.header-background-shape{
+		/*need to be deleted  */
 		display: none;
 	}
+
 }
 
 #sidebar{
