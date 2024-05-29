@@ -431,11 +431,11 @@ select{
 
 	em{
 		font-style: italic;
-		color: #373636;
+		color: #373434;
 	}
 
 	:nth-last-child(1) em:nth-last-of-type(1) {
-		color: rgb(107, 107, 18);
+		color: rgb(114, 114, 23);
 
 	}
 }
@@ -789,5 +789,19 @@ footer{
 		fill: var(--text-dm-color);
 	}
 
+	#main-article em{
+		
+		color: #625b5b;
+		color: var(--bg-color);
+		mix-blend-mode:difference;
+		filter:hue-rotate(10deg)saturate(70%);
 
+		/* :nth-last-child(1) em:nth-last-of-type(1) {
+			color: rgb(114, 114, 23);
+			mix-blend-mode:difference;
+			filter: none !important;
+	
+		} */
+		
+	}
 }
