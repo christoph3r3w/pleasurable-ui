@@ -55,7 +55,7 @@ main{
 	grid-template-columns: auto;
 	width: 100%;
 	position: relative;
-
+	background-color: var(--bg-color);
 	
 }
 
