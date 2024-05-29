@@ -311,6 +311,9 @@ footer{
 
 @media (prefers-color-scheme: dark) {
 	body {
+		--background-dm-color:  #121212;
+		--element-dm-color : #FFFFFF;
+		--text-dm-color : #FFFFFF;
 	  color: #FFFFFF;
 	  background: #121212;
 	}

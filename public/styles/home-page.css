@@ -98,7 +98,8 @@ main{
 
 	/* Category Banner Styles */
 	.category-banner {
-		background-color: #000;
+		background-color: rgb(27 26 26 / 95%);
+		border-radius: 2px;
 		color: #fff;
 		display: flex;
 		align-items: center;
@@ -340,9 +341,14 @@ footer{
 		.prevBtn, .nextBtn {
 			position: absolute;
 			top: 50%;
-			background-color: #000;
+			background-color: rgb(27 26 26 / 85%);
 			border-radius: 100%;
 			border: none;
+		}
+
+		.prevBtn svg, .nextBtn svg{
+			height: 60px;
+			width: 64px;
 		}
 
 		.prevBtn.disabled, .nextBtn.disabled {
@@ -457,4 +463,25 @@ footer{
 	section.carousel .post-title {
 		color: var(--text-dm-color);
 	}
+	main {
+		.category-banner {
+			background-color: #4E4847;
+		}
+
+		.post-meta{
+			background-color: #332F2F;
+			color: var(--element-dm-color);
+		}
+	
+		.nextBtn, .prevBtn {
+			background-color: var(--element-dm-color);
+		}
+
+		.nextBtn svg, .prevBtn svg {
+			fill: var(--background-dm-color);
+		}
+	}
+
+	
+	
 }
