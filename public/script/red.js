@@ -165,6 +165,7 @@ window.addEventListener('resize', () => { //UGLY BUT IDK HOW TO DO IT BETTER
     });
 });
 
+
 document.querySelector(".footer").addEventListener("click", function() {
     window.scrollTo({
         top: "20%",
@@ -181,6 +182,19 @@ const options = { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric
 let dateString = currentDate.toLocaleDateString('nl-US', options);
 dateString = dateString.replace(' ', ', ') 
 currentDateElement.textContent = dateString;
+
+
+/* View page transition code */
+
+function handleClick(e) {
+	// Fallback for browsers that don't support this API:
+	if (!document.startViewTransition) {
+	  updateTheDOMSomehow();
+	  return;
+	}
+	// With a View Transition:
+	document.startViewTransition(() => updateTheDOMSomehow());
+}
 
 // Darkmode
 var themeColor = localStorage.getItem('themeColor') || 'light';
