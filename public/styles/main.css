@@ -58,7 +58,7 @@ body {
 }
 
 
-/* body::before {
+ body.with-loader::before {
 	display: grid;
 	place-content: center;
 	position: fixed;
@@ -73,7 +73,7 @@ body {
 	font-family: 'Arial', sans-serif;
 	font-size: 1.25em;
 	z-index: 4;
-  } */
+  } 
 
 
 

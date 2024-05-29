@@ -15,6 +15,9 @@ app.set("view engine", "ejs");
 // dont know what this does
 app.use(express.urlencoded({ extended: true }));
 
+
+
+
 //!!!!!!!!!! External router concept !!!!!!!!!!!!!
 
 // const authorRouter = require("./server-routes/author");
@@ -187,8 +190,11 @@ app.get("/",function(req,res){
 			user : userData,
 			categories,
 		});
+		var bodycounter = app.locals.visitCounter = 0;
+
+		bodycounter++
 		
-			console.log("home success");
+			console.log("home success", bodycounter)
 
 	})
 	// .catch(err => console.log(err,res.status(500).send("Error fetching data")));
@@ -237,7 +243,6 @@ app.get("/detail/:id",function(req,res){
 			console.error("Error fetching data:", error);
 			res.status(404).send("Post not found");
 		});
-
 });
 
 // POST route for post
