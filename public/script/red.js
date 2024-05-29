@@ -165,6 +165,13 @@ window.addEventListener('resize', () => { //UGLY BUT IDK HOW TO DO IT BETTER
     });
 });
 
+$(".footer").click(function(){
+	window.scrollTo({
+	  top: "20%",
+	  behavior: 'smooth',
+	});
+  });
+
 /* Current day and month code */
 
 const currentDateElement = document.querySelector('.first-col');

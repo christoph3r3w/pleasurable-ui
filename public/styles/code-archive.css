@@ -1,0 +1,73 @@
+/* alternative styling for new post highlight  */
+
+main #cat-highlight-scroll{ 
+	/* display: none ; */
+	position: relative;
+	padding: 0 5%;
+	height: 41dvh;
+
+	&> ul{
+		position: relative;
+		height: 100%;
+		
+		display: grid;
+		grid-auto-flow: column;
+		grid-auto-columns: 100%;
+		overflow-x:auto;
+		gap:9%;
+		scroll-snap-type: x mandatory;
+		overscroll-behavior-inline:contain ;
+	}
+
+	.hghlt-post{
+		position: sticky;
+		left: 0;
+		display: grid;
+		grid-auto-flow: column;
+		grid-auto-columns: 50%;
+		/* gap: 5%; */
+		scroll-snap-align:start ;
+
+		&:nth-last-of-type(2){
+			/* translate: -100% 0; */
+		}
+	}
+
+	.hghlt-post:nth-of-type(2) .info{
+		translate: -100% 0;
+		/* background-color: pink; */
+	}
+
+	ul.info{
+		position: relative;
+		/* inset: 0; */
+		left: 0;
+		right: 50%;
+		background-color: #fff;
+		/* translate: -100% 0; */
+
+		outline: solid blue;
+		outline-offset: 3px;
+
+		
+
+		/* &:nth-of-type(3){
+			left: -100%;
+		} */
+
+	}
+
+	.highlight-img{
+		/* position: absolute;
+		inset: 0;
+		left: 50%; */
+
+		width: 100%;
+		height: auto;
+		background-position: center;
+		background-size: cover;
+
+		outline: solid red;
+		outline-offset: 3px;
+	}
+}
