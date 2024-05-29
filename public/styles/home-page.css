@@ -167,8 +167,8 @@ main{
 	}
 
 	article.highlighted-post .post-image:hover, section.carousel li:hover{
-		transform: translateY(-4px);
-		transition: transform 500ms;
+		transform: translateY(-2.8px);
+		transition: transform 70ms ease-out;
 	}
 
 	article.highlighted-post .overlay {
