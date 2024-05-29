@@ -759,7 +759,7 @@ footer{
 }
 
 
-@media (prefers-color-scheme: dark) {
+[data-theme="dark"] {
 	
 	.detail-landing-container {
 	background-color: #292825;
