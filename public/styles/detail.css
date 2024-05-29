@@ -431,11 +431,11 @@ select{
 
 	em{
 		font-style: italic;
-		color: #373434;
+		color: #373636;
 	}
 
 	:nth-last-child(1) em:nth-last-of-type(1) {
-		color: rgb(114, 114, 23);
+		color: rgb(107, 107, 18);
 
 	}
 }
@@ -787,14 +787,6 @@ footer{
 	
 	.share-btn svg{
 		fill: var(--text-dm-color);
-	}
-
-	#main-article em{
-		
-		color: #625b5b;
-		color: var(--bg-color);
-		mix-blend-mode:difference;
-		filter: brightness(90%) contrast(50%);
 	}
 
 
