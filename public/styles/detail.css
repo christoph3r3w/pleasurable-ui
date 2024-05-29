@@ -149,6 +149,10 @@ main:has(.elementor-widget-container) {
 	}
 }
 
+b:has(footer){
+	grid-column: 1/-1;
+}
+
 
 
 /* -intro text- */
