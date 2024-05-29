@@ -758,3 +758,37 @@ footer{
 
 }
 
+
+
+[data-theme="dark"] {
+	
+	.detail-landing-container {
+	background-color: #292825;
+	}
+
+	.author span a {
+		color: var(--text-dm-color);
+	}
+
+	main {
+		background: linear-gradient(180deg,transparent 0%,#292825  30%,#292825  75%, var(--bg-color) 100%);
+        backdrop-filter: brightness(10%);
+	}
+
+	.button-nav:hover{
+		--bg-color:  #292825;
+		backdrop-filter: blur(2px) !important;
+		
+	}
+
+	.btn {	
+		color: var(--text-dm-color);
+		border: solid 1px var(--text-dm-color);
+	}
+	
+	.share-btn svg{
+		fill: var(--text-dm-color);
+	}
+
+
+}
