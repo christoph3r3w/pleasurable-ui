@@ -340,6 +340,10 @@ header nav{
         }
     }
 
+    .mobile-menu {
+        border-bottom: solid 1px white;
+    }
+
     #mobile-menu-window .menu-exit svg path {
         stroke: var(--text-dm-color);
     }
