@@ -234,7 +234,7 @@ main{
 
 	section.carousel li {
 		position: relative;
-		margin-block: 1em;
+		margin-block: 2em;
 		text-align: center;
 		width: 70dvw;
 		/* height: 27dvh; */
