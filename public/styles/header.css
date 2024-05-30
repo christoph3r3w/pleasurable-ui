@@ -115,6 +115,11 @@ header nav{
     width: min(220px,100%);
 }
 
+.mobile-logo,.desktop-logo{
+    
+    width: min(220px,100%);
+}
+
 .desktop-menu a svg {
     width:fit-content ;
 }
@@ -335,6 +340,10 @@ header nav{
         }
     }
 
+    .mobile-menu {
+        border-bottom: solid 1px white;
+    }
+
     #mobile-menu-window .menu-exit svg path {
         stroke: var(--text-dm-color);
     }
@@ -347,9 +356,9 @@ header nav{
        fill: var(--text-dm-color);
     }
 
-    
+
     /* .desktop-menu a svg {
-        fill: white;
+        fill: #fff;
     } */
 
     :is(.desktop-logo,.mobile-logo,.desktop-pages) svg  {

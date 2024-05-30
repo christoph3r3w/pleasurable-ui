@@ -166,17 +166,23 @@ main{
 		background-size: cover;
 	}
 
+	article.highlighted-post .post-image:hover, section.carousel li:hover{
+		transform: translateY(-2.8px);
+		transition: transform 70ms ease-out;
+	}
+
 	article.highlighted-post .overlay {
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		width: 100%;
-		height: 125px;
+		height: 145px;
 		background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
 	}
 
 	article.highlighted-post .post-title, 
 	article.highlighted-post .post-meta {
+		font-family: sans-serif;
 		width: 90%;
 		position: absolute;
 		bottom: 15px;
@@ -185,6 +191,7 @@ main{
 		max-height: 5em;
 		z-index: 1;
 	}
+
 
 	/* First Highlighted Post */
 	article.highlighted-post:first-of-type {
@@ -196,33 +203,41 @@ main{
 	}
 
 	article.highlighted-post:first-of-type .post-title {
-		font-size: 1em;
-		bottom: 40px;
-		-webkit-line-clamp: 2;
+		font-family: sans-serif;
+		font-size: 1.25em;
+		left: 20px;
+		bottom: 50px;
+		-webkit-line-clamp: 3;
 	}
 
 	article.highlighted-post:first-of-type .post-meta {
-		bottom: 10px;
+		left: 20px;
+		bottom: 20px;
 		display: flex;
 		justify-content: space-between;
 		color: #B1B1B1;
-		font-size: 12px;
+		font-size: 1em;
 		background-color: unset;
 		height: unset;
 	}
 
 	/* Carousel Section */
 	section.carousel ul {
+		position: relative;
 		display: flex;
 		overflow: auto;
 		scroll-snap-type: x mandatory;
 		gap: 2em;
+		/* outline: solid blue; */
+		/* height: 34dvh; */
 	}
 
 	section.carousel li {
+		position: relative;
 		margin-block: 2em;
 		text-align: center;
-		width: 70vw;
+		width: 70dvw;
+		/* height: 27dvh; */
 		flex: 70vw 0 0;
 		scroll-snap-align: center;
 	}
@@ -235,7 +250,14 @@ main{
 	}
 
 	section.carousel .post-title {
-		margin: 0 0 1.5rem;
+		margin: 0 0 1rem;
+		height: 7dvh;
+		height: 100%;
+	}
+
+	section.carousel .post-meta {
+		position: relative;
+		
 	}
 
 	/* Scrollbar Support */
