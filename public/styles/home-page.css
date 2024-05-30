@@ -228,6 +228,8 @@ main{
 		overflow: auto;
 		scroll-snap-type: x mandatory;
 		gap: 2em;
+		/* outline: solid blue; */
+		height: 34dvh;
 	}
 
 	section.carousel li {
