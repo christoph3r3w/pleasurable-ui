@@ -13,10 +13,10 @@
         <% posts.slice(0, 5).forEach(post => { %>
             <article class="highlighted-post" style="view-transition-name: hero- <%- post.id %>">
                 <a href="/detail/<%-post.id%>" class="post-link">
-                    <div class="post-image" style="background-image: url('<%= post.jetpack_featured_media_url %>');">
+                    <div class="post-image" style="background-image: url('<%= post.yoast_head_json.og_image[0].url %>');">
                         <h2 class="post-title"><%- post.title.rendered %></h2>
                         <div class="post-meta">
-                            <span><%= post.date_gmt %> - <%= post.yoast_head_json.author %></span>
+                            <span><%= post.date_gmt %> - <%= post.author %></span>
                             <span><%= post.readingTime %></span>
                         </div>
                         <div class="overlay"></div>
@@ -39,7 +39,13 @@
                <% categoryPosts.forEach(post => { %>
                     <li>
                         <a href="/detail/<%- post.id%>">
-                            <img class="post-image" src="<%= post.jetpack_featured_media_url %>" alt="" loading="lazy">
+				        <% if (post.yoast_head_json.og_image?.[0]?.url.startsWith('/')) { %>
+                            <img class="post-image" src='<%= post.yoast_head_json.og_image[0].url %>' alt="" loading="lazy">
+                        <% } else { %>
+                            <div class="post-image" style="background-color: #F2D930; width:100%;min-height:10%;display:grid;place-content:center;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-image-off-icon lucide-image-off"><line x1="2" x2="22" y1="2" y2="22"/><path d="M10.41 10.41a2 2 0 1 1-2.83-2.83"/><line x1="13.5" x2="6" y1="13.5" y2="21"/><line x1="18" x2="21" y1="12" y2="15"/><path d="M3.59 3.59A1.99 1.99 0 0 0 3 5v14a2 2 0 0 0 2 2h14c.55 0 1.052-.22 1.41-.59"/><path d="M21 15V5a2 2 0 0 0-2-2H9"/></svg>
+                            </div>
+                        <% } %>
                             <h2 class="post-title"><%- post.title.rendered %></h2>
                             <span class="post-meta"><%= post.meta %></span>
                         </a>
@@ -55,10 +61,6 @@
         </section>
     <% }) %>
 </main>
-
-
-
-
 
 
 <%- include('./partials/foot'); -%>
