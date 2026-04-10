@@ -12,7 +12,8 @@
     "dev": "nodemon server.js",
     "mock": "nodemon mock-server.js",
     "dev-mock": "concurrently \"npm run dev\" \"npm run mock\" \"npm run start\"",
-    "build-mock": "concurrently \"npm run dev\" \"npm run mock\""
+    "build-mock": "npm run mock",
+    "build": "json-server --watch Api.json --routes json-server.routes.json --port 3001 & sleep 3 && echo 'mock server ready'"
 
   },
   "repository": {

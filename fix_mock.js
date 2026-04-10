@@ -13,13 +13,13 @@ app.locals.pageViews = {};
 
 const data = JSON.parse(await readFile('Api.json', 'utf-8'));
 
-const apiUrl = \http://localhost:\/wp-json/wp/v2\;
+const apiUrl = 'http://localhost:/wp-json/wp/v2';
 const directus_apiUrl = "https://fdnd-agency.directus.app/items/redpers_shares";
 
-const postsUrl = \\/posts?per_page=100&orderby=date&order=desc\;
-const usersUrl = \\/users\;
-const categoryUrl = \\/posts?per_page=100&orderby=date&order=desc&categories=1,4,6,9,63,94,1010,3211,7164&_fields=id,categories,slug,date_gmt,excerpt,status,author,yoast_head_json\;
-const categoriesUrl = \\/categories?per_page=100\;
+const postsUrl = '/posts?per_page=100&orderby=date&order=desc';
+const usersUrl = '/users';
+const categoryUrl = '/posts?per_page=100&orderby=date&order=desc&categories=1,4,6,9,63,94,1010,3211,7164&_fields=id,categories,slug,date_gmt,excerpt,status,author,yoast_head_json';
+const categoriesUrl = '/categories?per_page=100';
 
 const categories = [
     { slug: "binnenland", id: 9, name: "Binnenland", posts: [] },
