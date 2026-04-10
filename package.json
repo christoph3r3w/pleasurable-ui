@@ -8,12 +8,12 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "node mock-server.js",
-    "dev": "nodemon mock-server.js",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
     "mock": "nodemon mock-server.js",
-    "dev-mock": "npm run dev",
-    "build-mock": "echo Mock data is served by mock-server.js",
-    "build": "echo No build step required for Vercel"
+    "dev-mock": "concurrently \"npm run dev\" \"npm run mock\" \"npm run start\"",
+    "build-mock": "npm run mock",
+    "build": "json-server --watch Api.json --routes json-server.routes.json --port 3001 & sleep 3 && echo 'mock server ready'"
 
   },
   "repository": {
