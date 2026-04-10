@@ -430,6 +430,23 @@ select{
 		margin-bottom: 1.5rem;
 	}
 
+	ol{
+
+		grid-column: ct;
+		margin-bottom: 11%;
+		
+		li{
+			list-style-position:outside;
+			list-style:disc !important;
+			font-style:oblique;
+			font-weight:700px ;
+
+		}
+
+	}
+
+
+
 	em{
 		font-style: italic;
 		color: #373636;
@@ -656,6 +673,11 @@ footer{
 		.wp-block-quote{
 				grid-column: 2/11 !important;
 		}
+
+		ol{
+			grid-column: 2/6;
+		}
+
 	}
 }
 
@@ -710,5 +732,21 @@ footer{
 	
 	.share-btn svg{
 		fill: var(--text-dm-color);
+	}
+}
+
+
+@media (prefers-reduced-motion:reduce) {
+	*{
+		animation: none;
+		transition: none;
+	}
+}
+
+
+@media (prefers-reduced-motion:reduce) {
+	*{
+		animation: none;
+		transition: none;
 	}
 }

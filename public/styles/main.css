@@ -59,21 +59,23 @@ body {
 
 
  body.with-loader::before {
+	content: 'RedPers podium voor journalistiek';
 	display: grid;
 	place-content: center;
 	position: fixed;
 	inset: 0;
-	background-color: #040404;
+	background-color: #7d4646ce;
 	opacity: 1;
-	animation: fade-out 1.10s forwards;
-	animation-delay: .75s;
 	pointer-events: none;
-	content: 'RedPers podium voor journalistiek';
 	color: whitesmoke;
 	font-family: 'Arial', sans-serif;
 	font-size: 1.25em;
 	z-index: 4;
+	animation: fade-out 1.10s forwards;
+	animation-delay: .75s;
   } 
+
+
 
 
 
@@ -318,6 +320,8 @@ footer{
 
 	main{
 		/* background-color: var(--e-global-color-c6c7b91); */
+
+		
 	}
 
 }

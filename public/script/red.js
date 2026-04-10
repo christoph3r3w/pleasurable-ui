@@ -31,6 +31,7 @@ if (formBTN) {
 				method: this.method,
 			})
 				.then(function (rawStream) {
+
 					return rawStream.text();
 					// loading state
 					this.classList.remove('loader');
