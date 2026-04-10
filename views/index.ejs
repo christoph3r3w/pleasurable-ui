@@ -10,7 +10,8 @@
 <main>
     <section id="cat-highlight">
         <% posts.slice(0, 5).forEach(post => { %>
-            <article class="highlighted-post" style="view-transition-name: hero- <%- post.id %>">
+            <% const heroOgUrl = post.yoast_head_json?.og_image?.[0]?.url; %>
+            <article class="highlighted-post" style="view-transition-name: hero-<%= post.id %>">
                 <a href="/detail/<%-post.id%>" class="post-link">
                     <div class="post-image" style="background-image: url('<%= post.yoast_head_json.og_image[0].url %>');">
                         <h2 class="post-title"><%- post.title.rendered %></h2>
@@ -36,6 +37,7 @@
             <ul>
                 <% const categoryPosts = posts.filter(post => post.categories.includes(category.id)).slice(0, 5); %>
                <% categoryPosts.forEach(post => { %>
+                    <% const cardOgUrl = post.yoast_head_json?.og_image?.[0]?.url; %>
                     <li>
                         <a href="/detail/<%- post.id%>">
 				        <% if (post.yoast_head_json.og_image?.[0]?.url.startsWith('/')) { %>
