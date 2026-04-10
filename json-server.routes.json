@@ -1,0 +1,8 @@
+{
+  "/wp-json/wp/v2/posts": "/posts",
+  "/wp-json/wp/v2/posts/:id": "/posts/:id",
+  "/wp-json/wp/v2/users": "/authors",
+  "/wp-json/wp/v2/users/:id": "/authors/:id",
+  "/wp-json/wp/v2/categories": "/categories",
+  "/wp-json/wp/v2/categories/:id": "/categories/:id"
+}

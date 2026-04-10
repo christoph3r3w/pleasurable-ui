@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 
-//!!!!!!!!!! External router concept !!!!!!!!!!!!!
+// External router concept !!!!!!!!!!!!!
 
 // const authorRouter = require("./server-routes/author");
 // const userRouter = require("./server-routes/user");
@@ -36,7 +36,8 @@ app.use(express.urlencoded({ extended: true }));
 // Redpers database //
 
 // main Url
-const apiUrl = "https://redpers.nl/wp-json/wp/v2";
+// const apiUrl = process.env.API_URL || "https://redpers.nl/wp-json/wp/v2";
+const apiUrl = "http://localhost:3001/wp-json/wp/v2" || "https://redpers.nl/wp-json/wp/v2";
 
 //directus url
 const directus_apiUrl = "https://fdnd-agency.directus.app/items/redpers_shares";
@@ -55,28 +56,64 @@ const categoriesUrl = `${apiUrl}/categories?per_page=100`
 // functions//
 
 // metaParse
-function metaParse(postsData) {
-    postsData.forEach(postData => {
-        const postDate = new Date(postData.date_gmt);
+// function metaParse(postsData) {
+//     postsData.forEach(postData => {
+//         const postDate = new Date(postData.date_gmt);
         
-        const dateOptions = { day: 'numeric', month: 'long' };
-        const timeOptions = { hour: '2-digit', minute: '2-digit' };
+//         const dateOptions = { day: 'numeric', month: 'long' };
+//         const timeOptions = { hour: '2-digit', minute: '2-digit' };
         
-        const formattedDate = postDate.toLocaleDateString('nl-NL', dateOptions);
+//         const formattedDate = postDate.toLocaleDateString('nl-NL', dateOptions);
 
-		const author = postData.yoast_head_json?.twitter_misc?.["Geschreven door"] ?? "N/A";
+// 		const author = postData.yoast_head_json?.twitter_misc?.["Geschreven door"] ?? "N/A";
 
-		const readingTime = postData.yoast_head_json?.twitter_misc?.["Geschatte leestijd"] ?? "N/A";
-		const estimatedReadingTime = readingTime.replace("minuten", "min");
+// 		const readingTime = postData.yoast_head_json?.twitter_misc?.["Geschatte leestijd"] ?? "N/A";
+// 		const estimatedReadingTime = readingTime.replace("minuten", "min");
 
-		postData.date_gmt = `${formattedDate}`; // Added this for home page
+// 		postData.date_gmt = `${formattedDate}`; // Added this for home page
 
-		postData.readingTime = `${estimatedReadingTime}`		
+// 		postData.readingTime = `${estimatedReadingTime}`		
         
-		postData.meta = `${formattedDate} - ${author} - ${estimatedReadingTime}`;
+// 		postData.meta = `${formattedDate} - ${author} - ${estimatedReadingTime}`;
+//     });
+
+//     return postsData;
+// }
+function metaParse(p) {
+    // Ensure p is an array
+    if (!Array.isArray(p)) {
+        console.error("Expected an array but received:", p);
+        return []; // Return empty array if p is not an array
+    }
+    
+    p.forEach(postData => {
+        try {
+            const postDate = new Date(postData.date_gmt);
+            
+            const dateOptions = { day: 'numeric', month: 'long' };
+            const timeOptions = { hour: '2-digit', minute: '2-digit' };
+            
+            const formattedDate = postDate.toLocaleDateString('nl-NL', dateOptions);
+
+            const author = postData.yoast_head_json?.twitter_misc?.["Geschreven door"] ?? "N/A";
+
+            const readingTime = postData.yoast_head_json?.twitter_misc?.["Geschatte leestijd"] ?? "N/A";
+            const estimatedReadingTime = readingTime.replace("minuten", "min");
+
+            postData.date_gmt = `${formattedDate}`; // Added this for home page
+
+            postData.readingTime = `${estimatedReadingTime}`		
+            
+            postData.meta = `${formattedDate} - ${author} - ${estimatedReadingTime}`;
+        } catch (error) {
+            console.error("Error parsing post data:", error);
+            postData.date_gmt = "N/A";
+            postData.readingTime = "N/A";
+            postData.meta = "N/A";
+        }
     });
 
-    return postsData;
+    return p;
 }
 
 // dateParse
@@ -180,9 +217,12 @@ app.get("/",function(req,res){
 		// all the other functions
 		// postData = datePars(postData); 
 		// categoryData = datePars(categoryData);
-		// console.log("postData");
+		console.log("postData");
 
-		postData = metaParse(postData);
+		// Ensure data is valid before parsing
+		postData = Array.isArray(postData) ? metaParse(postData) : [];
+		userData = Array.isArray(userData) ? userData : [];
+		categoryData = Array.isArray(categoryData) ? categoryData : [];
 
 		res.render("index.ejs", {
 			posts  : postData,
@@ -193,10 +233,19 @@ app.get("/",function(req,res){
 
 		bodycounter++
 		
-			console.log("home success", bodycounter)
+		console.log("home success", bodycounter)
 
 	})
-	// .catch(err => console.log(err,res.status(500).send("Error fetching data")));
+	.catch(err => {
+		console.error("Error fetching home page data:", err);
+		// Render with empty/fallback data instead of crashing
+		res.render("index.ejs", {
+			posts: [],
+			user: [],
+			categories,
+			error: "Unable to load content. Please try again later."
+		});
+	});
 });
 
 // GET route for post
@@ -216,21 +265,31 @@ app.get("/detail/:id",function(req,res){
 			// console.log('Fetched category data:', categoryData);
 			// console.log('Fetched Directus data:', directusData);
 
+			// Check if API returned valid data
+			if (!postData || postData.data?.status === 404 || postData.code === 'rest_post_invalid_id') {
+				res.status(404).send("Post not found");
+				return;
+			}
+
 			// functions //
 			//date parser
 			//  postData = datePars(postData); 
 			// formatPostMeta(postData);
 			// console.log(formatPostMeta);
 
-			postData = dateParse(postData)
+			try {
+				postData = dateParse(postData);
+			} catch (err) {
+				console.error("Error parsing date:", err);
+			}
 			
 			// page views detection // can be used to show if a page has already been visited
 			// views(postData);
 
 			res.render("detail.ejs", {
 				post: postData,
-				categories: categoryData,
-				direct: directusData.data.length ? directusData.data[0] : false,
+				categories: Array.isArray(categoryData) ? categoryData : [],
+				direct: directusData?.data?.length ? directusData.data[0] : false,
 
 			});
 			// response.render("header.ejs",{post: postData})
@@ -240,7 +299,7 @@ app.get("/detail/:id",function(req,res){
 		.catch((error) => {
 			// Handle error if fetching data fails
 			console.error("Error fetching data:", error);
-			res.status(404).send("Post not found");
+			res.status(500).send("Unable to load post. Please try again later.");
 		});
 });
 
@@ -328,6 +387,11 @@ app.get("/category/:name",function(req,res){
 	let categoryName = req.params.name;
 	let categoryID = cats[categoryName];
 
+	if (!categoryID) {
+		res.status(404).send("Category not found");
+		return;
+	}
+
 	Promise.all([
 		fetchJson(`${postsUrl}&categories=${categoryID}`),
 		fetchJson(`${apiUrl}/categories/${categoryID}`),
@@ -335,8 +399,8 @@ app.get("/category/:name",function(req,res){
 		.then(([postData, categoryData]) => {
 			
 			res.render("category.ejs", {
-				posts: postData,
-				category: categoryData,
+				posts: Array.isArray(postData) ? postData : [],
+				category: categoryData || { name: categoryName, id: categoryID },
 
 			});
 
@@ -345,7 +409,12 @@ app.get("/category/:name",function(req,res){
 		.catch((error) => {
 			// Handle error if fetching data fails
 			console.error("Error fetching data:", error);
-			res.status(404).send("Post not found");
+			// Render with fallback data instead of error page
+			res.render("category.ejs", {
+				posts: [],
+				category: { name: categoryName, id: categoryID },
+				error: "Unable to load category posts. Please try again later."
+			});
 		});
 
 });
@@ -357,11 +426,17 @@ app.get("/authors",function(req,res){
 		fetchJson(usersUrl)
 	]).then(([userData])=>{
 		res.render("authors.ejs",{
-			authors: userData
+			authors: Array.isArray(userData) ? userData : []
 		})
+		console.log("author-page success");
 	})
-	
-	console.log("author-page success");
+	.catch((error) => {
+		console.error("Error fetching authors:", error);
+		res.render("authors.ejs", {
+			authors: [],
+			error: "Unable to load authors. Please try again later."
+		});
+	});
 
 });
 
@@ -376,8 +451,14 @@ app.get("/author/:id",function(req,res){
 	])
 		.then(([postData, userData]) => {
 			
+			// Check if author exists
+			if (!userData || userData.data?.status === 404 || userData.code === 'rest_user_invalid_id') {
+				res.status(404).send("Author not found");
+				return;
+			}
+
 			res.render("author.ejs", {
-				posts: postData,
+				posts: Array.isArray(postData) ? postData : [],
 				user: userData,
 
 			});
@@ -387,13 +468,14 @@ app.get("/author/:id",function(req,res){
 		.catch((error) => {
 			// Handle error if fetching data fails
 			console.error("Error fetching data:", error);
-			res.status(404).send("Post not found");
+			res.status(500).send("Unable to load author. Please try again later.");
 		});
 
 });
 
 // ports //
-app.set("port", process.env.PORT || 8080);
+// app.set("port", process.env.PORT || 8080);
+app.set("port", 8080);
 
 app.listen(app.get("port"), function(){
 	console.log(`Test link ${app.get("port")}`);

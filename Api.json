@@ -1,0 +1,4661 @@
+{
+  "posts": [
+{
+    "id": 1,
+    "date": "2024-01-15T10:30:00",
+    "date_gmt": "15 januari 2024",
+    "modified": "2024-01-15T10:30:00",
+    "modified_gmt": "2024-01-15T09:30:00",
+    "slug": "de-toekomst-van-kunstmatige-intelligentie",
+    "status": "publish",
+    "type": "post",
+    "link": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/",
+    "title": {
+      "rendered": "De toekomst van kunstmatige intelligentie innn Nederland"
+    },
+    "content": {
+      "rendered": "<p>Kunstmatige intelligentie transformeert de Nederlandse samenleving op ongekende wijze. Van gezondheidszorg tot transport, AI speelt een steeds grotere rol in ons dagelijks leven.</p>\n\n<p>Experts voorspellen dat AI tegen 2030 een economische impact zal hebben van meer dan 50 miljard euro in Nederland alleen. Bedrijven investeren massaal in deze technologie, waarbij zowel grote multinationals als kleine startups hun processen en producten radicaal herzien.</p>\n\n<h2>Gezondheidszorg aan de vooravond van een doorbraak</h2>\n<p>In de medische sector zijn de ontwikkelingen bijzonder opmerkelijk. Nederlandse ziekenhuizen experimenteren met AI-gestuurde diagnosetools die in staat zijn beeldmateriaal van MRI-scans met een nauwkeurigheid van meer dan 95 procent te analyseren. Het Amsterdam UMC werkt samen met een consortium van techbedrijven aan een systeem dat vroegtijdige tekenen van kanker kan detecteren, soms al jaren voordat traditionele methoden aanwijzingen geven.</p>\n\n<p>“We staan aan het begin van een medische revolutie,” zegt dr. Miriam Koopman, onderzoeksdirecteur bij het UMC. “AI wordt geen vervanging van de arts, maar een onmisbaar gereedschap dat artsen in staat stelt betere beslissingen te nemen.”</p>\n\n<h2>Transport en logistiek: slimmer onderweg</h2>\n<p>Ook in de transportsector maakt AI grote stappen. De haven van Rotterdam, de grootste van Europa, heeft AI-algoritmen geïntegreerd in haar logistieke operaties. Schepen worden automatisch ingepland, containers worden efficiënt gestapeld en vertragingen worden voorspeld voordat ze optreden. Naar schatting bespaart dit systeem jaarlijks honderden miljoenen euro’s aan operationele kosten.</p>\n\n<p>Tegelijkertijd rijden er steeds meer autonoom geleidde voertuigen op de Nederlandse wegen. Hoewel volledig zelfrijdende auto’s op de openbare weg nog niet zijn toegelaten, lopen pilots met zelfrijdende shuttles op Schiphol en in diverse binnensteden al meerdere jaren succesvol.</p>\n\n<h2>Onderwijs en arbeidsmarkt</h2>\n<p>De opkomst van AI stelt ook het Nederlandse onderwijs voor grote uitdagingen. Banen die tien jaar geleden veilig leken, worden nu overgenomen of ingrijpend veranderd door automatisering. Het Centraal Planbureau schat dat zo’n 23 procent van de huidige banen in Nederland in de komende tien jaar significant zal veranderen door AI.</p>\n\n<p>De overheid reageert met grootschalige om- en bijscholingsprogramma’s. Het nationaal groeifonds heeft meer dan twee miljard euro gereserveerd voor AI-gerelateerde onderwijsinitiatieven, van basiscursussen digitale geletterdheid tot gespecialiseerde master-opleidingen aan technische universiteiten.</p>\n\n<h2>Ethiek en regulering</h2>\n<p>Niet iedereen is even enthousiast. Privacy-organisaties waarschuwen voor de risico’s van grootschalige dataverzameling die onlosmakelijk verbonden is met AI-systemen. De Autoriteit Persoonsgegevens heeft afgelopen jaar een recordaantal boetes uitgedeeld aan bedrijven die AI inzetten op een manier die in strijd is met de AVG.</p>\n\n<p>Binnen de Europese Unie loopt Nederland voorop bij de implementatie van de AI Act, de nieuwe Europese wetgeving die risicovol gebruik van AI aan banden legt. “Nederland heeft historisch altijd een pragmatische houding gehad tegenover nieuwe technologieën,” zegt prof. dr. Jan Verhoeven van de Universiteit van Amsterdam. “We omarmen de kansen, maar we stellen ook grenzen.”</p>\n\n<h2>Wat brengt de toekomst?</h2>\n<p>De consensus onder experts is dat AI de komende jaren exponentieel verder zal groeien. Kwantumcomputing, dat de rekenkracht van AI-systemen dramatisch kan verhogen, staat op het punt commercieel beschikbaar te worden. Nederlandse onderzoeksinstellingen als CWI en TU Delft bevinden zich daarin op de wereldwijde frontlinie.</p>\n\n<p>Of Nederland zijn positie als Europese AI-koploper kan behouden, hangt af van de investeringen die bedrijven en overheid de komende jaren doen. De ambitie is er, de middelen zijn aanwezig — nu is het zaak de juiste keuzes te maken.</p>",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Kunstmatige intelligentie transformeert de Nederlandse samenleving op ongekende wijze. Van gezondheidszorg tot transport, AI speelt een steeds grotere rol in ons dagelijks leven — en de economische impact nadert de 50 miljard euro.</p>",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 101,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "format": "standard",
+    "categories": [
+      1,
+      3
+    ],
+    "tags": [
+      1,
+      2,
+      5
+    ],
+    "yoast_head_json": {
+      "title": "De toekomst van kunstmatige intelligentie in Nederland - RedPers",
+      "description": "Kunstmatige intelligentie transformeert de Nederlandse samenleving op ongekende wijze. Van gezondheidszorg tot transport en onderwijs: Nederland is koploper in AI.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "De toekomst van kunstmatige intelligentie in Nederland",
+      "og_description": "Kunstmatige intelligentie transformeert de Nederlandse samenleving op ongekende wijze. Van gezondheidszorg tot transport en onderwijs: Nederland is koploper in AI.",
+      "og_url": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/",
+      "og_site_name": "RedPers",
+      "article_published_time": "2024-01-15T10:30:00",
+      "article_modified_time": "2024-01-15T10:30:00",
+      "og_image": [
+        {
+          "width": 1200,
+          "height": 630,
+          "url": "assets/images/STA_Atrium-15-1-1024x683.jpg",
+          "type": "image/jpeg",
+          "alt": "Featured image voor De toekomst van kunstmatige intelligentie in Nederland"
+        }
+      ],
+      "author": "Emma van der Berg",
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Geschreven door": "Emma van der Berg",
+        "Geschatte leestijd": "8 minuten"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/#article",
+            "isPartOf": {
+              "@id": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/"
+            },
+            "author": {
+              "name": "Emma van der Berg",
+              "@id": "https://redpers.nl/#/schema/person/1"
+            },
+            "headline": "De toekomst van kunstmatige intelligentie in Nederland",
+            "datePublished": "2024-01-15T10:30:00",
+            "dateModified": "2024-01-15T10:30:00",
+            "mainEntityOfPage": {
+              "@id": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/"
+            },
+            "wordCount": 620,
+            "publisher": {
+              "@id": "https://redpers.nl/#organization"
+            },
+            "image": {
+              "@id": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/#primaryimage"
+            },
+            "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-1-image.jpg",
+            "articleSection": [
+              "Technologie",
+              "AI & Machine Learning"
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/",
+            "url": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/",
+            "name": "De toekomst van kunstmatige intelligentie in Nederland - RedPers",
+            "isPartOf": {
+              "@id": "https://redpers.nl/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/#primaryimage"
+            },
+            "datePublished": "2024-01-15T10:30:00",
+            "dateModified": "2024-01-15T10:30:00",
+            "breadcrumb": {
+              "@id": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/#breadcrumb"
+            },
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "nl-NL",
+            "@id": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/#primaryimage",
+            "url": "public/assets/images/STA_Atrium-15-1-1024x683.jpg",
+            "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-1-image.jpg",
+            "width": 1200,
+            "height": 630,
+            "caption": "Featured image voor De toekomst van kunstmatige intelligentie in Nederland"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://redpers.nl/de-toekomst-van-kunstmatige-intelligentie/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://redpers.nl/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Technologie",
+                "item": "https://redpers.nl/category/technologie/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "De toekomst van kunstmatige intelligentie in Nederland"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://redpers.nl/#website",
+            "url": "https://redpers.nl/",
+            "name": "RedPers",
+            "description": "Nederlands tech nieuws platform",
+            "publisher": {
+              "@id": "https://redpers.nl/#organization"
+            },
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://redpers.nl/#organization",
+            "name": "RedPers",
+            "url": "https://redpers.nl/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/#/schema/logo/image/",
+              "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+              "width": 512,
+              "height": 512,
+              "caption": "RedPers"
+            },
+            "image": {
+              "@id": "https://redpers.nl/#/schema/logo/image/"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://redpers.nl/#/schema/person/1",
+            "name": "Emma van der Berg",
+            "image": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/#/schema/person/image/1",
+              "url": "https://redpers.nl/wp-content/uploads/avatars/emma-van-der-berg.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/emma-van-der-berg.jpg",
+              "caption": "Emma van der Berg - Journalist bij RedPers",
+              "width": 96,
+              "height": 96
+            },
+            "description": "Tech journalist gespecialiseerd in AI en emerging technologies. Meer dan 10 jaar ervaring in de tech sector.",
+            "sameAs": [
+              "https://twitter.com/emmavanderberg",
+              "https://linkedin.com/in/emmavanderberg"
+            ],
+            "url": "https://redpers.nl/author/emma-van-der-berg/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "date": "2024-01-14T14:20:00",
+    "date_gmt": "2024-01-14T13:20:00",
+    "modified": "2024-01-14T14:20:00",
+    "modified_gmt": "2024-01-14T13:20:00",
+    "slug": "duurzame-energie-revolutie",
+    "status": "publish",
+    "type": "post",
+    "link": "https://redpers.nl/duurzame-energie-revolutie/",
+    "title": {
+      "rendered": "De duurzame energie revolutie in volle gang"
+    },
+    "content": {
+      "rendered": "<p>Nederland zet grote stappen richting een duurzame energievoorziening. Windparken op zee en zonnepanelen op daken worden steeds gebruikelijker, en de transitie van fossiele brandstoffen naar hernieuwbare energie verloopt sneller dan menig beleidsmaker had durven dromen.</p>\n\n<p>De regering heeft ambitieuze doelen gesteld voor 2030, waarbij 70% van de energie duurzaam moet zijn opgewekt. Een doel dat vijf jaar geleden nog als utopisch werd bestempeld, maar dankzij spectaculaire technologische vooruitgang nu binnen handbereik lijkt.</p>\n\n<h2>Windenergie op zee: de motor van de transitie</h2>\n<p>Het Hollandse Kust Noord windpark, volledig operationeel sinds 2023, is het grootste offshore windpark van Nederland met een capaciteit van 760 megawatt — genoeg om meer dan een miljoen huishoudens van stroom te voorzien. Maar dit is slechts het begin. In de Noordzee zijn inmiddels tientallen nieuwe parklocaties aangewezen, waarbij de totale capaciteit tegen 2030 moet groeien naar meer dan 21 gigawatt.</p>\n\n<p>“De kosten voor offshore windenergie zijn in tien jaar tijd met meer dan 70 procent gedaald,” zegt energiespecialist Hilde Boonstra van het Energieonderzoek Centrum Nederland. “Wat ons verbaast is niet de snelheid van de groei, maar de snelheid waarmee windenergie goedkoper wordt.”</p>\n\n<h2>Zonnepanelen: van luxe naar norm</h2>\n<p>Tegelijkertijd is zonne-energie in rap tempo de meest democratische energiebron geworden. Nederland telt inmiddels meer dan 2,5 miljoen woningen met zonnepanelen op het dak — ruim een kwart van alle woningen. In provincies als Utrecht en Noord-Holland heeft al meer dan 35 procent van de huishoudens zonnepanelen geïnstalleerd.</p>\n\n<p>Niet alleen particulieren investeren in zonne-energie. Grote zonneweides rijzen als paddenstoelen uit de grond, vaak in combinatie met landbouw — een concept dat agrivoltaic’s heet. Boeren in Flevoland en Groningen combineren hun gewassen met zonnepanelen op palen, waardoor ze tegelijkertijd voedsel produceren en stroom opwekken.</p>\n\n<h2>Waterstof: de energiedrager van de toekomst</h2>\n<p>Een van de meest veelbelovende ontwikkelingen is de opkomst van groene waterstof. Door overtollige windenergie te gebruiken om water te splitsen in waterstof en zuurstof, kan energie opgeslagen worden die later gebruikt wordt als brandstof voor industrie, transport of verwarming.</p>\n\n<p>De Groningse haven van Eemshaven heeft zich gepositioneerd als het waterstofknooppunt van Noord-Europa. Hier worden enorme elektrolysers gebouwd die tot twee gigawatt groene waterstof per jaar kunnen produceren. Grote industriebedrijven als Shell en Tata Steel hebben meerjarige contracten getekend om dit waterstof af te nemen als vervanging voor aardgas.</p>\n\n<h2>Energiearmoede en de rechtvaardige transitie</h2>\n<p>Niet alles is rozengeur en maneschijn. Terwijl de energietransitie op stoom komt, groeit ook de bezorgdheid over energiearmoede. Huishoudens die hun woning niet kunnen isoleren of geen zonnepanelen kunnen betalen, dreigen achterblijven in een systeem dat steeds meer op hernieuwbare bronnen draait.</p>\n\n<p>Het kabinet heeft hierop gereageerd met een Nationaal Isolatieprogramma van vier miljard euro, gericht op de meest kwetsbare woningen in de corporatiesector. “De transitie moet eerlijk zijn,” zei minister Jetten van Klimaat en Energie bij de presentatie. “Niemand mag achtergelaten worden.”</p>\n\n<h2>Internationale samenwerking en de Europese context</h2>\n<p>Nederland opereert niet in een vacuuïm. Binnen de Europese Green Deal zijn bindende afspraken gemaakt over de uitfasering van kolen, de uitbreiding van hernieuwbare energie en de beprijzing van CO2-uitstoot. Het Europees Emissiehandelssysteem, dat de prijs van CO2-uitstoot reguleert, heeft bedrijven in Nederland en elders gedwongen hun verduurzamingsplannen te versnellen.</p>\n\n<p>Ook qua energie-interconnectie maakt Europa grote stappen. Nieuwe onderzeese kabels verbinden het Nederlandse elektriciteitsnet met dat van Denemarken, Noorwegen en het Verenigd Koninkrijk, waardoor overschotten en tekorten beter over de grenzen heen kunnen worden uitgewisseld.</p>\n\n<h2>Op weg naar 2030</h2>\n<p>De komende zes jaar zijn cruciaal. Er moeten duizenden kilometers aan nieuwe hoogspanningslijnen worden aangelegd, energieopslag moet op grote schaal worden uitgerold en miljoenen woningen moeten van het gas af. Het is een enorme opgave — maar de richting is duidelijk. Nederland wil, en kan, een van de groenste energiemarkten van de wereld worden.</p>",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Nederland zet grote stappen richting een duurzame energievoorziening. Met offshore windparken, zonnepanelen en groene waterstof lijkt het klimaatdoel van 70% hernieuwbare energie in 2030 binnen bereik.</p>",
+      "protected": false
+    },
+    "author": 2,
+    "featured_media": 102,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "format": "standard",
+    "categories": [
+      2,
+      4
+    ],
+    "tags": [
+      3,
+      4,
+      6
+    ],
+    "yoast_head_json": {
+      "title": "De duurzame energie revolutie in volle gang - RedPers",
+      "description": "Nederland zet grote stappen richting duurzame energie. Met offshore windparken, zonnepanelen en groene waterstof is het klimaatdoel van 70% hernieuwbare energie in 2030 binnen bereik.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://redpers.nl/duurzame-energie-revolutie/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "De duurzame energie revolutie in volle gang",
+      "og_description": "Nederland zet grote stappen richting duurzame energie. Met offshore windparken, zonnepanelen en groene waterstof is het klimaatdoel van 70% hernieuwbare energie in 2030 binnen bereik.",
+      "og_url": "https://redpers.nl/duurzame-energie-revolutie/",
+      "og_site_name": "RedPers",
+      "article_published_time": "2024-01-14T14:20:00",
+      "article_modified_time": "2024-01-14T14:20:00",
+      "og_image": [
+        {
+          "width": 1200,
+          "height": 630,
+          "url": "/assets/images/hybrid-offshore-wind-solar-integration.jpeg",
+          "type": "image/jpeg",
+          "alt": "Featured image voor De duurzame energie revolutie in volle gang"
+        }
+      ],
+      "author": "Lars Jansen",
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Geschreven door": "Lars Jansen",
+        "Geschatte leestijd": "9 minuten"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://redpers.nl/duurzame-energie-revolutie/#article",
+            "isPartOf": {
+              "@id": "https://redpers.nl/duurzame-energie-revolutie/"
+            },
+            "author": {
+              "name": "Lars Jansen",
+              "@id": "https://redpers.nl/#/schema/person/2"
+            },
+            "headline": "De duurzame energie revolutie in volle gang",
+            "datePublished": "2024-01-14T14:20:00",
+            "dateModified": "2024-01-14T14:20:00",
+            "mainEntityOfPage": {
+              "@id": "https://redpers.nl/duurzame-energie-revolutie/"
+            },
+            "wordCount": 680,
+            "publisher": {
+              "@id": "https://redpers.nl/#organization"
+            },
+            "image": {
+              "@id": "https://redpers.nl/duurzame-energie-revolutie/#primaryimage"
+            },
+            "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-2-image.jpg",
+            "articleSection": [
+              "Duurzaamheid",
+              "Hernieuwbare Energie"
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://redpers.nl/duurzame-energie-revolutie/",
+            "url": "https://redpers.nl/duurzame-energie-revolutie/",
+            "name": "De duurzame energie revolutie in volle gang - RedPers",
+            "isPartOf": {
+              "@id": "https://redpers.nl/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://redpers.nl/duurzame-energie-revolutie/#primaryimage"
+            },
+            "datePublished": "2024-01-14T14:20:00",
+            "dateModified": "2024-01-14T14:20:00",
+            "breadcrumb": {
+              "@id": "https://redpers.nl/duurzame-energie-revolutie/#breadcrumb"
+            },
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "nl-NL",
+            "@id": "https://redpers.nl/duurzame-energie-revolutie/#primaryimage",
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-2-image.jpg",
+            "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-2-image.jpg",
+            "width": 1200,
+            "height": 630,
+            "caption": "Featured image voor De duurzame energie revolutie in volle gang"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://redpers.nl/duurzame-energie-revolutie/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://redpers.nl/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Duurzaamheid",
+                "item": "https://redpers.nl/category/duurzaamheid/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "De duurzame energie revolutie in volle gang"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://redpers.nl/#website",
+            "url": "https://redpers.nl/",
+            "name": "RedPers",
+            "description": "Nederlands tech nieuws platform",
+            "publisher": {
+              "@id": "https://redpers.nl/#organization"
+            },
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://redpers.nl/#organization",
+            "name": "RedPers",
+            "url": "https://redpers.nl/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/#/schema/logo/image/",
+              "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+              "width": 512,
+              "height": 512,
+              "caption": "RedPers"
+            },
+            "image": {
+              "@id": "https://redpers.nl/#/schema/logo/image/"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://redpers.nl/#/schema/person/2",
+            "name": "Lars Jansen",
+            "image": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/#/schema/person/image/2",
+              "url": "https://redpers.nl/wp-content/uploads/avatars/lars-jansen.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/lars-jansen.jpg",
+              "caption": "Lars Jansen - Journalist bij RedPers",
+              "width": 96,
+              "height": 96
+            },
+            "description": "Milieu-expert en journalist met focus op duurzame technologie en groene innovatie.",
+            "sameAs": [
+              "https://twitter.com/larsjansen",
+              "https://linkedin.com/in/larsjansen"
+            ],
+            "url": "https://redpers.nl/author/lars-jansen/"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "date": "2024-01-13T09:15:00",
+    "date_gmt": "2024-01-13T08:15:00",
+    "modified": "2024-01-13T09:15:00",
+    "modified_gmt": "2024-01-13T08:15:00",
+    "slug": "amsterdam-tech-hub-europa",
+    "status": "publish",
+    "type": "post",
+    "link": "https://redpers.nl/amsterdam-tech-hub-europa/",
+    "title": {
+      "rendered": "Amsterdam groeit uit tot tech hub van Europa"
+    },
+    "content": {
+      "rendered": "<p>De hoofdstad trekt steeds meer internationale tech bedrijven aan. Google, Netflix en Uber hebben allemaal grote kantoren in Amsterdam, en de stroom van investeringen en talent toont weinig tekenen van vertraging. In de afgelopen vijf jaar is Amsterdam uitgegroeid tot één van de meest aantrekkelijke vestigingslocaties voor tech in Europa.</p>\n\n<p>De combinatie van hoogopgeleide werknemers, goede infrastructuur en een aantrekkelijk vestigingsklimaat maken Amsterdam tot een ideale locatie voor tech startups. Maar ook de cultuur speelt een rol: de stad staat bekend om haar openheid, diversiteit en pragmatische houding tegenover nieuwe technologieën.</p>\n\n<h2>Een ecosysteem dat zichzelf versterkt</h2>\n<p>Wat Amsterdam onderscheidt van concurrenten als Berlijn, Londen en Stockholm, is de samenhang van haar tech-ecosysteem. Universiteiten, bedrijven, investeerders en overheid werken nauw samen in wat experts een ‘quadruple helix’ noemen. De Universiteit van Amsterdam en de Vrije Universiteit leveren jaarlijks duizenden afgestudeerden af in technische en data-gerelateerde vakgebieden. Veel van hen blijven in de stad — aangetrokken door de carrièremogelijkheden en de kwaliteit van leven.</p>\n\n<p>“Amsterdam heeft iets wat je niet kunt nabootsen,” zegt Sarah Chen, oprichter van fintech startup Payd. “Het talent is hier, de netwerken zijn hier, en er is een cultuur van samenwerking in plaats van concurrentie.”</p>\n\n<h2>Fintech en scale-ups leiden de weg</h2>\n<p>Bijzonder sterk is Amsterdam in de fintech-sector. Bedrijven als Adyen, Mollie en Bunq zijn in Amsterdam geboren en uitgegroeid tot Europese marktleiders. Adyen, dat betalingsdiensten levert aan bedrijven als Spotify en McDonald’s, heeft een beurswaarde van meer dan 30 miljard euro en trekt toptalent aan uit heel Europa en ver daarbuiten.</p>\n\n<p>Het succes van deze scale-ups heeft op zijn beurt een nieuwe generatie ondernemers geïnspireerd. In de zogenaamde ‘PayPal Mafia’ van Amsterdam zijn tientallen nieuwe startups opgericht door voormalige Adyen-medewerkers. Dit fenomeen — dat ook in Silicon Valley zijn wortels heeft — zorgt voor een cumulatief effect dat het ecosysteem steeds sterker maakt.</p>\n\n<h2>Internationaal talent en expat-cultuur</h2>\n<p>Meer dan 40 procent van de medewerkers bij Amsterdamse tech bedrijven is afkomstig uit het buitenland. Dit maakt de stad tot een van de meest internationale tech-hubs ter wereld. De aantrekkingskracht wordt versterkt door de 30%-regeling, een belastingvoordeel voor buitenlandse kenniswerkers dat hen in staat stelt netto meer over te houden van hun salaris.</p>\n\n<p>Maar er zijn ook zorgen. De woningmarkt is oververhit, en veel internationale werknemers hebben moeite een betaalbare woning te vinden. De gemiddelde huurprijs voor een appartement in Amsterdam bedraagt inmiddels meer dan 2.000 euro per maand, wat de stad voor lagerbetaalde tech-medewerkers steeds minder bereikbaar maakt.</p>\n\n<h2>Infrastructuur en connectiviteit</h2>\n<p>Amsterdam herbergt het Amsterdam Internet Exchange (AMS-IX), een van de grootste internet-knooppunten ter wereld. Dagelijks wordt er meer dan acht terabit per seconde aan data uitgewisseld, wat Amsterdam een unieke positie geeft als digitale infrastructuurhub van Europa. Grote cloudbedrijven als Microsoft Azure en Google Cloud hebben er dan ook hun Europese datacenters gebouwd.</p>\n\n<p>Schiphol Airport, op minder dan twintig minuten van het stadscentrum, biedt directe verbindingen met meer dan 300 bestemmingen wereldwijd. Voor tech bedrijven die internationaal opereren, is deze bereikbaarheid een cruciale factor bij de keuze van een vestigingslocatie.</p>\n\n<h2>Uitdagingen en de weg vooruit</h2>\n<p>Niet alle berichten zijn positief. Amsterdam kampt met een groeiend tekort aan technisch personeel, met name op het gebied van cybersecurity, machine learning en embedded systems. Bedrijven concurreren hevig om schaars talent, wat de lonen opdrijft en het voor kleinere startups moeilijker maakt te concurreren met grotere spelers.</p>\n\n<p>De gemeente Amsterdam heeft hierop gereageerd met het programma ‘Amsterdam Economic Board’, dat gericht is op het aantrekken van internationaal talent en het verbeteren van samenwerking tussen onderwijs en bedrijfsleven. Ook wordt gewerkt aan de uitbreiding van de TU/e-campus in de stad en de oprichting van nieuwe technologieparken in de regio.</p>\n\n<h2>Een stad die zichzelf uitvindt</h2>\n<p>Amsterdam heeft door de eeuwen heen bewezen een stad te zijn die zich steeds opnieuw uitvindt — van handelscentrum naar cultuurstad naar tech-hub. De vraag is of de stad haar positie kan consolideren nu de concurrentie van andere Europese steden toeneemt. Parijs investeert massaal in zijn Station F-ecosysteem, Berlijn trekt creatief tech-talent aan, en Dublin profiteert van zijn Engelstalige voordeel.</p>\n\n<p>Maar Amsterdam heeft één troef die moeilijk te evenaren is: een unieke combinatie van historische charme, internationale openheid en een diepgewortelde ondernemerscultuur. Zolang de stad haar bewoners en bedrijven weet te boeien, lijkt de toekomst als tech-hub van Europa verzekerd.</p>",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Amsterdam is uitgegroeid tot een van de meest aantrekkelijke vestigingslocaties voor tech in Europa. Met een sterk fintech-ecosysteem, wereldklasse-infrastructuur en internationaal talent consolideert de stad haar positie als tech-hub van het continent.</p>",
+      "protected": false
+    },
+    "author": 3,
+    "featured_media": 103,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": true,
+    "format": "standard",
+    "categories": [
+      1,
+      5
+    ],
+    "tags": [
+      1,
+      7,
+      8
+    ],
+    "yoast_head_json": {
+      "title": "Amsterdam groeit uit tot tech hub van Europa - RedPers",
+      "description": "Amsterdam is uitgegroeid tot een van de meest aantrekkelijke vestigingslocaties voor tech in Europa, met een sterk fintech-ecosysteem en wereldklasse-infrastructuur.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://redpers.nl/amsterdam-tech-hub-europa/",
+      "og_locale": "nl_NL",
+      "og_type": "article",
+      "og_title": "Amsterdam groeit uit tot tech hub van Europa",
+      "og_description": "Amsterdam is uitgegroeid tot een van de meest aantrekkelijke vestigingslocaties voor tech in Europa, met een sterk fintech-ecosysteem en wereldklasse-infrastructuur.",
+      "og_url": "https://redpers.nl/amsterdam-tech-hub-europa/",
+      "og_site_name": "RedPers",
+      "article_published_time": "2024-01-13T09:15:00",
+      "article_modified_time": "2024-01-13T09:15:00",
+      "og_image": [
+        {
+          "width": 1200,
+          "height": 630,
+          "url": "/assets/images/Amsterdam-is-the-Netherlands-hub-for-startups.jpg",
+          "type": "image/jpeg",
+          "alt": "Featured image voor Amsterdam groeit uit tot tech hub van Europa"
+        }
+      ],
+      "author": "Sophie de Vries",
+      "twitter_card": "summary_large_image",
+      "twitter_misc": {
+        "Geschreven door": "Sophie de Vries",
+        "Geschatte leestijd": "10 minuten"
+      },
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://redpers.nl/amsterdam-tech-hub-europa/#article",
+            "isPartOf": {
+              "@id": "https://redpers.nl/amsterdam-tech-hub-europa/"
+            },
+            "author": {
+              "name": "Sophie de Vries",
+              "@id": "https://redpers.nl/#/schema/person/3"
+            },
+            "headline": "Amsterdam groeit uit tot tech hub van Europa",
+            "datePublished": "2024-01-13T09:15:00",
+            "dateModified": "2024-01-13T09:15:00",
+            "mainEntityOfPage": {
+              "@id": "https://redpers.nl/amsterdam-tech-hub-europa/"
+            },
+            "wordCount": 710,
+            "publisher": {
+              "@id": "https://redpers.nl/#organization"
+            },
+            "image": {
+              "@id": "https://redpers.nl/amsterdam-tech-hub-europa/#primaryimage"
+            },
+            "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-3-image.jpg",
+            "articleSection": [
+              "Technologie",
+              "Blockchain"
+            ],
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://redpers.nl/amsterdam-tech-hub-europa/",
+            "url": "https://redpers.nl/amsterdam-tech-hub-europa/",
+            "name": "Amsterdam groeit uit tot tech hub van Europa - RedPers",
+            "isPartOf": {
+              "@id": "https://redpers.nl/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://redpers.nl/amsterdam-tech-hub-europa/#primaryimage"
+            },
+            "datePublished": "2024-01-13T09:15:00",
+            "dateModified": "2024-01-13T09:15:00",
+            "breadcrumb": {
+              "@id": "https://redpers.nl/amsterdam-tech-hub-europa/#breadcrumb"
+            },
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "nl-NL",
+            "@id": "https://redpers.nl/amsterdam-tech-hub-europa/#primaryimage",
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-3-image.jpg",
+            "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-3-image.jpg",
+            "width": 1200,
+            "height": 630,
+            "caption": "Featured image voor Amsterdam groeit uit tot tech hub van Europa"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://redpers.nl/amsterdam-tech-hub-europa/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://redpers.nl/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Technologie",
+                "item": "https://redpers.nl/category/technologie/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Amsterdam groeit uit tot tech hub van Europa"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://redpers.nl/#website",
+            "url": "https://redpers.nl/",
+            "name": "RedPers",
+            "description": "Nederlands tech nieuws platform",
+            "publisher": {
+              "@id": "https://redpers.nl/#organization"
+            },
+            "inLanguage": "nl-NL"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://redpers.nl/#organization",
+            "name": "RedPers",
+            "url": "https://redpers.nl/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/#/schema/logo/image/",
+              "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+              "width": 512,
+              "height": 512,
+              "caption": "RedPers"
+            },
+            "image": {
+              "@id": "https://redpers.nl/#/schema/logo/image/"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://redpers.nl/#/schema/person/3",
+            "name": "Sophie de Vries",
+            "image": {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/#/schema/person/image/3",
+              "url": "https://redpers.nl/wp-content/uploads/avatars/sophie-de-vries.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/sophie-de-vries.jpg",
+              "caption": "Sophie de Vries - Journalist bij RedPers",
+              "width": 96,
+              "height": 96
+            },
+            "description": "Business journalist met expertise in startups, fintech en de Nederlandse tech scene.",
+            "sameAs": [
+              "https://twitter.com/sophiedevries",
+              "https://linkedin.com/in/sophiedevries"
+            ],
+            "url": "https://redpers.nl/author/sophie-de-vries/"
+          }
+        ]
+      }
+    }
+  } ,   
+  {
+      "id": 4,
+      "date": "2024-01-12T16:45:00",
+      "date_gmt": "2024-01-12T15:45:00",
+      "modified": "2024-01-12T16:45:00",
+      "modified_gmt": "2024-01-12T15:45:00",
+      "slug": "gezondheidszorg-digitalisering",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/gezondheidszorg-digitalisering/",
+      "title": {
+        "rendered": "Digitalisering transformeert de Nederlandse gezondheidszorg"
+      },
+      "content": {
+        "rendered": "<p>Telemedicine en digitale patiëntendossiers worden de nieuwe norm in Nederlandse ziekenhuizen. Patiënten kunnen nu makkelijker hun gegevens inzien en met artsen communiceren.</p><p>Deze ontwikkeling zorgt voor efficiëntere zorg en betere uitkomsten voor patiënten.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Telemedicine en digitale patiëntendossiers worden de nieuwe norm.</p>",
+        "protected": false
+      },
+      "author": 4,
+      "featured_media": 104,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        3,
+        6
+      ],
+      "tags": [
+        2,
+        9,
+        10
+      ],
+      "yoast_head_json": {
+        "title": "Digitalisering transformeert de Nederlandse gezondheidszorg - RedPers",
+        "description": "Telemedicine en digitale patiëntendossiers worden de nieuwe norm.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/gezondheidszorg-digitalisering/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Digitalisering transformeert de Nederlandse gezondheidszorg",
+        "og_description": "Telemedicine en digitale patiëntendossiers worden de nieuwe norm.",
+        "og_url": "https://redpers.nl/gezondheidszorg-digitalisering/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-12T16:45:00",
+        "article_modified_time": "2024-01-12T16:45:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "/assets/images/Screenshot 2025-07-16 154523.png",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Digitalisering transformeert de Nederlandse gezondheidszorg"
+          }
+        ],
+        "author": "Thomas Bakker",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Thomas Bakker",
+          "Geschatte leestijd": "3 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/gezondheidszorg-digitalisering/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/gezondheidszorg-digitalisering/"
+              },
+              "author": {
+                "name": "Thomas Bakker",
+                "@id": "https://redpers.nl/#/schema/person/4"
+              },
+              "headline": "Digitalisering transformeert de Nederlandse gezondheidszorg",
+              "datePublished": "2024-01-12T16:45:00",
+              "dateModified": "2024-01-12T16:45:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/gezondheidszorg-digitalisering/"
+              },
+              "wordCount": 32,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/gezondheidszorg-digitalisering/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-4-image.jpg",
+              "articleSection": [
+                "Technologie",
+                "5G & Connectiviteit"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/gezondheidszorg-digitalisering/",
+              "url": "https://redpers.nl/gezondheidszorg-digitalisering/",
+              "name": "Digitalisering transformeert de Nederlandse gezondheidszorg - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/gezondheidszorg-digitalisering/#primaryimage"
+              },
+              "datePublished": "2024-01-12T16:45:00",
+              "dateModified": "2024-01-12T16:45:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/gezondheidszorg-digitalisering/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/gezondheidszorg-digitalisering/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-4-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-4-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Digitalisering transformeert de Nederlandse gezondheidszorg"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/gezondheidszorg-digitalisering/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Technologie",
+                  "item": "https://redpers.nl/category/technologie/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Digitalisering transformeert de Nederlandse gezondheidszorg"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/4",
+              "name": "Thomas Bakker",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/4",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/thomas-bakker.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/thomas-bakker.jpg",
+                "caption": "Thomas Bakker - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Wetenschapsjournalist gespecialiseerd in quantum computing, robotica en geavanceerde technologie.",
+              "sameAs": [
+                "https://twitter.com/thomasbakker",
+                "https://linkedin.com/in/thomasbakker"
+              ],
+              "url": "https://redpers.nl/author/thomas-bakker/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "date": "2024-01-11T11:30:00",
+      "date_gmt": "2024-01-11T10:30:00",
+      "modified": "2024-01-11T11:30:00",
+      "modified_gmt": "2024-01-11T10:30:00",
+      "slug": "elektrische-auto-groei",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/elektrische-auto-groei/",
+      "title": {
+        "rendered": "Elektrische auto's veroveren de Nederlandse markt"
+      },
+      "content": {
+        "rendered": "<p>De verkoop van elektrische auto's blijft stijgen in Nederland. Meer dan 30% van alle nieuw verkochte auto's is nu volledig elektrisch.</p><p>De uitbreiding van laadpalen en verbeterde actieradius maken elektrisch rijden steeds aantrekkelijker voor consumenten.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>De verkoop van elektrische auto's blijft stijgen in Nederland.</p>",
+        "protected": false
+      },
+      "author": 1,
+      "featured_media": 105,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        2,
+        7
+      ],
+      "tags": [
+        3,
+        11,
+        12
+      ],
+      "yoast_head_json": {
+        "title": "Elektrische auto's veroveren de Nederlandse markt - RedPers",
+        "description": "De verkoop van elektrische auto's blijft stijgen in Nederland.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/elektrische-auto-groei/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Elektrische auto's veroveren de Nederlandse markt",
+        "og_description": "De verkoop van elektrische auto's blijft stijgen in Nederland.",
+        "og_url": "https://redpers.nl/elektrische-auto-groei/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-11T11:30:00",
+        "article_modified_time": "2024-01-11T11:30:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-5-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Elektrische auto's veroveren de Nederlandse markt"
+          }
+        ],
+        "author": "Emma van der Berg",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Emma van der Berg",
+          "Geschatte leestijd": "6 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/elektrische-auto-groei/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/elektrische-auto-groei/"
+              },
+              "author": {
+                "name": "Emma van der Berg",
+                "@id": "https://redpers.nl/#/schema/person/1"
+              },
+              "headline": "Elektrische auto's veroveren de Nederlandse markt",
+              "datePublished": "2024-01-11T11:30:00",
+              "dateModified": "2024-01-11T11:30:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/elektrische-auto-groei/"
+              },
+              "wordCount": 34,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/elektrische-auto-groei/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-5-image.jpg",
+              "articleSection": [
+                "Technologie",
+                "Quantum Computing"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/elektrische-auto-groei/",
+              "url": "https://redpers.nl/elektrische-auto-groei/",
+              "name": "Elektrische auto's veroveren de Nederlandse markt - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/elektrische-auto-groei/#primaryimage"
+              },
+              "datePublished": "2024-01-11T11:30:00",
+              "dateModified": "2024-01-11T11:30:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/elektrische-auto-groei/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/elektrische-auto-groei/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-5-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-5-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Elektrische auto's veroveren de Nederlandse markt"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/elektrische-auto-groei/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Technologie",
+                  "item": "https://redpers.nl/category/technologie/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Elektrische auto's veroveren de Nederlandse markt"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/1",
+              "name": "Emma van der Berg",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/1",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/emma-van-der-berg.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/emma-van-der-berg.jpg",
+                "caption": "Emma van der Berg - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Tech journalist gespecialiseerd in AI en emerging technologies. Meer dan 10 jaar ervaring in de tech sector.",
+              "sameAs": [
+                "https://twitter.com/emmavanderberg",
+                "https://linkedin.com/in/emmavanderberg"
+              ],
+              "url": "https://redpers.nl/author/emma-van-der-berg/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "date": "2024-01-10T13:00:00",
+      "date_gmt": "2024-01-10T12:00:00",
+      "modified": "2024-01-10T13:00:00",
+      "modified_gmt": "2024-01-10T12:00:00",
+      "slug": "cybersecurity-bedrijven",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/cybersecurity-bedrijven/",
+      "title": {
+        "rendered": "Cybersecurity wordt topprioriteit voor Nederlandse bedrijven"
+      },
+      "content": {
+        "rendered": "<p>Met de toename van cyberaanvallen investeren Nederlandse bedrijven meer dan ooit in beveiliging. Ransomware en datalek ken vormen grote bedreigingen.</p><p>Experts adviseren bedrijven om proactief te investeren in cybersecurity training en systemen om zich te beschermen tegen digitale dreigingen.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Nederlandse bedrijven investeren meer dan ooit in cybersecurity.</p>",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 106,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        1,
+        8
+      ],
+      "tags": [
+        1,
+        13,
+        14
+      ],
+      "yoast_head_json": {
+        "title": "Cybersecurity wordt topprioriteit voor Nederlandse bedrijven - RedPers",
+        "description": "Nederlandse bedrijven investeren meer dan ooit in cybersecurity.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/cybersecurity-bedrijven/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Cybersecurity wordt topprioriteit voor Nederlandse bedrijven",
+        "og_description": "Nederlandse bedrijven investeren meer dan ooit in cybersecurity.",
+        "og_url": "https://redpers.nl/cybersecurity-bedrijven/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-10T13:00:00",
+        "article_modified_time": "2024-01-10T13:00:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-6-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Cybersecurity wordt topprioriteit voor Nederlandse bedrijven"
+          }
+        ],
+        "author": "Lars Jansen",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Lars Jansen",
+          "Geschatte leestijd": "4 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/cybersecurity-bedrijven/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/cybersecurity-bedrijven/"
+              },
+              "author": {
+                "name": "Lars Jansen",
+                "@id": "https://redpers.nl/#/schema/person/2"
+              },
+              "headline": "Cybersecurity wordt topprioriteit voor Nederlandse bedrijven",
+              "datePublished": "2024-01-10T13:00:00",
+              "dateModified": "2024-01-10T13:00:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/cybersecurity-bedrijven/"
+              },
+              "wordCount": 38,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/cybersecurity-bedrijven/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-6-image.jpg",
+              "articleSection": [
+                "Technologie",
+                "E-health"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/cybersecurity-bedrijven/",
+              "url": "https://redpers.nl/cybersecurity-bedrijven/",
+              "name": "Cybersecurity wordt topprioriteit voor Nederlandse bedrijven - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/cybersecurity-bedrijven/#primaryimage"
+              },
+              "datePublished": "2024-01-10T13:00:00",
+              "dateModified": "2024-01-10T13:00:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/cybersecurity-bedrijven/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/cybersecurity-bedrijven/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-6-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-6-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Cybersecurity wordt topprioriteit voor Nederlandse bedrijven"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/cybersecurity-bedrijven/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Technologie",
+                  "item": "https://redpers.nl/category/technologie/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Cybersecurity wordt topprioriteit voor Nederlandse bedrijven"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/2",
+              "name": "Lars Jansen",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/2",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/lars-jansen.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/lars-jansen.jpg",
+                "caption": "Lars Jansen - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Milieu-expert en journalist met focus op duurzame technologie en groene innovatie.",
+              "sameAs": [
+                "https://twitter.com/larsjansen",
+                "https://linkedin.com/in/larsjansen"
+              ],
+              "url": "https://redpers.nl/author/lars-jansen/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "date": "2024-01-09T15:20:00",
+      "date_gmt": "2024-01-09T14:20:00",
+      "modified": "2024-01-09T15:20:00",
+      "modified_gmt": "2024-01-09T14:20:00",
+      "slug": "onderwijs-innovatie",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/onderwijs-innovatie/",
+      "title": {
+        "rendered": "Innovatie in het Nederlandse onderwijs systeem"
+      },
+      "content": {
+        "rendered": "<p>Scholen experimenteren met nieuwe lesm ethoden en technologie om leerlingen beter voor te bereiden op de toekomst. Virtual reality en gamification worden ingezet.</p><p>Leraren krijgen training om deze nieuwe tools effectief te gebruiken in de klas.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Scholen experimenteren met nieuwe lesmethoden en technologie.</p>",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 107,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        9
+      ],
+      "tags": [
+        2,
+        15,
+        16
+      ],
+      "yoast_head_json": {
+        "title": "Innovatie in het Nederlandse onderwijs systeem - RedPers",
+        "description": "Scholen experimenteren met nieuwe lesmethoden en technologie.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/onderwijs-innovatie/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Innovatie in het Nederlandse onderwijs systeem",
+        "og_description": "Scholen experimenteren met nieuwe lesmethoden en technologie.",
+        "og_url": "https://redpers.nl/onderwijs-innovatie/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-09T15:20:00",
+        "article_modified_time": "2024-01-09T15:20:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-7-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Innovatie in het Nederlandse onderwijs systeem"
+          }
+        ],
+        "author": "Sophie de Vries",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Sophie de Vries",
+          "Geschatte leestijd": "3 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/onderwijs-innovatie/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/onderwijs-innovatie/"
+              },
+              "author": {
+                "name": "Sophie de Vries",
+                "@id": "https://redpers.nl/#/schema/person/3"
+              },
+              "headline": "Innovatie in het Nederlandse onderwijs systeem",
+              "datePublished": "2024-01-09T15:20:00",
+              "dateModified": "2024-01-09T15:20:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/onderwijs-innovatie/"
+              },
+              "wordCount": 35,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/onderwijs-innovatie/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-7-image.jpg",
+              "articleSection": [
+                "Startups",
+                "Fintech"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/onderwijs-innovatie/",
+              "url": "https://redpers.nl/onderwijs-innovatie/",
+              "name": "Innovatie in het Nederlandse onderwijs systeem - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/onderwijs-innovatie/#primaryimage"
+              },
+              "datePublished": "2024-01-09T15:20:00",
+              "dateModified": "2024-01-09T15:20:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/onderwijs-innovatie/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/onderwijs-innovatie/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-7-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-7-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Innovatie in het Nederlandse onderwijs systeem"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/onderwijs-innovatie/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Startups",
+                  "item": "https://redpers.nl/category/startups/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Innovatie in het Nederlandse onderwijs systeem"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/3",
+              "name": "Sophie de Vries",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/3",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/sophie-de-vries.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/sophie-de-vries.jpg",
+                "caption": "Sophie de Vries - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Business journalist met expertise in startups, fintech en de Nederlandse tech scene.",
+              "sameAs": [
+                "https://twitter.com/sophiedevries",
+                "https://linkedin.com/in/sophiedevries"
+              ],
+              "url": "https://redpers.nl/author/sophie-de-vries/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "date": "2024-01-08T10:10:00",
+      "date_gmt": "2024-01-08T09:10:00",
+      "modified": "2024-01-08T10:10:00",
+      "modified_gmt": "2024-01-08T09:10:00",
+      "slug": "blockchain-toepassingen",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/blockchain-toepassingen/",
+      "title": {
+        "rendered": "Blockchain vindt praktische toepassingen in Nederland"
+      },
+      "content": {
+        "rendered": "<p>Blockchain technologie wordt toegepast in sectoren als logistiek, financiën en gezondheidszorg. De gedecentraliseerde natuur biedt nieuwe mogelijkheden.</p><p>Nederlandse startups ontwikkelen innovatieve blockchain oplossingen voor internationale markten.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Blockchain technologie vindt toepassingen in diverse sectoren.</p>",
+        "protected": false
+      },
+      "author": 4,
+      "featured_media": 108,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        1,
+        10
+      ],
+      "tags": [
+        1,
+        17,
+        18
+      ],
+      "yoast_head_json": {
+        "title": "Blockchain vindt praktische toepassingen in Nederland - RedPers",
+        "description": "Blockchain technologie vindt toepassingen in diverse sectoren.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/blockchain-toepassingen/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Blockchain vindt praktische toepassingen in Nederland",
+        "og_description": "Blockchain technologie vindt toepassingen in diverse sectoren.",
+        "og_url": "https://redpers.nl/blockchain-toepassingen/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-08T10:10:00",
+        "article_modified_time": "2024-01-08T10:10:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-8-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Blockchain vindt praktische toepassingen in Nederland"
+          }
+        ],
+        "author": "Thomas Bakker",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Thomas Bakker",
+          "Geschatte leestijd": "5 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/blockchain-toepassingen/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/blockchain-toepassingen/"
+              },
+              "author": {
+                "name": "Thomas Bakker",
+                "@id": "https://redpers.nl/#/schema/person/4"
+              },
+              "headline": "Blockchain vindt praktische toepassingen in Nederland",
+              "datePublished": "2024-01-08T10:10:00",
+              "dateModified": "2024-01-08T10:10:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/blockchain-toepassingen/"
+              },
+              "wordCount": 25,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/blockchain-toepassingen/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-8-image.jpg",
+              "articleSection": [
+                "Technologie",
+                "Cybersecurity"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/blockchain-toepassingen/",
+              "url": "https://redpers.nl/blockchain-toepassingen/",
+              "name": "Blockchain vindt praktische toepassingen in Nederland - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/blockchain-toepassingen/#primaryimage"
+              },
+              "datePublished": "2024-01-08T10:10:00",
+              "dateModified": "2024-01-08T10:10:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/blockchain-toepassingen/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/blockchain-toepassingen/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-8-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-8-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Blockchain vindt praktische toepassingen in Nederland"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/blockchain-toepassingen/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Technologie",
+                  "item": "https://redpers.nl/category/technologie/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Blockchain vindt praktische toepassingen in Nederland"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/4",
+              "name": "Thomas Bakker",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/4",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/thomas-bakker.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/thomas-bakker.jpg",
+                "caption": "Thomas Bakker - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Wetenschapsjournalist gespecialiseerd in quantum computing, robotica en geavanceerde technologie.",
+              "sameAs": [
+                "https://twitter.com/thomasbakker",
+                "https://linkedin.com/in/thomasbakker"
+              ],
+              "url": "https://redpers.nl/author/thomas-bakker/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "date": "2024-01-07T14:30:00",
+      "date_gmt": "2024-01-07T13:30:00",
+      "modified": "2024-01-07T14:30:00",
+      "modified_gmt": "2024-01-07T13:30:00",
+      "slug": "smart-cities-ontwikkeling",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/smart-cities-ontwikkeling/",
+      "title": {
+        "rendered": "Nederlandse steden worden slimmer met IoT technologie"
+      },
+      "content": {
+        "rendered": "<p>Sensoren en connected devices maken steden efficiënter en leefbaarder. Van slimme verlichting tot afvalbeheer, IoT transformeert de stedelijke omgeving.</p><p>Rotterdam en Utrecht lopen voorop in de ontwikkeling van smart city initiatieven.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Sensoren en connected devices maken steden efficiënter en leefbaarder.</p>",
+        "protected": false
+      },
+      "author": 1,
+      "featured_media": 109,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        1,
+        5
+      ],
+      "tags": [
+        19,
+        20
+      ],
+      "yoast_head_json": {
+        "title": "Nederlandse steden worden slimmer met IoT technologie - RedPers",
+        "description": "Sensoren en connected devices maken steden efficiënter en leefbaarder.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/smart-cities-ontwikkeling/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Nederlandse steden worden slimmer met IoT technologie",
+        "og_description": "Sensoren en connected devices maken steden efficiënter en leefbaarder.",
+        "og_url": "https://redpers.nl/smart-cities-ontwikkeling/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-07T14:30:00",
+        "article_modified_time": "2024-01-07T14:30:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-9-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Nederlandse steden worden slimmer met IoT technologie"
+          }
+        ],
+        "author": "Emma van der Berg",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Emma van der Berg",
+          "Geschatte leestijd": "4 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/smart-cities-ontwikkeling/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/smart-cities-ontwikkeling/"
+              },
+              "author": {
+                "name": "Emma van der Berg",
+                "@id": "https://redpers.nl/#/schema/person/1"
+              },
+              "headline": "Nederlandse steden worden slimmer met IoT technologie",
+              "datePublished": "2024-01-07T14:30:00",
+              "dateModified": "2024-01-07T14:30:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/smart-cities-ontwikkeling/"
+              },
+              "wordCount": 30,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/smart-cities-ontwikkeling/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-9-image.jpg",
+              "articleSection": [
+                "Duurzaamheid",
+                "Smart Cities"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/smart-cities-ontwikkeling/",
+              "url": "https://redpers.nl/smart-cities-ontwikkeling/",
+              "name": "Nederlandse steden worden slimmer met IoT technologie - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/smart-cities-ontwikkeling/#primaryimage"
+              },
+              "datePublished": "2024-01-07T14:30:00",
+              "dateModified": "2024-01-07T14:30:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/smart-cities-ontwikkeling/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/smart-cities-ontwikkeling/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-9-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-9-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Nederlandse steden worden slimmer met IoT technologie"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/smart-cities-ontwikkeling/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Duurzaamheid",
+                  "item": "https://redpers.nl/category/duurzaamheid/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Nederlandse steden worden slimmer met IoT technologie"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/1",
+              "name": "Emma van der Berg",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/1",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/emma-van-der-berg.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/emma-van-der-berg.jpg",
+                "caption": "Emma van der Berg - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Tech journalist gespecialiseerd in AI en emerging technologies. Meer dan 10 jaar ervaring in de tech sector.",
+              "sameAs": [
+                "https://twitter.com/emmavanderberg",
+                "https://linkedin.com/in/emmavanderberg"
+              ],
+              "url": "https://redpers.nl/author/emma-van-der-berg/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "date": "2024-01-06T09:45:00",
+      "date_gmt": "2024-01-06T08:45:00",
+      "modified": "2024-01-06T09:45:00",
+      "modified_gmt": "2024-01-06T08:45:00",
+      "slug": "5g-netwerk-uitrol",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/5g-netwerk-uitrol/",
+      "title": {
+        "rendered": "5G netwerk uitrol versnelt in heel Nederland"
+      },
+      "content": {
+        "rendered": "<p>Telecomproviders breiden hun 5G netwerken snel uit. De nieuwe technologie biedt snellere verbindingen en maakt nieuwe applicaties mogelijk.</p><p>Tegen eind 2024 zal 80% van Nederland toegang hebben tot 5G netwerken.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Telecomproviders breiden hun 5G netwerken snel uit.</p>",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 110,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        1
+      ],
+      "tags": [
+        1,
+        21
+      ],
+      "yoast_head_json": {
+        "title": "5G netwerk uitrol versnelt in heel Nederland - RedPers",
+        "description": "Telecomproviders breiden hun 5G netwerken snel uit.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/5g-netwerk-uitrol/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "5G netwerk uitrol versnelt in heel Nederland",
+        "og_description": "Telecomproviders breiden hun 5G netwerken snel uit.",
+        "og_url": "https://redpers.nl/5g-netwerk-uitrol/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-06T09:45:00",
+        "article_modified_time": "2024-01-06T09:45:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-10-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor 5G netwerk uitrol versnelt in heel Nederland"
+          }
+        ],
+        "author": "Lars Jansen",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Lars Jansen",
+          "Geschatte leestijd": "4 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/5g-netwerk-uitrol/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/5g-netwerk-uitrol/"
+              },
+              "author": {
+                "name": "Lars Jansen",
+                "@id": "https://redpers.nl/#/schema/person/2"
+              },
+              "headline": "5G netwerk uitrol versnelt in heel Nederland",
+              "datePublished": "2024-01-06T09:45:00",
+              "dateModified": "2024-01-06T09:45:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/5g-netwerk-uitrol/"
+              },
+              "wordCount": 29,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/5g-netwerk-uitrol/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-10-image.jpg",
+              "articleSection": [
+                "Technologie",
+                "Robotica"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/5g-netwerk-uitrol/",
+              "url": "https://redpers.nl/5g-netwerk-uitrol/",
+              "name": "5G netwerk uitrol versnelt in heel Nederland - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/5g-netwerk-uitrol/#primaryimage"
+              },
+              "datePublished": "2024-01-06T09:45:00",
+              "dateModified": "2024-01-06T09:45:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/5g-netwerk-uitrol/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/5g-netwerk-uitrol/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-10-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-10-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor 5G netwerk uitrol versnelt in heel Nederland"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/5g-netwerk-uitrol/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Technologie",
+                  "item": "https://redpers.nl/category/technologie/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "5G netwerk uitrol versnelt in heel Nederland"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/2",
+              "name": "Lars Jansen",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/2",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/lars-jansen.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/lars-jansen.jpg",
+                "caption": "Lars Jansen - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Milieu-expert en journalist met focus op duurzame technologie en groene innovatie.",
+              "sameAs": [
+                "https://twitter.com/larsjansen",
+                "https://linkedin.com/in/larsjansen"
+              ],
+              "url": "https://redpers.nl/author/lars-jansen/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 11,
+      "date": "2024-01-05T16:00:00",
+      "date_gmt": "2024-01-05T15:00:00",
+      "modified": "2024-01-05T16:00:00",
+      "modified_gmt": "2024-01-05T15:00:00",
+      "slug": "robotica-industrie",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/robotica-industrie/",
+      "title": {
+        "rendered": "Robotica revolutioneert de Nederlandse industrie"
+      },
+      "content": {
+        "rendered": "<p>Fabrieken zetten steeds meer robots in voor productieprocessen. Dit verhoogt de efficiëntie en vermindert menselijke fouten.</p><p>De robotica sector groeit jaarlijks met 15% en creëert nieuwe banen voor specialisten.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Fabrieken zetten steeds meer robots in voor productieprocessen.</p>",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 111,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        1,
+        11
+      ],
+      "tags": [
+        22,
+        23
+      ],
+      "yoast_head_json": {
+        "title": "Robotica revolutioneert de Nederlandse industrie - RedPers",
+        "description": "Fabrieken zetten steeds meer robots in voor productieprocessen.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/robotica-industrie/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Robotica revolutioneert de Nederlandse industrie",
+        "og_description": "Fabrieken zetten steeds meer robots in voor productieprocessen.",
+        "og_url": "https://redpers.nl/robotica-industrie/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-05T16:00:00",
+        "article_modified_time": "2024-01-05T16:00:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-11-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Robotica revolutioneert de Nederlandse industrie"
+          }
+        ],
+        "author": "Sophie de Vries",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Sophie de Vries",
+          "Geschatte leestijd": "3 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/robotica-industrie/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/robotica-industrie/"
+              },
+              "author": {
+                "name": "Sophie de Vries",
+                "@id": "https://redpers.nl/#/schema/person/3"
+              },
+              "headline": "Robotica revolutioneert de Nederlandse industrie",
+              "datePublished": "2024-01-05T16:00:00",
+              "dateModified": "2024-01-05T16:00:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/robotica-industrie/"
+              },
+              "wordCount": 28,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/robotica-industrie/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-11-image.jpg",
+              "articleSection": [
+                "Startups"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/robotica-industrie/",
+              "url": "https://redpers.nl/robotica-industrie/",
+              "name": "Robotica revolutioneert de Nederlandse industrie - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/robotica-industrie/#primaryimage"
+              },
+              "datePublished": "2024-01-05T16:00:00",
+              "dateModified": "2024-01-05T16:00:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/robotica-industrie/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/robotica-industrie/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-11-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-11-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Robotica revolutioneert de Nederlandse industrie"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/robotica-industrie/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Startups",
+                  "item": "https://redpers.nl/category/startups/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Robotica revolutioneert de Nederlandse industrie"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/3",
+              "name": "Sophie de Vries",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/3",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/sophie-de-vries.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/sophie-de-vries.jpg",
+                "caption": "Sophie de Vries - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Business journalist met expertise in startups, fintech en de Nederlandse tech scene.",
+              "sameAs": [
+                "https://twitter.com/sophiedevries",
+                "https://linkedin.com/in/sophiedevries"
+              ],
+              "url": "https://redpers.nl/author/sophie-de-vries/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "date": "2024-01-04T11:15:00",
+      "date_gmt": "2024-01-04T10:15:00",
+      "modified": "2024-01-04T11:15:00",
+      "modified_gmt": "2024-01-04T10:15:00",
+      "slug": "data-privacy-wetgeving",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/data-privacy-wetgeving/",
+      "title": {
+        "rendered": "Nieuwe privacy wetgeving beschermt Nederlandse consumenten beter"
+      },
+      "content": {
+        "rendered": "<p>De overheid verscherpt de privacy wetgeving om consumenten beter te beschermen tegen misbruik van persoonlijke data.</p><p>Bedrijven moeten nu transparanter zijn over hoe ze data verzamelen en gebruiken.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>De overheid verscherpt de privacy wetgeving.</p>",
+        "protected": false
+      },
+      "author": 4,
+      "featured_media": 112,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        1,
+        8
+      ],
+      "tags": [
+        13,
+        24
+      ],
+      "yoast_head_json": {
+        "title": "Nieuwe privacy wetgeving beschermt Nederlandse consumenten beter - RedPers",
+        "description": "De overheid verscherpt de privacy wetgeving.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/data-privacy-wetgeving/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Nieuwe privacy wetgeving beschermt Nederlandse consumenten beter",
+        "og_description": "De overheid verscherpt de privacy wetgeving.",
+        "og_url": "https://redpers.nl/data-privacy-wetgeving/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-04T11:15:00",
+        "article_modified_time": "2024-01-04T11:15:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-12-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Nieuwe privacy wetgeving beschermt Nederlandse consumenten beter"
+          }
+        ],
+        "author": "Thomas Bakker",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Thomas Bakker",
+          "Geschatte leestijd": "5 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/data-privacy-wetgeving/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/data-privacy-wetgeving/"
+              },
+              "author": {
+                "name": "Thomas Bakker",
+                "@id": "https://redpers.nl/#/schema/person/4"
+              },
+              "headline": "Nieuwe privacy wetgeving beschermt Nederlandse consumenten beter",
+              "datePublished": "2024-01-04T11:15:00",
+              "dateModified": "2024-01-04T11:15:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/data-privacy-wetgeving/"
+              },
+              "wordCount": 27,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/data-privacy-wetgeving/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-12-image.jpg",
+              "articleSection": [
+                "Technologie",
+                "Cloud Computing"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/data-privacy-wetgeving/",
+              "url": "https://redpers.nl/data-privacy-wetgeving/",
+              "name": "Nieuwe privacy wetgeving beschermt Nederlandse consumenten beter - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/data-privacy-wetgeving/#primaryimage"
+              },
+              "datePublished": "2024-01-04T11:15:00",
+              "dateModified": "2024-01-04T11:15:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/data-privacy-wetgeving/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/data-privacy-wetgeving/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-12-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-12-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Nieuwe privacy wetgeving beschermt Nederlandse consumenten beter"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/data-privacy-wetgeving/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Technologie",
+                  "item": "https://redpers.nl/category/technologie/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Nieuwe privacy wetgeving beschermt Nederlandse consumenten beter"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/4",
+              "name": "Thomas Bakker",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/4",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/thomas-bakker.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/thomas-bakker.jpg",
+                "caption": "Thomas Bakker - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Wetenschapsjournalist gespecialiseerd in quantum computing, robotica en geavanceerde technologie.",
+              "sameAs": [
+                "https://twitter.com/thomasbakker",
+                "https://linkedin.com/in/thomasbakker"
+              ],
+              "url": "https://redpers.nl/author/thomas-bakker/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "date": "2024-01-03T13:40:00",
+      "date_gmt": "2024-01-03T12:40:00",
+      "modified": "2024-01-03T13:40:00",
+      "modified_gmt": "2024-01-03T12:40:00",
+      "slug": "quantum-computing-doorbraak",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/quantum-computing-doorbraak/",
+      "title": {
+        "rendered": "Nederlandse onderzoekers boeken doorbraak in quantum computing"
+      },
+      "content": {
+        "rendered": "<p>Wetenschappers van de TU Delft hebben een belangrijke doorbraak gerealiseerd in quantum computing. Deze ontwikkeling kan de rekenkracht exponentieel verhogen.</p><p>De technologie heeft potentiële toepassingen in cryptografie, geneesmiddelenontwikkeling en klimaatmodellering.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Wetenschappers boeken een belangrijke doorbraak in quantum computing.</p>",
+        "protected": false
+      },
+      "author": 1,
+      "featured_media": 113,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": true,
+      "format": "standard",
+      "categories": [
+        1,
+        12
+      ],
+      "tags": [
+        25,
+        26
+      ],
+      "yoast_head_json": {
+        "title": "Nederlandse onderzoekers boeken doorbraak in quantum computing - RedPers",
+        "description": "Wetenschappers boeken een belangrijke doorbraak in quantum computing.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/quantum-computing-doorbraak/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Nederlandse onderzoekers boeken doorbraak in quantum computing",
+        "og_description": "Wetenschappers boeken een belangrijke doorbraak in quantum computing.",
+        "og_url": "https://redpers.nl/quantum-computing-doorbraak/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-03T13:40:00",
+        "article_modified_time": "2024-01-03T13:40:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-13-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Nederlandse onderzoekers boeken doorbraak in quantum computing"
+          }
+        ],
+        "author": "Emma van der Berg",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Emma van der Berg",
+          "Geschatte leestijd": "4 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/quantum-computing-doorbraak/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/quantum-computing-doorbraak/"
+              },
+              "author": {
+                "name": "Emma van der Berg",
+                "@id": "https://redpers.nl/#/schema/person/1"
+              },
+              "headline": "Nederlandse onderzoekers boeken doorbraak in quantum computing",
+              "datePublished": "2024-01-03T13:40:00",
+              "dateModified": "2024-01-03T13:40:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/quantum-computing-doorbraak/"
+              },
+              "wordCount": 29,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/quantum-computing-doorbraak/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-13-image.jpg",
+              "articleSection": [
+                "Duurzaamheid",
+                "Circulaire Economie"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/quantum-computing-doorbraak/",
+              "url": "https://redpers.nl/quantum-computing-doorbraak/",
+              "name": "Nederlandse onderzoekers boeken doorbraak in quantum computing - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/quantum-computing-doorbraak/#primaryimage"
+              },
+              "datePublished": "2024-01-03T13:40:00",
+              "dateModified": "2024-01-03T13:40:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/quantum-computing-doorbraak/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/quantum-computing-doorbraak/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-13-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-13-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Nederlandse onderzoekers boeken doorbraak in quantum computing"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/quantum-computing-doorbraak/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Duurzaamheid",
+                  "item": "https://redpers.nl/category/duurzaamheid/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Nederlandse onderzoekers boeken doorbraak in quantum computing"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/1",
+              "name": "Emma van der Berg",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/1",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/emma-van-der-berg.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/emma-van-der-berg.jpg",
+                "caption": "Emma van der Berg - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Tech journalist gespecialiseerd in AI en emerging technologies. Meer dan 10 jaar ervaring in de tech sector.",
+              "sameAs": [
+                "https://twitter.com/emmavanderberg",
+                "https://linkedin.com/in/emmavanderberg"
+              ],
+              "url": "https://redpers.nl/author/emma-van-der-berg/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "date": "2024-01-02T10:20:00",
+      "date_gmt": "2024-01-02T09:20:00",
+      "modified": "2024-01-02T10:20:00",
+      "modified_gmt": "2024-01-02T09:20:00",
+      "slug": "fintech-innovatie",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/fintech-innovatie/",
+      "title": {
+        "rendered": "Fintech startups veranderen het bankieren in Nederland"
+      },
+      "content": {
+        "rendered": "<p>Nieuwe fintech bedrijven bieden innovatieve financiële diensten aan. Van mobiel bankieren tot cryptocurrency handel, de sector groeit explosief.</p><p>Traditionele banken passen zich aan door samen te werken met fintech startups.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Nieuwe fintech bedrijven bieden innovatieve financiële diensten aan.</p>",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 114,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        1,
+        10
+      ],
+      "tags": [
+        27,
+        28
+      ],
+      "yoast_head_json": {
+        "title": "Fintech startups veranderen het bankieren in Nederland - RedPers",
+        "description": "Nieuwe fintech bedrijven bieden innovatieve financiële diensten aan.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/fintech-innovatie/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Fintech startups veranderen het bankieren in Nederland",
+        "og_description": "Nieuwe fintech bedrijven bieden innovatieve financiële diensten aan.",
+        "og_url": "https://redpers.nl/fintech-innovatie/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-02T10:20:00",
+        "article_modified_time": "2024-01-02T10:20:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-14-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Fintech startups veranderen het bankieren in Nederland"
+          }
+        ],
+        "author": "Lars Jansen",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Lars Jansen",
+          "Geschatte leestijd": "5 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/fintech-innovatie/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/fintech-innovatie/"
+              },
+              "author": {
+                "name": "Lars Jansen",
+                "@id": "https://redpers.nl/#/schema/person/2"
+              },
+              "headline": "Fintech startups veranderen het bankieren in Nederland",
+              "datePublished": "2024-01-02T10:20:00",
+              "dateModified": "2024-01-02T10:20:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/fintech-innovatie/"
+              },
+              "wordCount": 29,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/fintech-innovatie/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-14-image.jpg",
+              "articleSection": [
+                "Technologie",
+                "Data & Analytics"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/fintech-innovatie/",
+              "url": "https://redpers.nl/fintech-innovatie/",
+              "name": "Fintech startups veranderen het bankieren in Nederland - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/fintech-innovatie/#primaryimage"
+              },
+              "datePublished": "2024-01-02T10:20:00",
+              "dateModified": "2024-01-02T10:20:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/fintech-innovatie/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/fintech-innovatie/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-14-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-14-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Fintech startups veranderen het bankieren in Nederland"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/fintech-innovatie/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Technologie",
+                  "item": "https://redpers.nl/category/technologie/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Fintech startups veranderen het bankieren in Nederland"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/2",
+              "name": "Lars Jansen",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/2",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/lars-jansen.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/lars-jansen.jpg",
+                "caption": "Lars Jansen - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Milieu-expert en journalist met focus op duurzame technologie en groene innovatie.",
+              "sameAs": [
+                "https://twitter.com/larsjansen",
+                "https://linkedin.com/in/larsjansen"
+              ],
+              "url": "https://redpers.nl/author/lars-jansen/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 15,
+      "date": "2024-01-01T15:30:00",
+      "date_gmt": "2024-01-01T14:30:00",
+      "modified": "2024-01-01T15:30:00",
+      "modified_gmt": "2024-01-01T14:30:00",
+      "slug": "augmented-reality-retail",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/augmented-reality-retail/",
+      "title": {
+        "rendered": "Augmented reality transformeert de retailsector"
+      },
+      "content": {
+        "rendered": "<p>Winkels gebruiken AR technologie om klanten een betere shopping ervaring te bieden. Virtuele paskamers en product visualisatie worden steeds populairder.</p><p>Deze technologie helpt retailers om online en offline shopping te integreren.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Winkels gebruiken AR technologie voor betere shopping ervaringen.</p>",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 115,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        1,
+        13
+      ],
+      "tags": [
+        29,
+        30
+      ],
+      "yoast_head_json": {
+        "title": "Augmented reality transformeert de retailsector - RedPers",
+        "description": "Winkels gebruiken AR technologie voor betere shopping ervaringen.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/augmented-reality-retail/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Augmented reality transformeert de retailsector",
+        "og_description": "Winkels gebruiken AR technologie voor betere shopping ervaringen.",
+        "og_url": "https://redpers.nl/augmented-reality-retail/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2024-01-01T15:30:00",
+        "article_modified_time": "2024-01-01T15:30:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-15-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Augmented reality transformeert de retailsector"
+          }
+        ],
+        "author": "Sophie de Vries",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Sophie de Vries",
+          "Geschatte leestijd": "4 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/augmented-reality-retail/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/augmented-reality-retail/"
+              },
+              "author": {
+                "name": "Sophie de Vries",
+                "@id": "https://redpers.nl/#/schema/person/3"
+              },
+              "headline": "Augmented reality transformeert de retailsector",
+              "datePublished": "2024-01-01T15:30:00",
+              "dateModified": "2024-01-01T15:30:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/augmented-reality-retail/"
+              },
+              "wordCount": 30,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/augmented-reality-retail/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-15-image.jpg",
+              "articleSection": [
+                "Technologie",
+                "AI & Machine Learning"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/augmented-reality-retail/",
+              "url": "https://redpers.nl/augmented-reality-retail/",
+              "name": "Augmented reality transformeert de retailsector - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/augmented-reality-retail/#primaryimage"
+              },
+              "datePublished": "2024-01-01T15:30:00",
+              "dateModified": "2024-01-01T15:30:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/augmented-reality-retail/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/augmented-reality-retail/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-15-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-15-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Augmented reality transformeert de retailsector"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/augmented-reality-retail/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Technologie",
+                  "item": "https://redpers.nl/category/technologie/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Augmented reality transformeert de retailsector"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/3",
+              "name": "Sophie de Vries",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/3",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/sophie-de-vries.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/sophie-de-vries.jpg",
+                "caption": "Sophie de Vries - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Business journalist met expertise in startups, fintech en de Nederlandse tech scene.",
+              "sameAs": [
+                "https://twitter.com/sophiedevries",
+                "https://linkedin.com/in/sophiedevries"
+              ],
+              "url": "https://redpers.nl/author/sophie-de-vries/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "date": "2023-12-31T12:00:00",
+      "date_gmt": "2023-12-31T11:00:00",
+      "modified": "2023-12-31T12:00:00",
+      "modified_gmt": "2023-12-31T11:00:00",
+      "slug": "waterstof-economie",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/waterstof-economie/",
+      "title": {
+        "rendered": "Nederland investeert in waterstof als energiebron"
+      },
+      "content": {
+        "rendered": "<p>De regering investeert miljarden in waterstoftechnologie als alternatief voor fossiele brandstoffen. Groene waterstof wordt gezien als de toekomst.</p><p>Havens zoals Rotterdam spelen een cruciale rol in de ontwikkeling van een waterstofeconomie.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>De regering investeert miljarden in waterstoftechnologie.</p>",
+        "protected": false
+      },
+      "author": 4,
+      "featured_media": 116,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        2,
+        4
+      ],
+      "tags": [
+        3,
+        31
+      ],
+      "yoast_head_json": {
+        "title": "Nederland investeert in waterstof als energiebron - RedPers",
+        "description": "De regering investeert miljarden in waterstoftechnologie.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/waterstof-economie/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Nederland investeert in waterstof als energiebron",
+        "og_description": "De regering investeert miljarden in waterstoftechnologie.",
+        "og_url": "https://redpers.nl/waterstof-economie/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2023-12-31T12:00:00",
+        "article_modified_time": "2023-12-31T12:00:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-16-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Nederland investeert in waterstof als energiebron"
+          }
+        ],
+        "author": "Thomas Bakker",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Thomas Bakker",
+          "Geschatte leestijd": "3 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/waterstof-economie/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/waterstof-economie/"
+              },
+              "author": {
+                "name": "Thomas Bakker",
+                "@id": "https://redpers.nl/#/schema/person/4"
+              },
+              "headline": "Nederland investeert in waterstof als energiebron",
+              "datePublished": "2023-12-31T12:00:00",
+              "dateModified": "2023-12-31T12:00:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/waterstof-economie/"
+              },
+              "wordCount": 30,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/waterstof-economie/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-16-image.jpg",
+              "articleSection": [
+                "Duurzaamheid"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/waterstof-economie/",
+              "url": "https://redpers.nl/waterstof-economie/",
+              "name": "Nederland investeert in waterstof als energiebron - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/waterstof-economie/#primaryimage"
+              },
+              "datePublished": "2023-12-31T12:00:00",
+              "dateModified": "2023-12-31T12:00:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/waterstof-economie/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/waterstof-economie/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-16-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-16-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Nederland investeert in waterstof als energiebron"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/waterstof-economie/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Duurzaamheid",
+                  "item": "https://redpers.nl/category/duurzaamheid/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Nederland investeert in waterstof als energiebron"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/4",
+              "name": "Thomas Bakker",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/4",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/thomas-bakker.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/thomas-bakker.jpg",
+                "caption": "Thomas Bakker - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Wetenschapsjournalist gespecialiseerd in quantum computing, robotica en geavanceerde technologie.",
+              "sameAs": [
+                "https://twitter.com/thomasbakker",
+                "https://linkedin.com/in/thomasbakker"
+              ],
+              "url": "https://redpers.nl/author/thomas-bakker/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 17,
+      "date": "2023-12-30T14:45:00",
+      "date_gmt": "2023-12-30T13:45:00",
+      "modified": "2023-12-30T14:45:00",
+      "modified_gmt": "2023-12-30T13:45:00",
+      "slug": "cloud-computing-groei",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/cloud-computing-groei/",
+      "title": {
+        "rendered": "Cloud computing adoption groeit bij Nederlandse bedrijven"
+      },
+      "content": {
+        "rendered": "<p>Steeds meer bedrijven verplaatsen hun IT infrastructuur naar de cloud. Dit biedt flexibiliteit, kostenbesparingen en betere samenwerking.</p><p>Cloud providers bouwen nieuwe datacenters in Nederland om aan de groeiende vraag te voldoen.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Steeds meer bedrijven verplaatsen hun IT infrastructuur naar de cloud.</p>",
+        "protected": false
+      },
+      "author": 1,
+      "featured_media": 117,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        1
+      ],
+      "tags": [
+        1,
+        32
+      ],
+      "yoast_head_json": {
+        "title": "Cloud computing adoption groeit bij Nederlandse bedrijven - RedPers",
+        "description": "Steeds meer bedrijven verplaatsen hun IT infrastructuur naar de cloud.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/cloud-computing-groei/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Cloud computing adoption groeit bij Nederlandse bedrijven",
+        "og_description": "Steeds meer bedrijven verplaatsen hun IT infrastructuur naar de cloud.",
+        "og_url": "https://redpers.nl/cloud-computing-groei/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2023-12-30T14:45:00",
+        "article_modified_time": "2023-12-30T14:45:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-17-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Cloud computing adoption groeit bij Nederlandse bedrijven"
+          }
+        ],
+        "author": "Emma van der Berg",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Emma van der Berg",
+          "Geschatte leestijd": "4 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/cloud-computing-groei/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/cloud-computing-groei/"
+              },
+              "author": {
+                "name": "Emma van der Berg",
+                "@id": "https://redpers.nl/#/schema/person/1"
+              },
+              "headline": "Cloud computing adoption groeit bij Nederlandse bedrijven",
+              "datePublished": "2023-12-30T14:45:00",
+              "dateModified": "2023-12-30T14:45:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/cloud-computing-groei/"
+              },
+              "wordCount": 30,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/cloud-computing-groei/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-17-image.jpg",
+              "articleSection": [
+                "Startups",
+                "Fintech"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/cloud-computing-groei/",
+              "url": "https://redpers.nl/cloud-computing-groei/",
+              "name": "Cloud computing adoption groeit bij Nederlandse bedrijven - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/cloud-computing-groei/#primaryimage"
+              },
+              "datePublished": "2023-12-30T14:45:00",
+              "dateModified": "2023-12-30T14:45:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/cloud-computing-groei/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/cloud-computing-groei/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-17-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-17-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Cloud computing adoption groeit bij Nederlandse bedrijven"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/cloud-computing-groei/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Startups",
+                  "item": "https://redpers.nl/category/startups/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Cloud computing adoption groeit bij Nederlandse bedrijven"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/1",
+              "name": "Emma van der Berg",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/1",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/emma-van-der-berg.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/emma-van-der-berg.jpg",
+                "caption": "Emma van der Berg - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Tech journalist gespecialiseerd in AI en emerging technologies. Meer dan 10 jaar ervaring in de tech sector.",
+              "sameAs": [
+                "https://twitter.com/emmavanderberg",
+                "https://linkedin.com/in/emmavanderberg"
+              ],
+              "url": "https://redpers.nl/author/emma-van-der-berg/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 18,
+      "date": "2023-12-29T11:30:00",
+      "date_gmt": "2023-12-29T10:30:00",
+      "modified": "2023-12-29T11:30:00",
+      "modified_gmt": "2023-12-29T10:30:00",
+      "slug": "precision-agriculture",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/precision-agriculture/",
+      "title": {
+        "rendered": "Precisie landbouw met AI en drones neemt toe"
+      },
+      "content": {
+        "rendered": "<p>Nederlandse boeren gebruiken AI en drones om hun gewassen beter te monitoren en opbrengsten te maximaliseren. Sensoren meten bodemkwaliteit en vochtgehalte.</p><p>Deze technologie helpt ook om het gebruik van pesticiden en kunstmest te verminderen.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Nederlandse boeren gebruiken AI en drones voor precisie landbouw.</p>",
+        "protected": false
+      },
+      "author": 2,
+      "featured_media": 118,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        2,
+        14
+      ],
+      "tags": [
+        2,
+        33
+      ],
+      "yoast_head_json": {
+        "title": "Precisie landbouw met AI en drones neemt toe - RedPers",
+        "description": "Nederlandse boeren gebruiken AI en drones voor precisie landbouw.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/precision-agriculture/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Precisie landbouw met AI en drones neemt toe",
+        "og_description": "Nederlandse boeren gebruiken AI en drones voor precisie landbouw.",
+        "og_url": "https://redpers.nl/precision-agriculture/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2023-12-29T11:30:00",
+        "article_modified_time": "2023-12-29T11:30:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-18-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Precisie landbouw met AI en drones neemt toe"
+          }
+        ],
+        "author": "Lars Jansen",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Lars Jansen",
+          "Geschatte leestijd": "6 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/precision-agriculture/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/precision-agriculture/"
+              },
+              "author": {
+                "name": "Lars Jansen",
+                "@id": "https://redpers.nl/#/schema/person/2"
+              },
+              "headline": "Precisie landbouw met AI en drones neemt toe",
+              "datePublished": "2023-12-29T11:30:00",
+              "dateModified": "2023-12-29T11:30:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/precision-agriculture/"
+              },
+              "wordCount": 33,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/precision-agriculture/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-18-image.jpg",
+              "articleSection": [
+                "Technologie",
+                "Cybersecurity"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/precision-agriculture/",
+              "url": "https://redpers.nl/precision-agriculture/",
+              "name": "Precisie landbouw met AI en drones neemt toe - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/precision-agriculture/#primaryimage"
+              },
+              "datePublished": "2023-12-29T11:30:00",
+              "dateModified": "2023-12-29T11:30:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/precision-agriculture/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/precision-agriculture/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-18-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-18-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Precisie landbouw met AI en drones neemt toe"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/precision-agriculture/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Technologie",
+                  "item": "https://redpers.nl/category/technologie/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Precisie landbouw met AI en drones neemt toe"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/2",
+              "name": "Lars Jansen",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/2",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/lars-jansen.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/lars-jansen.jpg",
+                "caption": "Lars Jansen - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Milieu-expert en journalist met focus op duurzame technologie en groene innovatie.",
+              "sameAs": [
+                "https://twitter.com/larsjansen",
+                "https://linkedin.com/in/larsjansen"
+              ],
+              "url": "https://redpers.nl/author/lars-jansen/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "date": "2023-12-28T16:15:00",
+      "date_gmt": "2023-12-28T15:15:00",
+      "modified": "2023-12-28T16:15:00",
+      "modified_gmt": "2023-12-28T15:15:00",
+      "slug": "esports-gaming-industrie",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/esports-gaming-industrie/",
+      "title": {
+        "rendered": "E-sports en gaming industrie boomen in Nederland"
+      },
+      "content": {
+        "rendered": "<p>De Nederlandse gaming industrie groeit explosief. E-sports toernooien trekken duizenden bezoekers en miljoenen online kijkers.</p><p>Nederlandse game developers winnen internationale prijzen met innovatieve games.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>De Nederlandse gaming industrie groeit explosief.</p>",
+        "protected": false
+      },
+      "author": 3,
+      "featured_media": 119,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        1,
+        15
+      ],
+      "tags": [
+        34,
+        35
+      ],
+      "yoast_head_json": {
+        "title": "E-sports en gaming industrie boomen in Nederland - RedPers",
+        "description": "De Nederlandse gaming industrie groeit explosief.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/esports-gaming-industrie/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "E-sports en gaming industrie boomen in Nederland",
+        "og_description": "De Nederlandse gaming industrie groeit explosief.",
+        "og_url": "https://redpers.nl/esports-gaming-industrie/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2023-12-28T16:15:00",
+        "article_modified_time": "2023-12-28T16:15:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-19-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor E-sports en gaming industrie boomen in Nederland"
+          }
+        ],
+        "author": "Sophie de Vries",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Sophie de Vries",
+          "Geschatte leestijd": "3 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/esports-gaming-industrie/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/esports-gaming-industrie/"
+              },
+              "author": {
+                "name": "Sophie de Vries",
+                "@id": "https://redpers.nl/#/schema/person/3"
+              },
+              "headline": "E-sports en gaming industrie boomen in Nederland",
+              "datePublished": "2023-12-28T16:15:00",
+              "dateModified": "2023-12-28T16:15:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/esports-gaming-industrie/"
+              },
+              "wordCount": 23,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/esports-gaming-industrie/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-19-image.jpg",
+              "articleSection": [
+                "Technologie",
+                "5G & Connectiviteit"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/esports-gaming-industrie/",
+              "url": "https://redpers.nl/esports-gaming-industrie/",
+              "name": "E-sports en gaming industrie boomen in Nederland - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/esports-gaming-industrie/#primaryimage"
+              },
+              "datePublished": "2023-12-28T16:15:00",
+              "dateModified": "2023-12-28T16:15:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/esports-gaming-industrie/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/esports-gaming-industrie/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-19-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-19-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor E-sports en gaming industrie boomen in Nederland"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/esports-gaming-industrie/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Technologie",
+                  "item": "https://redpers.nl/category/technologie/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "E-sports en gaming industrie boomen in Nederland"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/3",
+              "name": "Sophie de Vries",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/3",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/sophie-de-vries.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/sophie-de-vries.jpg",
+                "caption": "Sophie de Vries - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Business journalist met expertise in startups, fintech en de Nederlandse tech scene.",
+              "sameAs": [
+                "https://twitter.com/sophiedevries",
+                "https://linkedin.com/in/sophiedevries"
+              ],
+              "url": "https://redpers.nl/author/sophie-de-vries/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 20,
+      "date": "2023-12-27T13:00:00",
+      "date_gmt": "2023-12-27T12:00:00",
+      "modified": "2023-12-27T13:00:00",
+      "modified_gmt": "2023-12-27T12:00:00",
+      "slug": "remote-work-toekomst",
+      "status": "publish",
+      "type": "post",
+      "link": "https://redpers.nl/remote-work-toekomst/",
+      "title": {
+        "rendered": "Thuiswerken blijft de toekomst voor veel Nederlandse bedrijven"
+      },
+      "content": {
+        "rendered": "<p>Ook na de pandemie blijft thuiswerken populair. Bedrijven investeren in tools voor remote samenwerking en virtuele meetings.</p><p>Experts voorspellen dat hybride werken de nieuwe norm wordt, met flexibiliteit als kernwaarde.</p>",
+        "protected": false
+      },
+      "excerpt": {
+        "rendered": "<p>Thuiswerken blijft populair bij Nederlandse bedrijven.</p>",
+        "protected": false
+      },
+      "author": 4,
+      "featured_media": 120,
+      "comment_status": "open",
+      "ping_status": "open",
+      "sticky": false,
+      "format": "standard",
+      "categories": [
+        1,
+        16
+      ],
+      "tags": [
+        36,
+        37
+      ],
+      "yoast_head_json": {
+        "title": "Thuiswerken blijft de toekomst voor veel Nederlandse bedrijven - RedPers",
+        "description": "Thuiswerken blijft populair bij Nederlandse bedrijven.",
+        "robots": {
+          "index": "index",
+          "follow": "follow",
+          "max-snippet": "max-snippet:-1",
+          "max-image-preview": "max-image-preview:large",
+          "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https://redpers.nl/remote-work-toekomst/",
+        "og_locale": "nl_NL",
+        "og_type": "article",
+        "og_title": "Thuiswerken blijft de toekomst voor veel Nederlandse bedrijven",
+        "og_description": "Thuiswerken blijft populair bij Nederlandse bedrijven.",
+        "og_url": "https://redpers.nl/remote-work-toekomst/",
+        "og_site_name": "RedPers",
+        "article_published_time": "2023-12-27T13:00:00",
+        "article_modified_time": "2023-12-27T13:00:00",
+        "og_image": [
+          {
+            "width": 1200,
+            "height": 630,
+            "url": "https://redpers.nl/wp-content/uploads/2024/01/post-20-image.jpg",
+            "type": "image/jpeg",
+            "alt": "Featured image voor Thuiswerken blijft de toekomst voor veel Nederlandse bedrijven"
+          }
+        ],
+        "author": "Thomas Bakker",
+        "twitter_card": "summary_large_image",
+        "twitter_misc": {
+          "Geschreven door": "Thomas Bakker",
+          "Geschatte leestijd": "5 minuten"
+        },
+        "schema": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Article",
+              "@id": "https://redpers.nl/remote-work-toekomst/#article",
+              "isPartOf": {
+                "@id": "https://redpers.nl/remote-work-toekomst/"
+              },
+              "author": {
+                "name": "Thomas Bakker",
+                "@id": "https://redpers.nl/#/schema/person/4"
+              },
+              "headline": "Thuiswerken blijft de toekomst voor veel Nederlandse bedrijven",
+              "datePublished": "2023-12-27T13:00:00",
+              "dateModified": "2023-12-27T13:00:00",
+              "mainEntityOfPage": {
+                "@id": "https://redpers.nl/remote-work-toekomst/"
+              },
+              "wordCount": 29,
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "image": {
+                "@id": "https://redpers.nl/remote-work-toekomst/#primaryimage"
+              },
+              "thumbnailUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-20-image.jpg",
+              "articleSection": [
+                "Technologie",
+                "E-health"
+              ],
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "WebPage",
+              "@id": "https://redpers.nl/remote-work-toekomst/",
+              "url": "https://redpers.nl/remote-work-toekomst/",
+              "name": "Thuiswerken blijft de toekomst voor veel Nederlandse bedrijven - RedPers",
+              "isPartOf": {
+                "@id": "https://redpers.nl/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://redpers.nl/remote-work-toekomst/#primaryimage"
+              },
+              "datePublished": "2023-12-27T13:00:00",
+              "dateModified": "2023-12-27T13:00:00",
+              "breadcrumb": {
+                "@id": "https://redpers.nl/remote-work-toekomst/#breadcrumb"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "nl-NL",
+              "@id": "https://redpers.nl/remote-work-toekomst/#primaryimage",
+              "url": "https://redpers.nl/wp-content/uploads/2024/01/post-20-image.jpg",
+              "contentUrl": "https://redpers.nl/wp-content/uploads/2024/01/post-20-image.jpg",
+              "width": 1200,
+              "height": 630,
+              "caption": "Featured image voor Thuiswerken blijft de toekomst voor veel Nederlandse bedrijven"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://redpers.nl/remote-work-toekomst/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://redpers.nl/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Technologie",
+                  "item": "https://redpers.nl/category/technologie/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "Thuiswerken blijft de toekomst voor veel Nederlandse bedrijven"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://redpers.nl/#website",
+              "url": "https://redpers.nl/",
+              "name": "RedPers",
+              "description": "Nederlands tech nieuws platform",
+              "publisher": {
+                "@id": "https://redpers.nl/#organization"
+              },
+              "inLanguage": "nl-NL"
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://redpers.nl/#organization",
+              "name": "RedPers",
+              "url": "https://redpers.nl/",
+              "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/logo/image/",
+                "url": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/2023/logo.png",
+                "width": 512,
+                "height": 512,
+                "caption": "RedPers"
+              },
+              "image": {
+                "@id": "https://redpers.nl/#/schema/logo/image/"
+              }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://redpers.nl/#/schema/person/4",
+              "name": "Thomas Bakker",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "nl-NL",
+                "@id": "https://redpers.nl/#/schema/person/image/4",
+                "url": "https://redpers.nl/wp-content/uploads/avatars/thomas-bakker.jpg",
+                "contentUrl": "https://redpers.nl/wp-content/uploads/avatars/thomas-bakker.jpg",
+                "caption": "Thomas Bakker - Journalist bij RedPers",
+                "width": 96,
+                "height": 96
+              },
+              "description": "Wetenschapsjournalist gespecialiseerd in quantum computing, robotica en geavanceerde technologie.",
+              "sameAs": [
+                "https://twitter.com/thomasbakker",
+                "https://linkedin.com/in/thomasbakker"
+              ],
+              "url": "https://redpers.nl/author/thomas-bakker/"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Emma van der Berg",
+      "slug": "emma-van-der-berg",
+      "description": "Tech journalist gespecialiseerd in AI en emerging technologies. Meer dan 10 jaar ervaring in de tech sector.",
+      "link": "https://redpers.nl/author/emma-van-der-berg/",
+      "avatar_urls": {
+        "24": "https://secure.gravatar.com/avatar/1?s=24&d=mm&r=g",
+        "48": "https://secure.gravatar.com/avatar/1?s=48&d=mm&r=g",
+        "96": "https://secure.gravatar.com/avatar/1?s=96&d=mm&r=g"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Lars Jansen",
+      "slug": "lars-jansen",
+      "description": "Milieu en duurzaamheid expert. Schrijft over groene technologie en klimaatoplossingen.",
+      "link": "https://redpers.nl/author/lars-jansen/",
+      "avatar_urls": {
+        "24": "https://secure.gravatar.com/avatar/2?s=24&d=mm&r=g",
+        "48": "https://secure.gravatar.com/avatar/2?s=48&d=mm&r=g",
+        "96": "https://secure.gravatar.com/avatar/2?s=96&d=mm&r=g"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sophie de Vries",
+      "slug": "sophie-de-vries",
+      "description": "Business en innovatie journalist. Volgt de nieuwste trends in startups en ondernemerschap.",
+      "link": "https://redpers.nl/author/sophie-de-vries/",
+      "avatar_urls": {
+        "24": "https://secure.gravatar.com/avatar/3?s=24&d=mm&r=g",
+        "48": "https://secure.gravatar.com/avatar/3?s=48&d=mm&r=g",
+        "96": "https://secure.gravatar.com/avatar/3?s=96&d=mm&r=g"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Thomas Bakker",
+      "slug": "thomas-bakker",
+      "description": "Wetenschapsjournalist met focus op technologische doorbraken en hun maatschappelijke impact.",
+      "link": "https://redpers.nl/author/thomas-bakker/",
+      "avatar_urls": {
+        "24": "https://secure.gravatar.com/avatar/4?s=24&d=mm&r=g",
+        "48": "https://secure.gravatar.com/avatar/4?s=48&d=mm&r=g",
+        "96": "https://secure.gravatar.com/avatar/4?s=96&d=mm&r=g"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "count": 13,
+      "name": "Technologie",
+      "slug": "technologie",
+      "description": "Nieuws over technologische ontwikkelingen en innovaties",
+      "link": "https://redpers.nl/category/technologie/",
+      "parent": 0
+    },
+    {
+      "id": 2,
+      "count": 5,
+      "name": "Duurzaamheid",
+      "slug": "duurzaamheid",
+      "description": "Artikelen over milieu, groene energie en klimaat",
+      "link": "https://redpers.nl/category/duurzaamheid/",
+      "parent": 0
+    },
+    {
+      "id": 3,
+      "count": 2,
+      "name": "AI & Machine Learning",
+      "slug": "ai-machine-learning",
+      "description": "Kunstmatige intelligentie en machine learning ontwikkelingen",
+      "link": "https://redpers.nl/category/ai-machine-learning/",
+      "parent": 1
+    },
+    {
+      "id": 4,
+      "count": 2,
+      "name": "Energie",
+      "slug": "energie",
+      "description": "Nieuws over energietransitie en innovaties",
+      "link": "https://redpers.nl/category/energie/",
+      "parent": 2
+    },
+    {
+      "id": 5,
+      "count": 2,
+      "name": "Startups",
+      "slug": "startups",
+      "description": "Nederlandse en internationale startup nieuws",
+      "link": "https://redpers.nl/category/startups/",
+      "parent": 0
+    },
+    {
+      "id": 6,
+      "count": 1,
+      "name": "Gezondheidszorg",
+      "slug": "gezondheidszorg",
+      "description": "Medische technologie en gezondheidsinnovaties",
+      "link": "https://redpers.nl/category/gezondheidszorg/",
+      "parent": 0
+    },
+    {
+      "id": 7,
+      "count": 1,
+      "name": "Mobiliteit",
+      "slug": "mobiliteit",
+      "description": "Transport en mobiliteitsoplossingen",
+      "link": "https://redpers.nl/category/mobiliteit/",
+      "parent": 0
+    },
+    {
+      "id": 8,
+      "count": 2,
+      "name": "Cybersecurity",
+      "slug": "cybersecurity",
+      "description": "Digitale beveiliging en privacy",
+      "link": "https://redpers.nl/category/cybersecurity/",
+      "parent": 1
+    },
+    {
+      "id": 9,
+      "count": 1,
+      "name": "Onderwijs",
+      "slug": "onderwijs",
+      "description": "Educatie en leertechnologieën",
+      "link": "https://redpers.nl/category/onderwijs/",
+      "parent": 0
+    },
+    {
+      "id": 10,
+      "count": 2,
+      "name": "Fintech",
+      "slug": "fintech",
+      "description": "Financiële technologie en innovaties",
+      "link": "https://redpers.nl/category/fintech/",
+      "parent": 1
+    },
+    {
+      "id": 11,
+      "count": 1,
+      "name": "Industrie",
+      "slug": "industrie",
+      "description": "Industriële automatisering en productie",
+      "link": "https://redpers.nl/category/industrie/",
+      "parent": 0
+    },
+    {
+      "id": 12,
+      "count": 1,
+      "name": "Wetenschap",
+      "slug": "wetenschap",
+      "description": "Wetenschappelijk onderzoek en doorbraken",
+      "link": "https://redpers.nl/category/wetenschap/",
+      "parent": 0
+    },
+    {
+      "id": 13,
+      "count": 1,
+      "name": "Retail",
+      "slug": "retail",
+      "description": "Retail innovaties en e-commerce",
+      "link": "https://redpers.nl/category/retail/",
+      "parent": 0
+    },
+    {
+      "id": 14,
+      "count": 1,
+      "name": "Landbouw",
+      "slug": "landbouw",
+      "description": "Agritech en moderne landbouw",
+      "link": "https://redpers.nl/category/landbouw/",
+      "parent": 0
+    },
+    {
+      "id": 15,
+      "count": 1,
+      "name": "Gaming",
+      "slug": "gaming",
+      "description": "Gaming industrie en e-sports",
+      "link": "https://redpers.nl/category/gaming/",
+      "parent": 0
+    },
+    {
+      "id": 16,
+      "count": 1,
+      "name": "Werk & Carrière",
+      "slug": "werk-carriere",
+      "description": "Arbeidsmarkt en nieuwe werkvormen",
+      "link": "https://redpers.nl/category/werk-carriere/",
+      "parent": 0
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "count": 5,
+      "name": "AI",
+      "slug": "ai",
+      "description": "",
+      "link": "https://redpers.nl/tag/ai/"
+    },
+    {
+      "id": 2,
+      "count": 4,
+      "name": "Innovatie",
+      "slug": "innovatie",
+      "description": "",
+      "link": "https://redpers.nl/tag/innovatie/"
+    },
+    {
+      "id": 3,
+      "count": 3,
+      "name": "Duurzaam",
+      "slug": "duurzaam",
+      "description": "",
+      "link": "https://redpers.nl/tag/duurzaam/"
+    },
+    {
+      "id": 4,
+      "count": 1,
+      "name": "Windenergie",
+      "slug": "windenergie",
+      "description": "",
+      "link": "https://redpers.nl/tag/windenergie/"
+    },
+    {
+      "id": 5,
+      "count": 1,
+      "name": "Machine Learning",
+      "slug": "machine-learning",
+      "description": "",
+      "link": "https://redpers.nl/tag/machine-learning/"
+    },
+    {
+      "id": 6,
+      "count": 1,
+      "name": "Zonne-energie",
+      "slug": "zonne-energie",
+      "description": "",
+      "link": "https://redpers.nl/tag/zonne-energie/"
+    },
+    {
+      "id": 7,
+      "count": 1,
+      "name": "Tech Hub",
+      "slug": "tech-hub",
+      "description": "",
+      "link": "https://redpers.nl/tag/tech-hub/"
+    },
+    {
+      "id": 8,
+      "count": 1,
+      "name": "Amsterdam",
+      "slug": "amsterdam",
+      "description": "",
+      "link": "https://redpers.nl/tag/amsterdam/"
+    },
+    {
+      "id": 9,
+      "count": 1,
+      "name": "Digitalisering",
+      "slug": "digitalisering",
+      "description": "",
+      "link": "https://redpers.nl/tag/digitalisering/"
+    },
+    {
+      "id": 10,
+      "count": 1,
+      "name": "E-health",
+      "slug": "e-health",
+      "description": "",
+      "link": "https://redpers.nl/tag/e-health/"
+    },
+    {
+      "id": 11,
+      "count": 1,
+      "name": "Elektrisch Rijden",
+      "slug": "elektrisch-rijden",
+      "description": "",
+      "link": "https://redpers.nl/tag/elektrisch-rijden/"
+    },
+    {
+      "id": 12,
+      "count": 1,
+      "name": "EV",
+      "slug": "ev",
+      "description": "",
+      "link": "https://redpers.nl/tag/ev/"
+    },
+    {
+      "id": 13,
+      "count": 2,
+      "name": "Security",
+      "slug": "security",
+      "description": "",
+      "link": "https://redpers.nl/tag/security/"
+    },
+    {
+      "id": 14,
+      "count": 1,
+      "name": "Ransomware",
+      "slug": "ransomware",
+      "description": "",
+      "link": "https://redpers.nl/tag/ransomware/"
+    },
+    {
+      "id": 15,
+      "count": 1,
+      "name": "EdTech",
+      "slug": "edtech",
+      "description": "",
+      "link": "https://redpers.nl/tag/edtech/"
+    },
+    {
+      "id": 16,
+      "count": 1,
+      "name": "VR",
+      "slug": "vr",
+      "description": "",
+      "link": "https://redpers.nl/tag/vr/"
+    },
+    {
+      "id": 17,
+      "count": 1,
+      "name": "Blockchain",
+      "slug": "blockchain",
+      "description": "",
+      "link": "https://redpers.nl/tag/blockchain/"
+    },
+    {
+      "id": 18,
+      "count": 1,
+      "name": "Crypto",
+      "slug": "crypto",
+      "description": "",
+      "link": "https://redpers.nl/tag/crypto/"
+    },
+    {
+      "id": 19,
+      "count": 1,
+      "name": "Smart City",
+      "slug": "smart-city",
+      "description": "",
+      "link": "https://redpers.nl/tag/smart-city/"
+    },
+    {
+      "id": 20,
+      "count": 1,
+      "name": "IoT",
+      "slug": "iot",
+      "description": "",
+      "link": "https://redpers.nl/tag/iot/"
+    },
+    {
+      "id": 21,
+      "count": 1,
+      "name": "5G",
+      "slug": "5g",
+      "description": "",
+      "link": "https://redpers.nl/tag/5g/"
+    },
+    {
+      "id": 22,
+      "count": 1,
+      "name": "Robotica",
+      "slug": "robotica",
+      "description": "",
+      "link": "https://redpers.nl/tag/robotica/"
+    },
+    {
+      "id": 23,
+      "count": 1,
+      "name": "Automatisering",
+      "slug": "automatisering",
+      "description": "",
+      "link": "https://redpers.nl/tag/automatisering/"
+    },
+    {
+      "id": 24,
+      "count": 1,
+      "name": "Privacy",
+      "slug": "privacy",
+      "description": "",
+      "link": "https://redpers.nl/tag/privacy/"
+    },
+    {
+      "id": 25,
+      "count": 1,
+      "name": "Quantum",
+      "slug": "quantum",
+      "description": "",
+      "link": "https://redpers.nl/tag/quantum/"
+    },
+    {
+      "id": 26,
+      "count": 1,
+      "name": "Onderzoek",
+      "slug": "onderzoek",
+      "description": "",
+      "link": "https://redpers.nl/tag/onderzoek/"
+    },
+    {
+      "id": 27,
+      "count": 1,
+      "name": "Banking",
+      "slug": "banking",
+      "description": "",
+      "link": "https://redpers.nl/tag/banking/"
+    },
+    {
+      "id": 28,
+      "count": 1,
+      "name": "Digital Banking",
+      "slug": "digital-banking",
+      "description": "",
+      "link": "https://redpers.nl/tag/digital-banking/"
+    },
+    {
+      "id": 29,
+      "count": 1,
+      "name": "AR",
+      "slug": "ar",
+      "description": "",
+      "link": "https://redpers.nl/tag/ar/"
+    },
+    {
+      "id": 30,
+      "count": 1,
+      "name": "E-commerce",
+      "slug": "e-commerce",
+      "description": "",
+      "link": "https://redpers.nl/tag/e-commerce/"
+    },
+    {
+      "id": 31,
+      "count": 1,
+      "name": "Waterstof",
+      "slug": "waterstof",
+      "description": "",
+      "link": "https://redpers.nl/tag/waterstof/"
+    },
+    {
+      "id": 32,
+      "count": 1,
+      "name": "Cloud",
+      "slug": "cloud",
+      "description": "",
+      "link": "https://redpers.nl/tag/cloud/"
+    },
+    {
+      "id": 33,
+      "count": 1,
+      "name": "AgriTech",
+      "slug": "agritech",
+      "description": "",
+      "link": "https://redpers.nl/tag/agritech/"
+    },
+    {
+      "id": 34,
+      "count": 1,
+      "name": "E-sports",
+      "slug": "e-sports",
+      "description": "",
+      "link": "https://redpers.nl/tag/e-sports/"
+    },
+    {
+      "id": 35,
+      "count": 1,
+      "name": "Game Development",
+      "slug": "game-development",
+      "description": "",
+      "link": "https://redpers.nl/tag/game-development/"
+    },
+    {
+      "id": 36,
+      "count": 1,
+      "name": "Remote Work",
+      "slug": "remote-work",
+      "description": "",
+      "link": "https://redpers.nl/tag/remote-work/"
+    },
+    {
+      "id": 37,
+      "count": 1,
+      "name": "Hybrid Working",
+      "slug": "hybrid-working",
+      "description": "",
+      "link": "https://redpers.nl/tag/hybrid-working/"
+    }
+  ]
+}

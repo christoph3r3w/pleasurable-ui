@@ -9,7 +9,10 @@
   },
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "mock": "nodemon mock-server.js",
+    "dev-mock": "concurrently \"npm run mock\" \"npm run dev\" \"npm run start\""
+
   },
   "repository": {
     "type": "git",
@@ -31,5 +34,8 @@
     "express": "^4.19.2",
     "node": "^20.13.1",
     "nodemon": "^3.1.2"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
   }
 }
