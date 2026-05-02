@@ -13,15 +13,13 @@ app.locals.pageViews = {};
 
 const data = JSON.parse(await readFile('Api.json', 'utf-8'));
 
-// Determine the base URL depending on whether we are in Vercel or running locally
-const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : `http://localhost:${PORT}`;
-const apiUrl = `${baseUrl}/wp-json/wp/v2`;
 const directus_apiUrl = "https://fdnd-agency.directus.app/items/redpers_shares";
 
-const postsUrl = `${apiUrl}/posts?per_page=100&orderby=date&order=desc`;
-const usersUrl = `${apiUrl}/users`;
-const categoryUrl = `${apiUrl}/posts?per_page=100&orderby=date&order=desc&categories=1,4,6,9,63,94,1010,3211,7164&_fields=id,categories,slug,date_gmt,excerpt,status,author,yoast_head_json`;
-const categoriesUrl = `${apiUrl}/categories?per_page=100`;
+const getApiUrl = (req) => {
+    const host = req.get('host') || `localhost:${PORT}`;
+    const protocol = host.includes('localhost') ? 'http' : 'https';
+    return `${protocol}://${host}/wp-json/wp/v2`;
+};
 
 const categories = [
     { slug: "binnenland", id: 9, name: "Binnenland", posts: [] },
@@ -125,6 +123,11 @@ app.get('/wp-json/wp/v2/categories/:id', (req, res) => {
 
 // FRONTEND ROUTES
 app.get("/", (req, res) => {
+    const apiUrl = getApiUrl(req);
+    const postsUrl = `${apiUrl}/posts?per_page=100&orderby=date&order=desc`;
+    const usersUrl = `${apiUrl}/users`;
+    const categoryUrl = `${apiUrl}/posts?per_page=100&orderby=date&order=desc&categories=1,4,6,9,63,94,1010,3211,7164&_fields=id,categories,slug,date_gmt,excerpt,status,author,yoast_head_json`;
+
     Promise.all([fetchJson(postsUrl), fetchJson(usersUrl), fetchJson(categoryUrl)]).then(([postData, userData, categoryData]) => {
         res.render("index.ejs", {
             posts: Array.isArray(postData) ? metaParse(postData) : [],
@@ -137,7 +140,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/detail/:id", (req, res) => {
-    let postID = req.params.id;
+    let postID = req.params.id;    const apiUrl = getApiUrl(req);
+    const categoriesUrl = `${apiUrl}/categories?per_page=100`;
     console.log(`🖥️ GET /detail/${postID} (Rendering detail page)`);
     Promise.all([
         fetchJson(`${apiUrl}/posts/${postID}`),
@@ -191,6 +195,8 @@ app.get('/category/:name', (req, res) => {
     let categoryName = req.params.name;
     let categoryID = cats[categoryName];
     if (!categoryID) return res.status(404).send("Category not found");
+    const apiUrl = getApiUrl(req);
+    const postsUrl = `${apiUrl}/posts?per_page=100&orderby=date&order=desc`;
     Promise.all([
         fetchJson(`${postsUrl}&categories=${categoryID}`),
         fetchJson(`${apiUrl}/categories/${categoryID}`)
@@ -203,6 +209,9 @@ app.get('/category/:name', (req, res) => {
 });
 
 app.get("/authors", (req, res) => {
+    const apiUrl = getApiUrl(req);
+    const usersUrl = `${apiUrl}/users`;
+
     Promise.all([fetchJson(usersUrl)]).then(([userData]) => {
         res.render("authors.ejs", { authors: Array.isArray(userData) ? userData : [] });
     }).catch(() => res.render("authors.ejs", { authors: [], error: "Error" }));
@@ -210,6 +219,10 @@ app.get("/authors", (req, res) => {
 
 app.get("/author/:id", (req, res) => {
     let authorID = req.params.id;
+    const apiUrl = getApiUrl(req);
+    const postsUrl = `${apiUrl}/posts?per_page=100&orderby=date&order=desc`;
+    const usersUrl = `${apiUrl}/users`;
+
     Promise.all([
         fetchJson(`${postsUrl}&author=${authorID}`),
         fetchJson(`${usersUrl}/${authorID}`),

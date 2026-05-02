@@ -241,7 +241,7 @@ function checkOSTheme () {
         return false; // Check if matchMedia is supported
     } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
         themeColor = "dark"; // Check if OS default is dark
-        console.log("OS is dark");
+        // console.log("OS is dark");
         document.documentElement.setAttribute("data-theme", "dark");
         localStorage.setItem('themeColor', 'dark');
     }
@@ -251,11 +251,11 @@ function checkOSTheme () {
 
 function changeTheme(theme) {
     themeColor = theme || document.documentElement.getAttribute("data-theme");
-    console.log("Changing theme to:", themeColor);
+    // console.log("Changing theme to:", themeColor);
     if (theme === "os") {
         checkOSTheme();
         themeColor = document.documentElement.getAttribute("data-theme");
-        console.log("Theme changed to OS, theme is", themeColor);
+        // console.log("Theme changed to OS, theme is", themeColor);
     } else if (theme === "dark") {
         themeColor = "dark";
     } else if (theme === "light") {
