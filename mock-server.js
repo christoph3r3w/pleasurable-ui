@@ -13,7 +13,9 @@ app.locals.pageViews = {};
 
 const data = JSON.parse(await readFile('Api.json', 'utf-8'));
 
-const apiUrl = `http://localhost:${PORT}/wp-json/wp/v2`;
+// Determine the base URL depending on whether we are in Vercel or running locally
+const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : `http://localhost:${PORT}`;
+const apiUrl = `${baseUrl}/wp-json/wp/v2`;
 const directus_apiUrl = "https://fdnd-agency.directus.app/items/redpers_shares";
 
 const postsUrl = `${apiUrl}/posts?per_page=100&orderby=date&order=desc`;
