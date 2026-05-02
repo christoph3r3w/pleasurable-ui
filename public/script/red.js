@@ -76,12 +76,13 @@ if (formBTN) {
 
 
 
-
 if(CT){
 	const currentDate = new Date();
+    const theDate = Temporal.Now.plainDateISO()
 	const options = { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' };
 
-	let dateString = currentDate.toLocaleDateString('nl-US', options);
+	// let dateString = theDate.toLocaleDateString('nl-US', options);
+	let dateString = theDate.toLocaleString('nl-US', options);
 	dateString = dateString.replace(' ', ', ') 
 	CT.textContent = dateString;
 }
@@ -178,9 +179,13 @@ document.querySelector(".footer").addEventListener("click", function() {
 
 const currentDateElement = document.querySelector('.first-col');
 const currentDate = new Date();
+const theDate = Temporal.Now.plainDateISO()
+
+
 const options = { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' };
 
-let dateString = currentDate.toLocaleDateString('nl-US', options);
+// let dateString = theDate.toLocaleDateString('nl-NL', options);
+let dateString = theDate.toLocaleString('nl-NL', options);
 dateString = dateString.replace(' ', ', ') 
 currentDateElement.textContent = dateString;
 
@@ -197,14 +202,26 @@ function handleClick(e) {
 	document.startViewTransition(() => updateTheDOMSomehow());
 }
 
+let themeMenu = document.querySelector('details.dropdown')
+let themeMenuMenu = document.querySelector('details.dropdown .dropdown-content')
+function openMenu(){themeMenu.setAttribute('open','')}
+function closeMenu(){themeMenu.removeAttribute('open','')}
+
+if(themeMenu){
+    themeMenu.addEventListener('mouseenter',openMenu)
+    themeMenuMenu.addEventListener('mouseenter',openMenu)
+    themeMenu.addEventListener('mouseleave',closeMenu)
+    themeMenuMenu.addEventListener('mouseleave',closeMenu)
+}
+
 // Darkmode
 var themeColor = localStorage.getItem('themeColor') || 'light';
-console.log("Default theme:", themeColor);
+// console.log("Default theme:", themeColor);
+
 
 document.documentElement.setAttribute("data-theme", themeColor);
 
 function checkTheme() {
-    console.log("Check theme activated");
 
 	// Use local storage to override the ThemeColor
     if(localStorage.getItem("themeColor")){

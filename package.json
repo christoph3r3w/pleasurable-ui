@@ -8,13 +8,12 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node mock-server.js",
     "dev": "nodemon server.js",
     "mock": "nodemon mock-server.js",
     "dev-mock": "concurrently \"npm run dev\" \"npm run mock\" \"npm run start\"",
     "build-mock": "npm run mock",
     "build": "json-server --watch Api.json --routes json-server.routes.json --port 3001 & sleep 3 && echo 'mock server ready'"
-
   },
   "repository": {
     "type": "git",
@@ -35,7 +34,8 @@
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "node": "^20.13.1",
-    "nodemon": "^3.1.2"
+    "nodemon": "^3.1.2",
+    "temporal-polyfill": "^0.3.2"
   },
   "devDependencies": {
     "json-server": "^1.0.0-beta.3"
