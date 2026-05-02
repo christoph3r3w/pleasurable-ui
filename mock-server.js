@@ -220,14 +220,18 @@ app.get("/author/:id", (req, res) => {
     }).catch(() => res.status(500).send("Error"));
 });
 
-app.listen(PORT, () => {
-    console.log('\n🚀 Mock Server Started with FRONTEND Routes Included!\n');
-    console.log(`   Running on: http://localhost:${PORT}\n`);
-    console.log('📡 Mock API Data Endpoint Base:');
-    console.log(`   GET http://localhost:${PORT}/wp-json/wp/v2/...\n`);
-    console.log('💻 Frontend Routes:');
-    console.log(`   - Home:         http://localhost:${PORT}/`);
-    console.log(`   - Detail:       http://localhost:${PORT}/detail/:id`);
-    console.log(`   - Authors:      http://localhost:${PORT}/authors`);
-    console.log(`   - Categories:   http://localhost:${PORT}/category/:name`);
-});
+if (!process.env.VERCEL) {
+    app.listen(PORT, () => {
+        console.log('\n🚀 Mock Server Started with FRONTEND Routes Included!\n');
+        console.log(`   Running on: http://localhost:${PORT}\n`);
+        console.log('📡 Mock API Data Endpoint Base:');
+        console.log(`   GET http://localhost:${PORT}/wp-json/wp/v2/...\n`);
+        console.log('💻 Frontend Routes:');
+        console.log(`   - Home:         http://localhost:${PORT}/`);
+        console.log(`   - Detail:       http://localhost:${PORT}/detail/:id`);
+        console.log(`   - Authors:      http://localhost:${PORT}/authors`);
+        console.log(`   - Categories:   http://localhost:${PORT}/category/:name`);
+    });
+}
+
+export default app;

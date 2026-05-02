@@ -13,7 +13,7 @@
     "mock": "nodemon mock-server.js",
     "dev-mock": "concurrently \"npm run dev\" \"npm run mock\" \"npm run start\"",
     "build-mock": "npm run mock",
-    "build": "json-server --watch Api.json --routes json-server.routes.json --port 3001 & sleep 3 && echo 'mock server ready'"
+    "build": "echo 'Vercel build skipped'"
   },
   "repository": {
     "type": "git",
